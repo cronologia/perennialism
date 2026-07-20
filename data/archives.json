@@ -1,0 +1,38 @@
+{
+  "note": "Machine-recorded Wayback snapshots for reference URLs, consumed by build.js to render an Internet Archive fallback link next to each source. Keyed by the exact reference URL in data/chronology.json. Availability-checked and (for the stalest) freshly re-saved 2026-07-20.",
+  "generated": "2026-07-20",
+  "snapshots": {
+    "https://traditionalistblog.blogspot.com/2014/07/lord-northbourne-organic-agriculture.html": {
+      "archiveUrl": "https://web.archive.org/web/20250810103634/https://traditionalistblog.blogspot.com/2014/07/lord-northbourne-organic-agriculture.html",
+      "timestamp": "20250810103634"
+    },
+    "https://traditionalistblog.blogspot.com/2017/03/more-on-bannon-and-evola.html": {
+      "archiveUrl": "https://web.archive.org/web/20260515172909/https://traditionalistblog.blogspot.com/2017/03/more-on-bannon-and-evola.html",
+      "timestamp": "20260515172909"
+    },
+    "https://traditionalistblog.blogspot.com/2022/02/new-article-on-mircea-eliade-and.html": {
+      "archiveUrl": "https://web.archive.org/web/20231204112051/https://traditionalistblog.blogspot.com/2022/02/new-article-on-mircea-eliade-and.html",
+      "timestamp": "20231204112051"
+    },
+    "https://traditionalistblog.blogspot.com/2022/06/catholic-and-guenonian-traditionalism.html": {
+      "archiveUrl": "https://web.archive.org/web/20260719234233/https://traditionalistblog.blogspot.com/2022/06/catholic-and-guenonian-traditionalism.html",
+      "timestamp": "20260719234233"
+    },
+    "https://www.temenosacademy.org/history": {
+      "archiveUrl": "https://web.archive.org/web/20251118081545/https://www.temenosacademy.org/history",
+      "timestamp": "20251118081545"
+    },
+    "http://iapsop.com/archive/materials/etudes_traditionnelles/": {
+      "archiveUrl": "https://web.archive.org/web/20260618220513/https://iapsop.com/archive/materials/etudes_traditionnelles/",
+      "timestamp": "20260618220513"
+    },
+    "https://www.cesnur.org/paraclet/guenon.html": {
+      "archiveUrl": "https://web.archive.org/web/20260108134938/https://www.cesnur.org/paraclet/guenon.html",
+      "timestamp": "20260108134938"
+    },
+    "https://www.cesnur.org/testi/bryn/br_plz.htm": {
+      "archiveUrl": "https://web.archive.org/web/20260719215954/https://www.cesnur.org/testi/bryn/br_plz.htm",
+      "timestamp": "20260719215954"
+    }
+  }
+}
