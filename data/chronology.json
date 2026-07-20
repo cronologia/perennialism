@@ -5,7 +5,11 @@
     "description": "An open, source-referenced chronology of perennialism — the Traditionalist School of René Guénon, Ananda Coomaraswamy and Frithjof Schuon — as a movement of ideas: the books, the journals, the political adaptations and the reception, from the 1920s to the school's unexpected afterlife in 21st-century politics. The Maryamiyya order's initiatic history is the sibling project cronologia/tariqa.",
     "language": "en",
     "lastUpdated": "2026-07-20",
-    "dataQualityNote": "This is a work-in-progress dataset about a contested intellectual lineage whose political receptions are actively disputed. Every fact is cited; dates the sources dispute are flagged with a ? mark; and every characterization — above all about the Evola line, the alt-right reception, contested affiliations (Eliade) and living figures — is attributed to the scholar or actor making it, never asserted in the site's own voice. Corrections against published sources are welcome."
+    "dataQualityNote": "This is a work-in-progress dataset about a contested intellectual lineage whose political receptions are actively disputed. Every fact is cited; dates the sources dispute are flagged with a ? mark; and every characterization — above all about the Evola line, the alt-right reception, contested affiliations (Eliade) and living figures — is attributed to the scholar or actor making it, never asserted in the site's own voice. Corrections against published sources are welcome.",
+    "vizChips": [
+      { "href": "#lineage", "label": "🌳 Lineage tree" },
+      { "href": "#branch-timeline", "label": "📚 Works timeline" }
+    ]
   },
   "facts": [
     {
@@ -110,6 +114,148 @@
       { "title": "Evola's line ≠ Schuon's line", "text": "Evola politicized Tradition — regal, activist, with a postwar neofascist reception running to Dugin and the alt-right; Schuon's line is religious-metaphysical and non-political. Guénon himself criticized Evola's inversions. Every claim placing a modern actor in this lineage is attributed to the scholar or actor making it.", "sources": ["wikipedia-evola", "sedgwick-2023", "oup-bannon"] },
       { "title": "Eliade is a debate, not a datum", "text": "Mark Sedgwick reads Mircea Eliade as a concealed 'soft' Traditionalist ('Against the Modern World', 2004) — a reading he restated in 2022 even while granting that Eliade's references to Guénon grew critical after the 1950s ('his early soft Traditionalism is still found in his later work'). Against this, Davide Marino ('Mircea Eliade and René Guénon', Aries, 2022) argues the 'myth of affinity' arose from misunderstandings and that Traditionalism and Eliade's hermeneutics are theoretically irreconcilable; the earlier Italian reassessment gathered in Arcella, Pisi and Scagno's 'Confronto con Mircea Eliade' (Jaca Book, 1998) had already questioned the traditionalist reading. The site records the debate, not a verdict.", "sources": ["academia-eliade", "sedgwick-blog-eliade", "scagno-confronto"] },
       { "title": "The royal reception is attributed commentary", "text": "King Charles III's Temenos patronage (documented since 1990) and 'Harmony' (2010) are read by commentators as showing Traditionalist and Nasrian influence; the book cites no Traditionalist sources and no membership or self-identification exists. Sympathies are reported as the commentators' claims — never as affiliation.", "sources": ["commonweal-charles", "wikipedia-harmony", "temenos-history"] }
+    ]
+  },
+  "lineage": {
+    "heading": "Intellectual lineage",
+    "navLabel": "Lineage",
+    "note": "A tree of ideas, not of initiation: the order-internal, initiatic history of Schuon's Maryamiyya lives in the sibling cronologia/tariqa project and enters here only as a dashed cross-link. Solid edges are direct intellectual discipleship or collaboration; dashed edges are influence, reception or cross-links, always attributed to the scholar or actor asserting them. Julius Evola's political adaptation and Aldous Huxley's same-named 'Perennial Philosophy' are set apart as separate lines that are NOT continuations of the Guénonian school.",
+    "edgeLegend": {
+      "direct": "Direct discipleship / collaboration",
+      "indirect": "Influence / reception / cross-link (attributed)"
+    },
+    "trees": [
+      {
+        "title": "The Guénonian line",
+        "summary": "From Guénon's founding corpus (1921–1951) through Coomaraswamy's metaphysical turn and Schuon's continuation to the postwar expositors and Nasr's academic institutionalization.",
+        "sources": ["wikipedia-traditionalism", "sedgwick-2004"],
+        "root": {
+          "name": "René Guénon",
+          "detail": "founder-metaphysician; corpus 1921–1951",
+          "sources": ["wikipedia-guenon"],
+          "children": [
+            {
+              "name": "Ananda K. Coomaraswamy",
+              "detail": "co-expositor; metaphysical turn, 1932",
+              "sources": ["wikipedia-coomaraswamy"]
+            },
+            {
+              "name": "Frithjof Schuon (as author)",
+              "detail": "continuator; 'The Transcendent Unity of Religions', 1948",
+              "sources": ["wikipedia-schuon"],
+              "children": [
+                {
+                  "name": "Titus Burckhardt",
+                  "detail": "theorist of sacred art, 1958; lifelong associate of Schuon",
+                  "sources": ["wikipedia-burckhardt"]
+                },
+                {
+                  "name": "Martin Lings (as author)",
+                  "detail": "'Muhammad', 1983 — the school's biggest crossover",
+                  "sources": ["wikipedia-lings-muhammad"]
+                },
+                {
+                  "name": "Seyyed Hossein Nasr",
+                  "detail": "academic institutionalization; Gifford Lectures, 1981",
+                  "sources": ["wikipedia-nasr", "gifford-nasr"]
+                },
+                {
+                  "name": "Huston Smith",
+                  "detail": "'Forgotten Truth', 1976",
+                  "edge": "indirect",
+                  "edgeLabel": "openly perennialist under Schuon's influence (attributed)",
+                  "sources": ["wikipedia-smith", "academia-smith"]
+                },
+                {
+                  "name": "Maryamiyya ṭarīqa",
+                  "detail": "order-internal & initiatic history in the sibling cronologia/tariqa project",
+                  "edge": "indirect",
+                  "edgeLabel": "initiation → tariqa (ideas here, order there)",
+                  "sources": ["wikipedia-schuon", "wikipedia-traditionalism"]
+                }
+              ]
+            },
+            {
+              "name": "Marco Pallis",
+              "detail": "'Peaks and Lamas', 1939; Guénon translator",
+              "sources": ["wikipedia-pallis"]
+            },
+            {
+              "name": "Lord Northbourne (Walter James)",
+              "detail": "Guénon/Burckhardt translator; coined 'organic farming', 1940",
+              "sources": ["paull-northbourne", "sedgwick-blog-northbourne"]
+            },
+            {
+              "name": "Mircea Eliade",
+              "detail": "read Guénon and Evola in interwar Romania",
+              "edge": "indirect",
+              "edgeLabel": "contested affinity — Sedgwick affirms, Marino rejects; a debate, not a datum",
+              "sources": ["academia-eliade", "sedgwick-blog-eliade", "scagno-confronto"]
+            }
+          ]
+        }
+      },
+      {
+        "title": "The political adaptation — a separate line (Evola)",
+        "summary": "Evola's political-heroic reading subordinated the priestly to the regal, against Guénon's 1929 priority of the sacerdotal; Guénon's own reviews rejected key theses. Its postwar radical-right receptions are attributed to the scholar or actor asserting them — never to the Guénonian school itself.",
+        "sources": ["wikipedia-evola", "sedgwick-2023"],
+        "separate": true,
+        "root": {
+          "name": "Julius Evola",
+          "detail": "'Revolt Against the Modern World', 1934",
+          "sources": ["wikipedia-evola", "cambridge-evola"],
+          "children": [
+            {
+              "name": "Aleksandr Dugin",
+              "detail": "'The Fourth Political Theory', 2009",
+              "edge": "indirect",
+              "edgeLabel": "Evolian-line reception into Russian geopolitics (attributed)",
+              "sources": ["wikipedia-dugin-4pt"]
+            },
+            {
+              "name": "The Bannon / alt-right episode",
+              "detail": "2017 media episode; alt-right republication of Evola",
+              "edge": "indirect",
+              "edgeLabel": "network claimed by Sedgwick & Teitelbaum; reviewers dispute its coherence",
+              "sources": ["oup-bannon", "sedgwick-blog-bannon-evola", "foreignaffairs-teitelbaum"]
+            }
+          ]
+        }
+      },
+      {
+        "title": "A name collision — not this lineage (Huxley)",
+        "summary": "Aldous Huxley's 'The Perennial Philosophy' (1945) popularized the phrase in an experiential, universalist-mystical sense — indifferent to orthodoxy and initiation — that the Guénonians rejected as syncretism. Same words, unrelated lineage; placed here only to mark the boundary.",
+        "sources": ["wikipedia-huxley-pp", "wikipedia-perennial-philosophy"],
+        "separate": true,
+        "root": {
+          "name": "Aldous Huxley",
+          "detail": "'The Perennial Philosophy', 1945 — experiential universalism, rejected by the school",
+          "sources": ["wikipedia-huxley-pp"]
+        }
+      }
+    ]
+  },
+  "branchTimeline": {
+    "heading": "Works timeline by author",
+    "navLabel": "Works",
+    "note": "The published corpus as parallel bands: each author's productive span forks from the school's continuous output, with the house journal Études Traditionnelles (1936–1992) running as its own band and Evola's political line kept visibly apart. Dates are first-publication and death/closure years from the chronology; use it to localize the book you are reading about.",
+    "start": 1921,
+    "end": 2024,
+    "pxPerYear": 12,
+    "trunk": {
+      "id": "corpus",
+      "label": "Traditionalist corpus",
+      "start": 1921,
+      "note": "The school's continuous published output, from Guénon's first books (1921) to Sedgwick's scholarly synthesis (2023).",
+      "sources": ["wikipedia-traditionalism", "sedgwick-2023"]
+    },
+    "branches": [
+      { "id": "guenon", "label": "René Guénon", "year": 1921, "end": 1951, "note": "From the 'Introduction générale' (1921) to 'The Reign of Quantity' (1945); died 1951.", "sources": ["wikipedia-guenon"] },
+      { "id": "coomaraswamy", "label": "A. K. Coomaraswamy", "year": 1932, "end": 1947, "note": "Metaphysical essays from his 1932 turn to his death in 1947.", "sources": ["wikipedia-coomaraswamy"] },
+      { "id": "evola", "label": "Julius Evola (political line)", "year": 1934, "end": 1974, "note": "'Revolt' (1934) to 'Ride the Tiger' (1961) and after; the separate political adaptation, dates only.", "sources": ["wikipedia-evola"] },
+      { "id": "etudes", "label": "Études Traditionnelles (journal)", "year": 1936, "end": 1992, "note": "The house journal — Le Voile d'Isis renamed 1936, closed 1992, with a 1940–45 wartime gap; the background band against which the corpus reads.", "sources": ["frwiki-etudes", "iapsop-etudes"] },
+      { "id": "schuon", "label": "Frithjof Schuon", "year": 1948, "end": 1998, "note": "From 'The Transcendent Unity of Religions' (1948) across some twenty books to his death in 1998.", "sources": ["wikipedia-schuon"] },
+      { "id": "nasr", "label": "S. H. Nasr", "year": 1981, "note": "Academic institutionalization from the 1981 Gifford Lectures onward; corpus open.", "sources": ["gifford-nasr", "wikipedia-nasr"] }
     ]
   },
   "references": [
