@@ -1,7 +1,161 @@
 {
-  "note": "Machine-recorded Wayback snapshots for reference URLs, consumed by build.js to render an Internet Archive fallback link next to each source. Keyed by the exact reference URL in data/chronology.json. Availability-checked and (for the stalest) freshly re-saved 2026-07-20.",
-  "generated": "2026-07-20",
+  "generatedBy": "scripts/archive-refs.js",
+  "updatedAt": "2026-07-24",
   "snapshots": {
+    "http://iapsop.com/archive/materials/etudes_traditionnelles/": {
+      "archiveUrl": "https://web.archive.org/web/20260618220513/https://iapsop.com/archive/materials/etudes_traditionnelles/",
+      "timestamp": "20260618220513"
+    },
+    "http://www.gianfrancobertagni.it/materiali/reneguenon/regnabit.pdf": {
+      "refId": "bertagni-regnabit",
+      "archiveUrl": "https://web.archive.org/web/20170519023225/http://www.gianfrancobertagni.it:80/materiali/reneguenon/regnabit.pdf",
+      "timestamp": "20170519023225",
+      "checkedAt": "2026-07-24"
+    },
+    "https://blog.oup.com/2017/05/julius-evola-white-house-steve-bannon/": {
+      "refId": "oup-bannon",
+      "archiveUrl": "https://web.archive.org/web/20260310184846/https://blog.oup.com/2017/05/julius-evola-white-house-steve-bannon/",
+      "timestamp": "20260310184846",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Ananda_Coomaraswamy": {
+      "refId": "wikipedia-coomaraswamy",
+      "archiveUrl": "https://web.archive.org/web/20260714020633/https://en.wikipedia.org/wiki/Ananda_Coomaraswamy",
+      "timestamp": "20260714020633",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Fons_Vitae_Publishing": {
+      "refId": "wikipedia-fonsvitae",
+      "archiveUrl": "https://web.archive.org/web/20260517020237/https://en.wikipedia.org/wiki/Fons_Vitae_Publishing",
+      "timestamp": "20260517020237",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Frithjof_Schuon": {
+      "refId": "wikipedia-schuon",
+      "archiveUrl": "https://web.archive.org/web/20260610174317/https://en.wikipedia.org/wiki/Frithjof_Schuon",
+      "timestamp": "20260610174317",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Harmony:_A_New_Way_of_Looking_at_Our_World": {
+      "refId": "wikipedia-harmony",
+      "archiveUrl": "https://web.archive.org/web/20251116101649/https://en.wikipedia.org/wiki/Harmony:_A_New_Way_of_Looking_at_Our_World",
+      "timestamp": "20251116101649",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Huston_Smith": {
+      "refId": "wikipedia-smith",
+      "archiveUrl": "https://web.archive.org/web/20260712101524/https://en.wikipedia.org/wiki/Huston_Smith",
+      "timestamp": "20260712101524",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Julius_Evola": {
+      "refId": "wikipedia-evola",
+      "archiveUrl": "https://web.archive.org/web/20260722035933/https://en.wikipedia.org/wiki/Julius_Evola",
+      "timestamp": "20260722035933",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Marco_Pallis": {
+      "refId": "wikipedia-pallis",
+      "archiveUrl": "https://web.archive.org/web/20260628230823/https://en.wikipedia.org/wiki/Marco_Pallis",
+      "timestamp": "20260628230823",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Muhammad:_His_Life_Based_on_the_Earliest_Sources": {
+      "refId": "wikipedia-lings-muhammad",
+      "archiveUrl": "https://web.archive.org/web/20260702171720/https://en.wikipedia.org/wiki/Muhammad:_His_Life_Based_on_the_Earliest_Sources",
+      "timestamp": "20260702171720",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Perennial_philosophy": {
+      "refId": "wikipedia-perennial-philosophy",
+      "archiveUrl": "https://web.archive.org/web/20260707183533/https://en.wikipedia.org/wiki/Perennial_philosophy",
+      "timestamp": "20260707183533",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Ren%C3%A9_Gu%C3%A9non": {
+      "refId": "wikipedia-guenon",
+      "archiveUrl": "https://web.archive.org/web/20260706190034/https://en.wikipedia.org/wiki/Ren%C3%A9_Gu%C3%A9non",
+      "timestamp": "20260706190034",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Seyyed_Hossein_Nasr": {
+      "refId": "wikipedia-nasr",
+      "archiveUrl": "https://web.archive.org/web/20260627155534/https://en.wikipedia.org/wiki/Seyyed_Hossein_Nasr",
+      "timestamp": "20260627155534",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Temenos_Academy": {
+      "refId": "wikipedia-temenos",
+      "archiveUrl": "https://web.archive.org/web/20260312045656/https://en.wikipedia.org/wiki/Temenos_Academy",
+      "timestamp": "20260312045656",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/The_Fourth_Political_Theory": {
+      "refId": "wikipedia-dugin-4pt",
+      "archiveUrl": "https://web.archive.org/web/20260715212844/https://en.wikipedia.org/wiki/The_Fourth_Political_Theory",
+      "timestamp": "20260715212844",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/The_Perennial_Philosophy": {
+      "refId": "wikipedia-huxley-pp",
+      "archiveUrl": "https://web.archive.org/web/20260711180253/https://en.wikipedia.org/wiki/The_Perennial_Philosophy",
+      "timestamp": "20260711180253",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Titus_Burckhardt": {
+      "refId": "wikipedia-burckhardt",
+      "archiveUrl": "https://web.archive.org/web/20260628230831/https://en.wikipedia.org/wiki/Titus_Burckhardt",
+      "timestamp": "20260628230831",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/Traditionalism_(perennialism)": {
+      "refId": "wikipedia-traditionalism",
+      "archiveUrl": "https://web.archive.org/web/20260628230823/https://en.wikipedia.org/wiki/Traditionalism_(perennialism)",
+      "timestamp": "20260628230823",
+      "checkedAt": "2026-07-24"
+    },
+    "https://en.wikipedia.org/wiki/World_Wisdom": {
+      "refId": "wikipedia-worldwisdom",
+      "archiveUrl": "https://web.archive.org/web/20260702220336/https://en.wikipedia.org/wiki/World_Wisdom",
+      "timestamp": "20260702220336",
+      "checkedAt": "2026-07-24"
+    },
+    "https://fr.wikipedia.org/wiki/%C3%89tudes_traditionnelles": {
+      "refId": "frwiki-etudes",
+      "archiveUrl": "https://web.archive.org/web/20260311114050/https://fr.wikipedia.org/wiki/%C3%89tudes_traditionnelles",
+      "timestamp": "20260311114050",
+      "checkedAt": "2026-07-24"
+    },
+    "https://fr.wikipedia.org/wiki/L%27Homme_et_son_devenir_selon_le_V%C3%AAd%C3%A2nta": {
+      "refId": "frwiki-guenon-homme",
+      "archiveUrl": "https://web.archive.org/web/20251210072421/https://fr.wikipedia.org/wiki/L'homme_et_son_devenir_selon_le_V%C3%AAd%C3%A2nta",
+      "timestamp": "20251210072421",
+      "checkedAt": "2026-07-24"
+    },
+    "https://global.oup.com/academic/product/against-the-modern-world-9780195396010": {
+      "refId": "sedgwick-2004",
+      "archiveUrl": "https://web.archive.org/web/20251027063108/https://global.oup.com/academic/product/against-the-modern-world-9780195396010",
+      "timestamp": "20251027063108",
+      "checkedAt": "2026-07-24"
+    },
+    "https://global.oup.com/academic/product/traditionalism-9780197683767": {
+      "refId": "sedgwick-2023",
+      "archiveUrl": "https://web.archive.org/web/20260503113630/https://global.oup.com/academic/product/traditionalism-9780197683767",
+      "timestamp": "20260503113630",
+      "checkedAt": "2026-07-24"
+    },
+    "https://gornahoor.net/?p=4489": {
+      "refId": "gornahoor-letters",
+      "archiveUrl": "https://web.archive.org/web/20260419171756/https://gornahoor.net/?p=4489",
+      "timestamp": "20260419171756",
+      "checkedAt": "2026-07-24"
+    },
+    "https://lexicon.cnr.it/ojs/index.php/LP/article/view/655": {
+      "refId": "lexicon-steuco",
+      "archiveUrl": "https://web.archive.org/web/20230528133036/https://lexicon.cnr.it/ojs/index.php/LP/article/view/655",
+      "timestamp": "20230528133036",
+      "checkedAt": "2026-07-24"
+    },
     "https://traditionalistblog.blogspot.com/2014/07/lord-northbourne-organic-agriculture.html": {
       "archiveUrl": "https://web.archive.org/web/20250810103634/https://traditionalistblog.blogspot.com/2014/07/lord-northbourne-organic-agriculture.html",
       "timestamp": "20250810103634"
@@ -18,13 +172,17 @@
       "archiveUrl": "https://web.archive.org/web/20260719234233/https://traditionalistblog.blogspot.com/2022/06/catholic-and-guenonian-traditionalism.html",
       "timestamp": "20260719234233"
     },
-    "https://www.temenosacademy.org/history": {
-      "archiveUrl": "https://web.archive.org/web/20251118081545/https://www.temenosacademy.org/history",
-      "timestamp": "20251118081545"
+    "https://www.cambridge.org/core/books/esotericism-and-the-academy/4532A70CA2235EED1DD9FD7F5BCAC100": {
+      "refId": "hanegraaff-2012",
+      "archiveUrl": "https://web.archive.org/web/20260705030115/https://www.cambridge.org/core/books/esotericism-and-the-academy/4532A70CA2235EED1DD9FD7F5BCAC100",
+      "timestamp": "20260705030115",
+      "checkedAt": "2026-07-24"
     },
-    "http://iapsop.com/archive/materials/etudes_traditionnelles/": {
-      "archiveUrl": "https://web.archive.org/web/20260618220513/https://iapsop.com/archive/materials/etudes_traditionnelles/",
-      "timestamp": "20260618220513"
+    "https://www.cambridge.org/core/journals/european-journal-of-sociology-archives-europeennes-de-sociologie/article/abs/julius-evola-tradition-reaction-and-the-radical-right/40B8C534101D56E3F62B006D82074B5C": {
+      "refId": "cambridge-evola",
+      "archiveUrl": "https://web.archive.org/web/20260313002310/https://www.cambridge.org/core/journals/european-journal-of-sociology-archives-europeennes-de-sociologie/article/abs/julius-evola-tradition-reaction-and-the-radical-right/40B8C534101D56E3F62B006D82074B5C",
+      "timestamp": "20260313002310",
+      "checkedAt": "2026-07-24"
     },
     "https://www.cesnur.org/paraclet/guenon.html": {
       "archiveUrl": "https://web.archive.org/web/20260108134938/https://www.cesnur.org/paraclet/guenon.html",
@@ -33,6 +191,40 @@
     "https://www.cesnur.org/testi/bryn/br_plz.htm": {
       "archiveUrl": "https://web.archive.org/web/20260719215954/https://www.cesnur.org/testi/bryn/br_plz.htm",
       "timestamp": "20260719215954"
+    },
+    "https://www.colorado.edu/today/2020/04/22/inside-steve-bannons-war-eternity": {
+      "refId": "colorado-teitelbaum",
+      "archiveUrl": "https://web.archive.org/web/20260427092308/https://www.colorado.edu/today/2020/04/22/inside-steve-bannons-war-eternity",
+      "timestamp": "20260427092308",
+      "checkedAt": "2026-07-24"
+    },
+    "https://www.commonwealmagazine.org/king-charles-coronation-traditionalism-nasr-guenon-environmentalism": {
+      "refId": "commonweal-charles",
+      "archiveUrl": "https://web.archive.org/web/20260713003143/https://www.commonwealmagazine.org/king-charles-coronation-traditionalism-nasr-guenon-environmentalism",
+      "timestamp": "20260713003143",
+      "checkedAt": "2026-07-24"
+    },
+    "https://www.foreignaffairs.com/reviews/capsule-review/2020-08-11/war-eternity-inside-bannons-far-right-circle-global-power-brokers": {
+      "refId": "foreignaffairs-teitelbaum",
+      "archiveUrl": "https://web.archive.org/web/20230324081759/https://www.foreignaffairs.com/reviews/capsule-review/2020-08-11/war-eternity-inside-bannons-far-right-circle-global-power-brokers",
+      "timestamp": "20230324081759",
+      "checkedAt": "2026-07-24"
+    },
+    "https://www.giffordlectures.org/lectures/knowledge-and-sacred-0": {
+      "refId": "gifford-nasr",
+      "archiveUrl": "https://web.archive.org/web/20231207140936/https://giffordlectures.org/lectures/knowledge-and-sacred-0/",
+      "timestamp": "20231207140936",
+      "checkedAt": "2026-07-24"
+    },
+    "https://www.researchgate.net/publication/263506175_Lord_Northbourne_the_man_who_invented_organic_farming_a_biography": {
+      "refId": "paull-northbourne",
+      "archiveUrl": "https://web.archive.org/web/20221228185458/https://www.researchgate.net/publication/263506175_Lord_Northbourne_the_man_who_invented_organic_farming_a_biography",
+      "timestamp": "20221228185458",
+      "checkedAt": "2026-07-24"
+    },
+    "https://www.temenosacademy.org/history": {
+      "archiveUrl": "https://web.archive.org/web/20251118081545/https://www.temenosacademy.org/history",
+      "timestamp": "20251118081545"
     }
   }
 }
