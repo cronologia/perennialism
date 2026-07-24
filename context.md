@@ -1,7 +1,9 @@
 # Project context
 
-Domain background for this repository. Pair with [`AGENTS.md`](AGENTS.md);
-the family's method lives in `cronologia/core` (load `sourcing-rules` first).
+Domain background for this repository. Pair with [`AGENTS.md`](AGENTS.md) (how
+to work here) and [`adr/`](adr/) (why the repo is built the way it is); the
+family's method lives in `cronologia/core`, vendored at `.claude/skills/` —
+load `sourcing-rules` first.
 
 ## The subject
 
@@ -19,6 +21,15 @@ Temenos Academy carries the arts wing under royal patronage.
 history of Schuon's order is the sibling `cronologia/tariqa` — events belong
 to exactly one of the two projects.
 
+## Who it is for
+
+Readers trying to get the lineage straight: students and researchers of
+twentieth-century esotericism and religious studies, journalists reaching for
+"Traditionalism" after a Bannon or Dugin news cycle, and readers of Guénon,
+Schuon or Nasr who want dates and first editions they can check. The site
+states dated, cited facts and attributes every contested reading; it does not
+argue for or against the school.
+
 ## The contested terrain
 
 - **Evola's political adaptation** ('Revolt Against the Modern World', 1934;
@@ -26,7 +37,8 @@ to exactly one of the two projects.
   2017 Bannon–Evola news cycle; Teitelbaum's 'War for Eternity' 2020 with its
   disputed network thesis) — every lineage claim attributed; Sedgwick and
   Teitelbaum are the scholarly anchors, and reviewers' skepticism about the
-  'network' is recorded too.
+  'network' is recorded too. The lineage visualization keeps this as a
+  **separate tree**, not a branch of the Guénonian one.
 - **Name collisions**: Guénonian Traditionalism ≠ Huxley's 'Perennial
   Philosophy' (1945) ≠ Steuco/Leibniz's philosophia perennis ≠ Catholic
   traditionalism (the fsspx project).
@@ -37,12 +49,63 @@ to exactly one of the two projects.
 - **Living figures** (Nasr and others): BLP-grade care, public roles and
   published works only.
 
-## Known source disagreements (flagged in the data)
+## State of the dataset
 
-'L'Homme et son devenir' 1925 vs 1927 · Schuon's French first editions
-(1953/1961/1970) pending the standard bibliography · Fons Vitae founding
-1984 vs 1997 · Huxley US 1945 / UK 1946 · the Eliade debate · Teitelbaum's
-stronger claims.
+`data/chronology.json` currently holds **36 events (1540–2023)**, 14 figures,
+6 organizations, 6 summary facts, a 6-item disambiguation block and **48
+references** (19 encyclopedia, 17 academic, 4 primary, 4 analysis, 3 official
+sites, 1 news). Every event carries `dateVerified: true` and a non-empty
+`sources[]`; the unverified-flag report
+(`python3 core/tools/unverified-report.py perennialism`) is currently empty.
+Refresh these numbers with `dataset-query.py perennialism stats` rather than
+trusting this paragraph.
+
+**Visualizations** (rendered by `build.js` from optional top-level keys, so the
+page degrades cleanly if a key is absent):
+
+- `lineage` — an intellectual lineage tree in three parts: the Guénonian line,
+  the political adaptation as a *separate* line (Evola), and the Huxley name
+  collision marked as **not this lineage**. Edges are typed — solid for direct
+  discipleship or collaboration, dashed for influence / reception / cross-link,
+  which is also how the cross-links to `tariqa` are drawn.
+- `branchTimeline` — a works timeline by author, 1921–2024: a "Traditionalist
+  corpus" trunk with six branches (Guénon, Coomaraswamy, Evola's political
+  line, *Études Traditionnelles*, Schuon, Nasr).
+- `disambiguation` — the six standing confusions, stated as such (school ≠
+  order; Guénonian ≠ Huxley; ≠ academic *philosophia perennis*; Evola's line ≠
+  Schuon's; Eliade is a debate, not a datum; the royal reception is attributed
+  commentary).
+
+**Glossary cross-links.** Prose carries inline `[[term-id]]` markers that render
+as links into `cronologia/glossary` (currently `philosophia-perennis` and
+`traditionalist-school`). They are validated **offline** against the pinned
+`data/glossary-terms.json`, refreshed by `node scripts/sync-glossary-terms.js`,
+and covered by `test/glossary-links.test.js`.
+
+**Preservation.** `scripts/archive-refs.js` records Wayback snapshots into
+`data/archives.json` (40 of 48 references snapshotted at last run), which
+`build.js` renders as an "archived" fallback link beside each source;
+`scripts/check-links.js` reports rot without ever editing data. Both run
+out-of-band or from `.github/workflows/wayback.yml` and `link-health.yml` — the
+build itself is network-free. Current gaps:
+`dataset-query.py perennialism refs --unarchived`.
+
+## Known source disagreements
+
+Recorded in the data as attributed, dated prose rather than silently resolved:
+
+- **'L'Homme et son devenir selon le Vêdânta' — 1925, not 1927.** Settled
+  against the French bibliographic record and Zoccatelli's CESNUR study; the
+  '1927' of a derived source was an error, and the entry says so.
+- **Fons Vitae's founding** — the publisher's own account, an infobox giving
+  1996 and IRS records giving a 2000 formation year for "Fons Vitae of
+  Kentucky" are reported side by side, not averaged.
+- **Huxley, US 1945 / UK 1946** — both imprints and dates stated.
+- **Schuon's French first editions** (1953 / 1961 / 1970) still await the
+  standard bibliography; the official `fschuon.info` bibliography page is
+  cited and remains unsnapshotted.
+- **The Eliade debate** and **Teitelbaum's stronger claims** are presented as
+  live scholarly disputes, with the dissenting reviews cited alongside.
 
 ## Key sources
 
@@ -50,5 +113,6 @@ Sedgwick ('Against the Modern World' 2004, 'Traditionalism' 2023, the
 Traditionalists blog) · Hanegraaff ('Esotericism and the Academy' 2012) ·
 Wikipedia EN/FR for the corpus scaffolding · Gifford records · the IAPSOP
 digitized run of Études Traditionnelles · CESNUR on the Regnabit episode ·
-Paull on Northbourne · labeled perspective sources (Gornahoor as
+Paull on Northbourne · Marino in *Aries* (Brill) and the Scagno volume on the
+Eliade question · labeled perspective sources (Gornahoor as
 Evolian-sympathetic; Foreign Affairs' skeptical Teitelbaum review).
