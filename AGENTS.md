@@ -13,6 +13,11 @@ A compiled static website documenting the chronology of **perennialism / the Tra
 A single JSON file is the source of truth; a zero-dependency Node script
 compiles it into static HTML served by GitHub Pages. See
 [`adr/0001-project-architecture-and-boundaries.md`](adr/0001-project-architecture-and-boundaries.md).
+The site is published in three locales — `docs/en/`, `docs/pt/`, `docs/es/`, with
+`docs/index.html` as a redirect stub. English is authoritative and hand-written;
+`pt`/`es` are machine-translated from the committed caches in `data/i18n/` and
+carry a visible disclaimer. See
+[`adr/0002-pt-es-locales.md`](adr/0002-pt-es-locales.md).
 
 ## Repository map
 
@@ -21,9 +26,13 @@ data/chronology.json          SOURCE OF TRUTH — meta, facts, events, figures, 
                               disambiguation, lineage, branchTimeline, references (hand-edited)
 data/archives.json            GENERATED — Wayback snapshots per reference URL (scripts/archive-refs.js)
 data/glossary-terms.json      GENERATED — pinned copy of the cronologia/glossary term ids
+data/i18n/{pt,es}.json        GENERATED — machine-translation caches keyed by the English
+                              source string (scripts/translate.js); English is authoritative
 src/styles.css                Stylesheet (copied into the build)
-build.js                      Compiler: data/chronology.json -> docs/
+build.js                      Compiler: data/chronology.json -> docs/{en,pt,es}/ + root
+                              redirect stub, sitemap.xml, robots.txt
 scripts/validate-data.js      Schema check (runs in CI before the build)
+scripts/translate.js          Translation-cache coverage/normalizer for data/i18n/ (--stats)
 scripts/archive-refs.js       Wayback preservation for references[] (out-of-band / CI only)
 scripts/check-links.js        Link-health checker (out-of-band / CI only; never edits data)
 scripts/sync-glossary-terms.js  Refreshes data/glossary-terms.json from cronologia/glossary
@@ -34,11 +43,13 @@ adr/                          Architecture decision records for this repo
 .github/workflows/deploy.yml       CI: validate, test, build, drift check, Pages deploy (main + manual dispatch)
 .github/workflows/wayback.yml      Scheduled Wayback capture -> data/archives.json
 .github/workflows/link-health.yml  Scheduled link-health report (opens/updates an issue)
-docs/                         COMPILED OUTPUT, served by GitHub Pages (committed)
+docs/                         COMPILED OUTPUT, served by GitHub Pages (committed).
+                              docs/index.html is a redirect stub; the real pages live under
+                              docs/en/, docs/pt/, docs/es/
 ```
 
-`data/archives.json`, `data/glossary-terms.json`, `docs/` and `.claude/skills/`
-are **generated**. Never hand-edit them: re-run the script that produces them and
+`data/archives.json`, `data/glossary-terms.json`, `data/i18n/*.json`, `docs/` and
+`.claude/skills/` are **generated**. Never hand-edit them: re-run the script that produces them and
 commit the diff.
 
 ## Sourcing rules — read first

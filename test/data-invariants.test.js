@@ -5,10 +5,17 @@ const { test } = require('node:test');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
-const { renderPage } = require('../build.js');
+const {
+  esc, renderPage, renderRootStub, renderSitemap, renderRobots,
+  siteBase, localizeData, loadDict, LOCALES, ROUTES,
+} = require('../build.js');
 
 const ROOT = path.join(__dirname, '..');
 const data = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'chronology.json'), 'utf8'));
+function archives() {
+  try { return JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'archives.json'), 'utf8')).snapshots || {}; }
+  catch { return {}; }
+}
 
 test('every sources[] entry resolves to a reference id or a URL', () => {
   const ids = new Set(data.references.map((r) => r.id));
@@ -39,22 +46,76 @@ test('events are dated plausibly and titled', () => {
   }
 });
 
-test('renderPage produces a full page with analytics and every section', () => {
-  const html = renderPage(data, {});
-  assert.match(html, /<!DOCTYPE html>/);
-  assert.match(html, /G-R9LV1QZHVE/, 'Google Analytics tag missing');
-  assert.match(html, new RegExp('id="chronology"'));
-  assert.match(html, new RegExp('id="references"'));
-  for (const r of data.references) {
-    assert.ok(html.includes(r.url.replace(/&/g, '&amp;')), `reference ${r.id} not rendered`);
+test('every locale renders a full page with the right lang, SEO and disclaimer', () => {
+  const base = siteBase(data.meta);
+  for (const lang of LOCALES) {
+    const localized = localizeData(data, loadDict(lang), lang);
+    const html = renderPage(localized, archives(), { lang, base, route: '' });
+    assert.match(html, /<!DOCTYPE html>/);
+    assert.match(html, /G-R9LV1QZHVE/, `${lang}: analytics tag missing`);
+    assert.match(html, new RegExp(`<html lang="${lang}"`), `${lang}: wrong <html lang>`);
+    assert.match(html, /id="chronology"/);
+    assert.match(html, /id="references"/);
+    assert.ok(html.includes(`<link rel="canonical" href="${base}${lang}/">`), `${lang}: canonical missing`);
+    for (const l of LOCALES) assert.ok(html.includes(`hreflang="${l}"`), `${lang}: hreflang ${l} missing`);
+    assert.ok(html.includes('hreflang="x-default"'), `${lang}: x-default missing`);
+    assert.ok(html.includes('application/ld+json'), `${lang}: JSON-LD missing`);
+    assert.ok(html.includes('href="../styles.css"'), `${lang}: stylesheet path not locale-relative`);
+    if (lang === 'en') assert.ok(!html.includes('i18n-disclaimer'), 'English page must not carry the disclaimer');
+    else assert.match(html, /class="i18n-disclaimer"/, `${lang}: disclaimer missing`);
+    for (const r of data.references) assert.ok(html.includes(r.url.replace(/&/g, '&amp;')), `${lang}: reference ${r.id} not rendered`);
   }
 });
 
-test('committed docs/index.html is the current render (no drift)', () => {
-  const built = fs.readFileSync(path.join(ROOT, 'docs', 'index.html'), 'utf8');
-  let archives = {};
-  try {
-    archives = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'archives.json'), 'utf8')).snapshots || {};
-  } catch { /* no archive cache yet */ }
-  assert.equal(built, renderPage(data, archives), 'docs/ out of date — run node build.js');
+test('English render is the identity localization (chrome localized, content unchanged)', () => {
+  // localizeData with the English (empty) dict must not alter any content value.
+  const en = localizeData(data, loadDict('en'), 'en');
+  assert.equal(JSON.stringify(en.events), JSON.stringify(data.events));
+  assert.equal(JSON.stringify(en.references), JSON.stringify(data.references));
+});
+
+test('translation cache is applied where present', () => {
+  const es = loadDict('es');
+  const keys = Object.keys(es);
+  if (keys.length === 0) return;
+  const html = renderPage(localizeData(data, es, 'es'), {}, { lang: 'es', base: siteBase(data.meta), route: '' });
+  const json = JSON.stringify(data);
+  // Pick a source string that really occurs in the data, whose Spanish differs
+  // from it (book titles and proper names are passed through verbatim) and that
+  // carries no [[glossary]] marker (those are rewritten into links). Compare on
+  // the escaped form, since the page HTML-escapes quotes and ampersands.
+  const hit = keys.find((k) => json.includes(k) && es[k] !== k && !k.includes('[['));
+  if (hit) assert.ok(html.includes(esc(es[hit])), 'expected a Spanish translation to appear in the es page');
+});
+
+test('sitemap lists every route × locale with alternates; robots points to it', () => {
+  const base = siteBase(data.meta);
+  const sitemap = renderSitemap(base, ROUTES);
+  assert.match(sitemap, /<\?xml/);
+  assert.match(sitemap, /xmlns:xhtml=/);
+  for (const route of ROUTES) for (const lang of LOCALES) {
+    assert.ok(sitemap.includes(`<loc>${base}${lang}/${route}</loc>`), `sitemap missing ${lang}/${route}`);
+  }
+  assert.ok(renderRobots(base).includes(`Sitemap: ${base}sitemap.xml`));
+});
+
+test('root stub redirects and declares alternates (no page content)', () => {
+  const stub = renderRootStub(siteBase(data.meta));
+  assert.match(stub, /location\.replace/);
+  assert.match(stub, /hreflang="x-default"/);
+  assert.ok(!stub.includes('id="chronology"'), 'root stub should not contain page content');
+});
+
+// Drift: only when a project commits docs/ (the template ships source only).
+test('committed docs/ is the current render (no drift)', () => {
+  const docs = path.join(ROOT, 'docs');
+  if (!fs.existsSync(path.join(docs, 'index.html'))) return;
+  const base = siteBase(data.meta);
+  assert.equal(fs.readFileSync(path.join(docs, 'index.html'), 'utf8'), renderRootStub(base), 'root stub drift — run node build.js');
+  assert.equal(fs.readFileSync(path.join(docs, 'sitemap.xml'), 'utf8'), renderSitemap(base, ROUTES), 'sitemap drift — run node build.js');
+  assert.equal(fs.readFileSync(path.join(docs, 'robots.txt'), 'utf8'), renderRobots(base), 'robots drift — run node build.js');
+  for (const lang of LOCALES) {
+    const f = path.join(docs, lang, 'index.html');
+    assert.equal(fs.readFileSync(f, 'utf8'), renderPage(localizeData(data, loadDict(lang), lang), archives(), { lang, base, route: '' }), `docs/${lang}/ drift — run node build.js`);
+  }
 });
