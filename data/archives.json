@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-07-24",
+  "updatedAt": "2026-07-25",
   "snapshots": {
     "http://iapsop.com/archive/materials/etudes_traditionnelles/": {
       "archiveUrl": "https://web.archive.org/web/20260618220513/https://iapsop.com/archive/materials/etudes_traditionnelles/",
@@ -120,6 +120,12 @@
       "timestamp": "20260702220336",
       "checkedAt": "2026-07-24"
     },
+    "https://fonsvitae.com/about-us/": {
+      "refId": "fonsvitae-about",
+      "archiveUrl": "https://web.archive.org/web/20260710000626/https://fonsvitae.com/about-us/",
+      "timestamp": "20260710000626",
+      "checkedAt": "2026-07-25"
+    },
     "https://fr.wikipedia.org/wiki/%C3%89tudes_traditionnelles": {
       "refId": "frwiki-etudes",
       "archiveUrl": "https://web.archive.org/web/20260311114050/https://fr.wikipedia.org/wiki/%C3%89tudes_traditionnelles",
@@ -156,6 +162,12 @@
       "timestamp": "20230528133036",
       "checkedAt": "2026-07-24"
     },
+    "https://olavodecarvalho.org/as-garras-da-esfinge-rene-guenon-e-a-islamizacao-do-ocidente/": {
+      "refId": "olavo-garras-esfinge",
+      "archiveUrl": "https://web.archive.org/web/20260224103523/https://olavodecarvalho.org/as-garras-da-esfinge-rene-guenon-e-a-islamizacao-do-ocidente/",
+      "timestamp": "20260224103523",
+      "checkedAt": "2026-07-25"
+    },
     "https://traditionalistblog.blogspot.com/2014/07/lord-northbourne-organic-agriculture.html": {
       "archiveUrl": "https://web.archive.org/web/20250810103634/https://traditionalistblog.blogspot.com/2014/07/lord-northbourne-organic-agriculture.html",
       "timestamp": "20250810103634"
@@ -171,6 +183,12 @@
     "https://traditionalistblog.blogspot.com/2022/06/catholic-and-guenonian-traditionalism.html": {
       "archiveUrl": "https://web.archive.org/web/20260719234233/https://traditionalistblog.blogspot.com/2022/06/catholic-and-guenonian-traditionalism.html",
       "timestamp": "20260719234233"
+    },
+    "https://traditionalistblog.blogspot.com/2023/10/traditionalism-in-brazil-today.html": {
+      "refId": "souza-traditionalism-brazil",
+      "archiveUrl": "https://web.archive.org/web/20260720013504/https://traditionalistblog.blogspot.com/2023/10/traditionalism-in-brazil-today.html",
+      "timestamp": "20260720013504",
+      "checkedAt": "2026-07-25"
     },
     "https://www.cambridge.org/core/books/esotericism-and-the-academy/4532A70CA2235EED1DD9FD7F5BCAC100": {
       "refId": "hanegraaff-2012",
@@ -216,15 +234,33 @@
       "timestamp": "20231207140936",
       "checkedAt": "2026-07-24"
     },
+    "https://www.montfort.org.br/bra/cartas/gnose/20040728192545/": {
+      "refId": "montfort-carta-guenon-olavo",
+      "archiveUrl": "https://web.archive.org/web/20260520193038/https://www.montfort.org.br/bra/cartas/gnose/20040728192545/",
+      "timestamp": "20260520193038",
+      "checkedAt": "2026-07-25"
+    },
     "https://www.researchgate.net/publication/263506175_Lord_Northbourne_the_man_who_invented_organic_farming_a_biography": {
       "refId": "paull-northbourne",
       "archiveUrl": "https://web.archive.org/web/20221228185458/https://www.researchgate.net/publication/263506175_Lord_Northbourne_the_man_who_invented_organic_farming_a_biography",
       "timestamp": "20221228185458",
       "checkedAt": "2026-07-24"
     },
+    "https://www.sutrajournal.com/coomaraswamy-true-art": {
+      "refId": "sutrajournal-coomaraswamy-true-art",
+      "archiveUrl": "https://web.archive.org/web/20260725002956/https://www.sutrajournal.com/coomaraswamy-true-art",
+      "timestamp": "20260725002956",
+      "checkedAt": "2026-07-25"
+    },
     "https://www.temenosacademy.org/history": {
       "archiveUrl": "https://web.archive.org/web/20251118081545/https://www.temenosacademy.org/history",
       "timestamp": "20251118081545"
+    },
+    "https://www.youtube.com/watch?v=r2ROPEN9wJI": {
+      "refId": "icls-box-guenon-launch",
+      "archiveUrl": "https://web.archive.org/web/20241218114659/https://www.youtube.com/watch?v=r2ROPEN9wJI",
+      "timestamp": "20241218114659",
+      "checkedAt": "2026-07-25"
     }
   }
 }
