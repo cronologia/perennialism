@@ -107,6 +107,20 @@ Recorded in the data as attributed, dated prose rather than silently resolved:
 - **The Eliade debate** and **Teitelbaum's stronger claims** are presented as
   live scholarly disputes, with the dissenting reviews cited alongside.
 
+## Searching the sources
+
+The vocabulary problem is severe enough here to have its own file:
+[`KEYWORDS.md`](KEYWORDS.md). It carries the generated inventory of names,
+organizations, terms of art and places from the dataset, plus a hand-written
+`## Search traps` section recording what a naive search gets *wrong* — the
+terms that return nothing despite the subject being present, the PT/ES/FR/Latin
+naming variants, the auto-caption manglings observed in the vaulted transcripts,
+and the false friends (three Ramas, four "perennial philosophies", two
+Temenoses, `sufi` vs `suficiente`). It is a finding aid: it makes no claims
+about the world, and listing a hostile source's vocabulary is not endorsement.
+Read it before searching a corpus or mining a transcript, and add to it when a
+search teaches you something.
+
 ## Key sources
 
 Sedgwick ('Against the Modern World' 2004, 'Traditionalism' 2023, the

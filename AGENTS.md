@@ -38,6 +38,11 @@ scripts/check-links.js        Link-health checker (out-of-band / CI only; never 
 scripts/sync-glossary-terms.js  Refreshes data/glossary-terms.json from cronologia/glossary
 test/                         node:test suites (helpers, data invariants, glossary links,
                               viz renderers, drift check)
+KEYWORDS.md                   Search vocabulary + measured search traps. PART-GENERATED:
+                              the block between the build-keywords.py markers comes from
+                              data/chronology.json; the hand-written "## Search traps"
+                              section outside it survives regeneration. A finding aid, not
+                              a dataset — it makes no claims about the world
 adr/                          Architecture decision records for this repo
 .claude/skills/               GENERATED — vendored copy of cronologia/core skills/
 .github/workflows/deploy.yml       CI: validate, test, build, drift check, Pages deploy (main + manual dispatch)
@@ -77,7 +82,7 @@ this repo:
 | `adopt-template` | Porting a renderer, validator rule or style from `cronologia/core/template` — additions stay data-driven and OPTIONAL so output is byte-identical when the key is absent. |
 | `release-work` | Branching, fast-forwarding, committing and pushing; one repo, one committer, per wave. |
 | `dossier-research` | Research passes that produce a report for later ingestion (this is a research repo). |
-| `mine-video` | Mining a talk, interview or podcast — its claims are perspectives, not fact sources, until independently corroborated. |
+| `mine-video` | Mining a talk, interview or podcast — its claims are perspectives, not fact sources, until independently corroborated. Read [`KEYWORDS.md`](KEYWORDS.md) `## Search traps` first for the ASR manglings already observed, and record any new one you hit there. |
 | `bootstrap-project` | Only when standing up a *new* family repo; not needed for work here. |
 
 ## Agent-side tooling (`cronologia/core/tools`, Python 3 stdlib)
@@ -85,6 +90,18 @@ this repo:
 Read-only, never run in CI, never edits a dataset. **Query before reading whole
 files** — `data/chronology.json` is large, and reading it end to end spends the
 context you need for judgement.
+
+**Before you search anything — a corpus, a transcript, the dataset — read
+[`KEYWORDS.md`](KEYWORDS.md), especially its `## Search traps` section.** The
+obvious term is routinely the wrong one here: `Guenon` unaccented returns zero
+prose hits in this dataset, `Traditionalist` returns zero across the whole
+7.16M-word COF corpus (which writes `tradicionalismo`), bare `sufi` in a
+Portuguese corpus is ~96% `suficiente`, and the auto-caption corpora mangle
+every proper name in the subject (`Guénon` → `genon`/`Guinon`/`Ganon`, `Schuon`
+→ `Shuan`/`Chuon`, `Coomaraswamy` → `Comarassame`). A negative result from an
+unlisted search term is not evidence of absence. When a search teaches you
+something new, add it to `## Search traps` — that section is the accumulated
+record and is never regenerated away.
 
 ```bash
 python3 core/tools/dataset-query.py perennialism stats             # collection sizes, year span, unarchived count
@@ -95,6 +112,7 @@ python3 core/tools/unverified-report.py perennialism --markdown    # every unver
 python3 core/tools/mine-prep.py <transcript>                       # transcript -> candidate sheet with offsets
 python3 core/tools/xref.py --repos tariqa,perennialism,fsspx       # cross-repo consistency on shared entities
 python3 core/tools/sync-skills.py perennialism --check             # is .claude/skills/ stale?
+python3 core/tools/build-keywords.py perennialism --out KEYWORDS.md  # refresh KEYWORDS.md's generated block
 ```
 
 Run `xref.py` whenever you touch a figure or organization that `tariqa` or
