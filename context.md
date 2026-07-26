@@ -51,14 +51,17 @@ argue for or against the school.
 
 ## State of the dataset
 
-`data/chronology.json` currently holds **36 events (1540–2023)**, 14 figures,
-6 organizations, 6 summary facts, a 6-item disambiguation block and **48
-references** (19 encyclopedia, 17 academic, 4 primary, 4 analysis, 3 official
-sites, 1 news). Every event carries `dateVerified: true` and a non-empty
-`sources[]`; the unverified-flag report
-(`python3 core/tools/unverified-report.py perennialism`) is currently empty.
-Refresh these numbers with `dataset-query.py perennialism stats` rather than
-trusting this paragraph.
+`data/chronology.json` currently holds **41 events (1540–2023)**, 14 figures,
+6 organizations, 6 summary facts, a 9-item disambiguation block and **64
+references** — encyclopedia, academic, primary, analysis, official sites, news,
+plus the mined-source types added in July 2026 (*academic interview*, *primary
+footage*, *commentary*, *testimony*). Every event carries `dateVerified: true`
+and a non-empty `sources[]`; six fields are flagged as unverified
+(`python3 core/tools/unverified-report.py perennialism`) — the Box Guénon
+launch date, the Foundation for Traditional Studies' place and second date, the
+filming date of the World Wisdom Schuon footage, and the publication date of
+the Teitelbaum podcast episode. Refresh these numbers with
+`dataset-query.py perennialism stats` rather than trusting this paragraph.
 
 **Visualizations** (rendered by `build.js` from optional top-level keys, so the
 page degrades cleanly if a key is absent):
@@ -71,10 +74,13 @@ page degrades cleanly if a key is absent):
 - `branchTimeline` — a works timeline by author, 1921–2024: a "Traditionalist
   corpus" trunk with six branches (Guénon, Coomaraswamy, Evola's political
   line, *Études Traditionnelles*, Schuon, Nasr).
-- `disambiguation` — the six standing confusions, stated as such (school ≠
+- `disambiguation` — the nine standing confusions, stated as such (school ≠
   order; Guénonian ≠ Huxley; ≠ academic *philosophia perennis*; Evola's line ≠
   Schuon's; Eliade is a debate, not a datum; the royal reception is attributed
-  commentary).
+  commentary; 'founder' vs 'developer' for Coomaraswamy; a partisan outlet's
+  headline ≠ the scholar it interviews; and the French occultist genealogy that
+  runs Fabre d'Olivet → Saint-Yves d'Alveydre → Evola is a *different* account
+  from the one charted here, with a *third* Rama in it).
 
 **Glossary cross-links.** Prose carries inline `[[term-id]]` markers that render
 as links into `cronologia/glossary` (currently `philosophia-perennis` and

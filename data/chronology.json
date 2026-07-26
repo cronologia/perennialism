@@ -5,7 +5,7 @@
     "description": "An open, source-referenced chronology of perennialism — the Traditionalist School of René Guénon, Ananda Coomaraswamy and Frithjof Schuon — as a movement of ideas: the books, the journals, the political adaptations and the reception, from the 1920s to the school's unexpected afterlife in 21st-century politics. The Maryamiyya order's initiatic history is the sibling project cronologia/tariqa.",
     "language": "en",
     "siteUrl": "https://cronologia.github.io/perennialism/",
-    "lastUpdated": "2026-07-25",
+    "lastUpdated": "2026-07-26",
     "dataQualityNote": "This is a work-in-progress dataset about a contested intellectual lineage whose political receptions are actively disputed. Every fact is cited; dates the sources dispute are flagged with a ? mark; and every characterization — above all about the Evola line, the alt-right reception, contested affiliations (Eliade) and living figures — is attributed to the scholar or actor making it, never asserted in the site's own voice. Corrections against published sources are welcome.",
     "vizChips": [
       {
@@ -452,6 +452,18 @@
       ]
     },
     {
+      "year": 2009,
+      "date": "2009-07-18/2010-01-16",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "The 'islamization' reading stated in the Curso Online de Filosofia",
+      "text": "The reading that casts Guénon and Schuon as pioneers of an islamization of the West is already stated in Olavo de Carvalho's Curso Online de Filosofia seven years before the 2016 Verbum article that gave it its programmatic form. In aula 015 (18 July 2009) he tells the course that he had written an article describing René Guénon and Frithjof Schuon as pioneers of that process, that many people had demanded proof, and that his answer was that he has no proof — he is a witness, he was there and he saw, and he cannot prove it. That is the reading's evidentiary basis in its author's own words, and the reason this chronology carries it as reception rather than as finding. In aula 041 (16 January 2010) he puts it in its strongest form: that Schuon, returning from Algeria as shaykh of the tariqa of Shaykh al-Alawi, declared he would islamize the West, and that Guénon called the founding of Schuon's order at Lausanne the only real effect his own teaching had ever had — from which Carvalho infers that islamization was Guénon's aim too. In the same lecture he reads out and endorses a passage holding Guénon fallible and, in his youthful writings, intellectually dishonest, against those who celebrate him as an infallible compass, and citing Louis de Maistre's 'L'Énigme René Guénon'. The inference, the characterization and the reading are Carvalho's, and are recorded here as dated reception, not as the site's voice. His account of what he saw inside Schuon's order is order-side testimony and belongs to the sibling cronologia/tariqa project. Both lectures are community transcriptions that have not been checked against the audio, so everything above is paraphrase and nothing is quoted.",
+      "sources": [
+        "olavo-cof-015",
+        "olavo-cof-041"
+      ]
+    },
+    {
       "year": 2010,
       "date": "2010",
       "dateVerified": true,
@@ -492,10 +504,11 @@
       "dateVerified": true,
       "place": "Washington / New York, USA",
       "title": "The Bannon–Evola episode",
-      "text": "After Steve Bannon's 2014 Vatican-conference remarks referencing Dugin and 'what's called the traditionalist movement', the New York Times' 'Steve Bannon Cited Italian Thinker Who Inspired Fascists' makes Evola and Traditionalism briefly front-page news, amid the alt-right republication of Evola.",
+      "text": "After Steve Bannon's 2014 Vatican-conference remarks referencing Dugin and 'what's called the traditionalist movement', the New York Times' 'Steve Bannon Cited Italian Thinker Who Inspired Fascists' makes Evola and Traditionalism briefly front-page news, amid the alt-right republication of Evola. Interviewed by UnHerd on 28 July 2023, Mark Sedgwick set narrower limits than the news cycle had: on his account Bannon says that discovering Guénon was a turning point in his life, but not that it was the final one; he accepts parts of the Traditionalist narrative — above all the critique of modernity — and rejects others, and is not a perennialist but a believing Catholic. The red thread, in Sedgwick's reading, is the critique of modernity and not a shared metaphysics. The interview is auto-captioned and unchecked against the audio, so this is paraphrase.",
       "sources": [
         "oup-bannon",
-        "sedgwick-blog-bannon-evola"
+        "sedgwick-blog-bannon-evola",
+        "sedgwick-unherd-2023"
       ]
     },
     {
@@ -504,10 +517,11 @@
       "dateVerified": true,
       "place": "New York, USA",
       "title": "'War for Eternity'",
-      "text": "Benjamin Teitelbaum's ethnographic account links Bannon, Dugin and Olavo de Carvalho through Traditionalism, based on extensive Bannon interviews; reviewers dispute how coherent or consequential the 'network' really is — the book's stronger claims are the author's, not consensus.",
+      "text": "Benjamin Teitelbaum's ethnographic account links Bannon, Dugin and Olavo de Carvalho through Traditionalism, based on extensive Bannon interviews; reviewers dispute how coherent or consequential the 'network' really is — the book's stronger claims are the author's, not consensus. Interviewed on the Pill Pod podcast on or about 8 January 2021, Teitelbaum named his own object 'rightist' or political traditionalism — a term he says the Traditionalist author Charles Upton, himself strongly opposed to the figures the book studies, asked him to use, and which draws the same religious/political line this chronology draws; Upton is carried in the sibling cronologia/tariqa project, not here. In the same interview he set his own limit on the network thesis: that Traditionalism may be, as he put it, the fancy language of people who are populist but dislike thinking of themselves as populist, and that deciding otherwise would require a degree of mind-reading he is not comfortable with as a scholar. He also reported the reception — Bannon considering his own sections faithful, Dugin liking the book, and Olavo de Carvalho answering it with videos attacking him by name — and noted that the US and European editions carry different subtitles. Auto-captioned interview, unchecked against the audio: paraphrase, not quotation.",
       "sources": [
         "foreignaffairs-teitelbaum",
-        "colorado-teitelbaum"
+        "colorado-teitelbaum",
+        "teitelbaum-pillpod-2021"
       ]
     },
     {
@@ -528,9 +542,10 @@
       "dateVerified": true,
       "place": "Oxford, England",
       "title": "Sedgwick's 'Traditionalism'",
-      "text": "The analytic synthesis of the philosophy of Guénon, Evola and Schuon and its applications — the school historicized by the scholar who mapped it.",
+      "text": "The analytic synthesis of the philosophy of Guénon, Evola and Schuon and its applications — the school historicized by the scholar who mapped it. Presenting the book to a general audience at the UnHerd Club in Westminster on 28 July 2023, Sedgwick said that he is not himself a Traditionalist, that he has been mistaken for one, and that at points in his life he has found the ideas attractive — a self-disclosure worth recording in a subject where affiliation language is contested.",
       "sources": [
-        "sedgwick-2023"
+        "sedgwick-2023",
+        "sedgwick-unherd-2023"
       ]
     }
   ],
@@ -555,11 +570,12 @@
     },
     {
       "name": "Frithjof Schuon (as author)",
-      "role": "The school's most systematic expositor: 'The Transcendent Unity of Religions' (1948) and some twenty further books on the religio perennis. His order, the Maryamiyya, is the sibling tariqa project's subject.",
+      "role": "The school's most systematic expositor: 'The Transcendent Unity of Religions' (1948) and some twenty further books on the religio perennis. His order, the Maryamiyya, is the sibling tariqa project's subject. A short interview published by his own publisher, World Wisdom, has him state the position in compressed form: the metaphysics is Hinduism while the religion and the framework are Islam; syncretism is an error, though a certain syncretism is possible in pure esoterism; religion is an adaptation able to save everyone where philosophy cannot; and metaphysical truth, not religion alone, is what draws him to God. The footage carries no date and the publisher's page could not be reached, so when it was filmed is undetermined (to verify), and the captions are poor enough that this is paraphrase and never quotation.",
       "dates": "1907–1998",
       "country": "Switzerland / USA",
       "sources": [
-        "wikipedia-schuon"
+        "wikipedia-schuon",
+        "worldwisdom-schuon-footage"
       ]
     },
     {
@@ -795,6 +811,23 @@
         "sources": [
           "sutrajournal-coomaraswamy-true-art",
           "wikipedia-traditionalism",
+          "wikipedia-coomaraswamy"
+        ]
+      },
+      {
+        "title": "The outlet's framing is not the scholar's claim",
+        "text": "UnHerd published its 28 July 2023 interview with Mark Sedgwick under the headline 'Traditionalism: the philosophy behind Putin's war'. In the interview itself Sedgwick says that Alexander Dugin is not part of Putin's circle and that Putin has a brain of his own, while granting that Dugin exerts influence and enjoys something like a forbidden-guru status. The headline is the outlet's; the qualifications are the scholar's. The interviewer is bylined only 'UnHerd Staff' and is never named on air, so the questions are attributed to the outlet and not to a person. Wherever a scholarly source reaches this chronology through a partisan outlet, the two voices are cited separately — the same rule that keeps commentators' readings off the affiliation record in the card above. The interview is auto-captioned, so Sedgwick's positions are paraphrased here and never quoted.",
+        "sources": [
+          "sedgwick-unherd-2023",
+          "sedgwick-2023"
+        ]
+      },
+      {
+        "title": "A different genealogy — and a third Rama",
+        "text": "Not every 'esoteric roots of the new right' account is a compressed version of this one. The Brazilian programme Paz e Bem #1294 (10 June 2022), in which Mauro Lopes interviews Prof. Neide Miele — a Universidade Federal da Paraíba academic in Ciências das Religiões and the founder of that programme's journal Religare, an affiliation confirmed from the university's own journals portal and not from the broadcast, which never names her institution — traces a line from Antoine Fabre d'Olivet and Alexandre Saint-Yves d'Alveydre through Édouard Schuré to Papus and to Julius Evola, and joins Dugin, Olavo de Carvalho and Steve Bannon to it not by initiatic descent but by a shared hatred of the French Revolution and the Enlightenment. René Guénon is not named in the programme at all, in any spelling; Fabre d'Olivet, Saint-Yves, Papus and Blavatsky are in turn absent from both of the scholarly interviews this chronology draws on. The two accounts do not overlap, so this one is recorded as Prof. Miele's attributed narrative out of French occultist historiography — neither corroborating nor contradicting the lineage charted here — and 'Evola descends from Saint-Yves' is never this site's claim. The programme is progressive-Catholic and left in perspective and its present-day readings, including calling the removal of Dilma Rousseff a coup, are hers and dated. One further trap it sets: the Rama of that literature is the mythical Vedic figure, a third referent alongside Ananda K. Coomaraswamy, this chronology's figure, and his son Rama P. Coomaraswamy, who belongs to the sibling tariqa and fsspx projects. Its auto-captions mangle every proper name in the genealogy, so all of them are reconstructions from context and none is quoted.",
+        "sources": [
+          "pazebem-1294-miele",
+          "ufpb-religare-about",
           "wikipedia-coomaraswamy"
         ]
       }
@@ -1448,6 +1481,55 @@
       "url": "https://www.youtube.com/watch?v=r2ROPEN9wJI",
       "publisher": "ICLS / Instituto Cultural Lux et Sapientia (YouTube) — Brazilian Guénonian institute; a publisher launch event, sympathetic and commercial",
       "type": "video"
+    },
+    {
+      "id": "sedgwick-unherd-2023",
+      "title": "Prof. Mark Sedgwick: An introduction to Traditionalism — UnHerd, 28 July 2023",
+      "url": "https://unherd.com/newsroom/mark-sedgwick-an-introduction-to-traditionalism/",
+      "publisher": "UnHerd (British opinion outlet), recorded before an audience at the UnHerd Club in Westminster and published 28 July 2023 — this subject's anchor scholar in his own voice, inside a partisan-media frame. The page's headline, 'Traditionalism: the philosophy behind Putin's war', is UnHerd's editorial framing and overshoots what its guest says in the same piece; the interviewer is bylined only 'UnHerd Staff' and never named, so the questions are attributed to the outlet and not to a person. Cited for Sedgwick's own characterizations, never for bibliography or dates. The transcript vaulted in cronologia/archive is YouTube auto-captions of the video (https://youtu.be/Fzj2Odt6HRo) and has not been checked against the audio, so his positions are paraphrased wherever this dataset uses them and never quoted.",
+      "type": "academic interview"
+    },
+    {
+      "id": "teitelbaum-pillpod-2021",
+      "title": "Fascism, Traditionalism, and the War for Eternity — Benjamin R. Teitelbaum interviewed on Pill Pod, recorded c. 8 January 2021",
+      "url": "https://www.youtube.com/watch?v=y26YI9A81D4",
+      "publisher": "Pill Pod / PlasticPills, a philosophy and critical-theory podcast whose hosts describe themselves on air as left-wing academics — perspective labeled accordingly. The author of 'War for Eternity' on his own claims and on the book's reception; cited for his positions, never for the underlying Bannon or Dugin facts. The recording date is anchored inside the interview (the hosts place the storming of the US Capitol of 6 January 2021 two days earlier, and Bannon's pardon window before the 20 January inauguration); the publication date is NOT confirmed (to verify) — the podcast's own episode page redirects to a login and directory mirrors returned 403, which is provenance rather than absence. Auto-captioned; his statements are paraphrased wherever this dataset uses them and never quoted.",
+      "type": "academic interview"
+    },
+    {
+      "id": "worldwisdom-schuon-footage",
+      "title": "Frithjof Schuon on metaphysics and religion — interview footage published by World Wisdom",
+      "url": "https://youtu.be/OKgjGiTVbPo",
+      "publisher": "World Wisdom, Schuon's own English-language publisher, on its official channel — primary audiovisual footage of estate-adjacent, sympathetic provenance: primary, not therefore neutral. FILMING DATE UNDETERMINED (to verify). The publisher's own video page returns a bot challenge and holds no Wayback snapshot, and the watch page redirects to a bot filter, so neither the shoot nor the upload date could be established; World Wisdom's sell-sheet for its 2012 DVD 'Frithjof Schuon: Messenger of the Perennial Philosophy' advertises thirty minutes of interviews with Schuon made during his final years, which is a plausible but unverified source for this clip and is deliberately not used to date it. Cited only for his own formulations, never for biography, chronology or the order. The transcript is auto-captions of heavily accented English across 341 words — the lowest-confidence transcription among this dataset's sources, with two technical terms lost in it — so the content is paraphrased and never quoted.",
+      "type": "primary footage"
+    },
+    {
+      "id": "pazebem-1294-miele",
+      "title": "Paz e Bem #1294, 'Rama e os ocultistas' — Mauro Lopes with Prof. Neide Miele, 10 June 2022",
+      "url": "https://www.youtube.com/live/U2JrgpNNvY8",
+      "publisher": "Paz e Bem, a Brazilian progressive-Catholic and left commentary programme — critical perspective, labeled as such. The host states on air that the episode was listed as live but recorded beforehand, so 10 June 2022 is its publication date rather than its recording date. Cited for the existence and shape of a counter-narrative and for Prof. Miele's attributed readings — never for the history of Traditionalism, which the programme does not treat: René Guénon is not named in it at any point, in any spelling (measured across the vaulted transcript). Its auto-captions mangle every proper name in the genealogy it draws, so those names are reconstructions from context and none of them is quoted.",
+      "type": "commentary"
+    },
+    {
+      "id": "ufpb-religare-about",
+      "title": "Religare — 'Sobre a Revista', journal of the Programa de Pós-Graduação em Ciências das Religiões, Universidade Federal da Paraíba",
+      "url": "https://periodicos.ufpb.br/index.php/religare/about",
+      "publisher": "Universidade Federal da Paraíba journals portal (official) — cited only to establish that Prof. Neide Miele is a UFPB academic in Ciências das Religiões and the founder of that programme's journal Religare, which the page states. The Paz e Bem programme never names her institution on air, so the identification rests on name and field and not on self-declaration.",
+      "type": "official-site"
+    },
+    {
+      "id": "olavo-cof-015",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 015, 18 July 2009 — on Guénon and Schuon as pioneers of an 'islamization of the West', and on having no proof of it",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist and right-wing political commentator, recorded lecture (Curso Online de Filosofia, aula 015), 18 July 2009. Reception of the school, never a finding about it: he is a post-Traditionalist critic, and on Schuon's order an interested participant-witness — per Mark Sedgwick's obituary notice he was briefly a Maryami and Schuon's khalifa in Brazil during the 1980s, while the sibling cronologia/tariqa project records his appointment there as muqaddam; that divergence is recorded there and not resolved here. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred). The text is a community transcription that has not been checked against the audio, so everything drawn from it is paraphrase and never quotation. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-041",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 041, 16 January 2010 — on Schuon's declared aim of islamizing the West, and against Guénon as an 'infallible compass'",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist and right-wing political commentator, recorded lecture (Curso Online de Filosofia, aula 041), 16 January 2010. Reception of the school, never a finding about it: he is a post-Traditionalist critic, and on Schuon's order an interested participant-witness — per Mark Sedgwick's obituary notice he was briefly a Maryami and Schuon's khalifa in Brazil during the 1980s, while the sibling cronologia/tariqa project records his appointment there as muqaddam; that divergence is recorded there and not resolved here. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form'). The text is a community transcription that has not been checked against the audio, so everything drawn from it is paraphrase and never quotation. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
     }
   ]
 }
