@@ -8,118 +8,796 @@
     "lastUpdated": "2026-07-25",
     "dataQualityNote": "This is a work-in-progress dataset about a contested intellectual lineage whose political receptions are actively disputed. Every fact is cited; dates the sources dispute are flagged with a ? mark; and every characterization — above all about the Evola line, the alt-right reception, contested affiliations (Eliade) and living figures — is attributed to the scholar or actor making it, never asserted in the site's own voice. Corrections against published sources are welcome.",
     "vizChips": [
-      { "href": "#lineage", "label": "🌳 Lineage tree" },
-      { "href": "#branch-timeline", "label": "📚 Works timeline" }
+      {
+        "href": "#lineage",
+        "label": "🌳 Lineage tree"
+      },
+      {
+        "href": "#branch-timeline",
+        "label": "📚 Works timeline"
+      }
     ]
   },
   "facts": [
     {
       "label": "What it is",
       "value": "The [[traditionalist-school|Traditionalist School]]: the current of thought founded by René Guénon and developed by Ananda Coomaraswamy and Frithjof Schuon, holding that all orthodox religions transmit one primordial, perennial truth — and that modernity is the story of its loss.",
-      "sources": ["wikipedia-traditionalism"]
+      "sources": [
+        "wikipedia-traditionalism"
+      ]
     },
     {
       "label": "Founding corpus",
       "value": "Guénon's books of 1921–1945, from the 'Introduction générale' to 'The Reign of Quantity'; Coomaraswamy's metaphysical essays after 1932; Schuon's 'The Transcendent Unity of Religions' (1948).",
-      "sources": ["wikipedia-guenon", "wikipedia-schuon", "wikipedia-coomaraswamy"]
+      "sources": [
+        "wikipedia-guenon",
+        "wikipedia-schuon",
+        "wikipedia-coomaraswamy"
+      ]
     },
     {
       "label": "House journal",
       "value": "Études Traditionnelles (Paris, 1936–1992) — the renamed Le Voile d'Isis (founded 1889), dominated by Guénon and his school for over half a century.",
-      "sources": ["frwiki-etudes", "iapsop-etudes"]
+      "sources": [
+        "frwiki-etudes",
+        "iapsop-etudes"
+      ]
     },
     {
       "label": "The two lines",
       "value": "Schuon's religious-metaphysical line (which organized as the Maryamiyya order — see the sibling tariqa project) and Julius Evola's political-heroic adaptation, whose postwar radical-right reception runs to Dugin, the alt-right and the Bannon episode — every link in that chain attributed.",
-      "sources": ["wikipedia-evola", "sedgwick-2023"]
+      "sources": [
+        "wikipedia-evola",
+        "sedgwick-2023"
+      ]
     },
     {
       "label": "The name's traps",
       "value": "'[[philosophia-perennis|Perennial philosophy]]' predates and exceeds the school: Steuco coined it in 1540, Leibniz reused it, neo-Scholastics applied it to Thomism, and Aldous Huxley's 1945 bestseller made it mean a universalist mysticism the Guénonians rejected. This site is about the Guénonian school; the others appear only for disambiguation.",
-      "sources": ["wikipedia-perennial-philosophy", "lexicon-steuco"]
+      "sources": [
+        "wikipedia-perennial-philosophy",
+        "lexicon-steuco"
+      ]
     },
     {
       "label": "Scholarship",
       "value": "Mark Sedgwick's 'Against the Modern World' (2004) and 'Traditionalism' (2023) are the academic backbone; Wouter Hanegraaff situates the school critically within the study of Western esotericism; Benjamin Teitelbaum's 'War for Eternity' (2020) covers the political chapter — with reviewers disputing how coherent that network really is.",
-      "sources": ["sedgwick-2004", "sedgwick-2023", "hanegraaff-2012", "foreignaffairs-teitelbaum"]
+      "sources": [
+        "sedgwick-2004",
+        "sedgwick-2023",
+        "hanegraaff-2012",
+        "foreignaffairs-teitelbaum"
+      ]
     }
   ],
   "events": [
-    { "year": 1540, "date": "1540", "dateVerified": true, "place": "Italy", "title": "Steuco coins 'philosophia perennis'", "text": "Agostino Steuco's 'De perenni philosophia' introduces the term — for a continuity thesis inside Christian Platonism, centuries before and apart from the Guénonian school.", "sources": ["lexicon-steuco", "wikipedia-perennial-philosophy"] },
-    { "year": 1921, "date": "1921", "dateVerified": true, "place": "Paris, France", "title": "Guénon's first books", "text": "'Introduction générale à l'étude des doctrines hindoues' frames 'Tradition' against modernity; 'Le Théosophisme' separates the school-to-be from occultism and Theosophy.", "sources": ["wikipedia-guenon"] },
-    { "year": 1923, "date": "1923", "dateVerified": true, "place": "Paris, France", "title": "'L'Erreur spirite'", "text": "Guénon's companion polemic against Spiritism completes the boundary-drawing against the occult milieu.", "sources": ["wikipedia-guenon", "bertagni-regnabit"] },
-    { "year": 1924, "date": "1924", "dateVerified": true, "place": "Paris, France", "title": "'Orient et Occident'", "text": "Guénon's program for a Western elite reoriented by Eastern metaphysics — and his break with the Catholic intellectuals among whom he had first written.", "sources": ["wikipedia-guenon"] },
-    { "year": 1925, "date": "1925", "dateVerified": true, "place": "Paris, France", "title": "'L'Homme et son devenir selon le Vêdânta'", "text": "Guénon's central metaphysical exposition, published in 1925 by Bossard (Paris) — confirmed against the French Wikipedia bibliographic record and Zoccatelli's CESNUR study, which both date the first edition to 1925; the '1927' of a derived source was an error.", "sources": ["cesnur-zoccatelli", "frwiki-guenon-homme", "wikipedia-guenon"] },
-    { "year": 1925, "date": "1925/1927", "dateVerified": true, "place": "Paris, France", "title": "The Regnabit episode", "text": "Regnabit — revue universelle du Sacré-Cœur, founded in June 1921 by Fr. Félix Anizan OMI, carries nineteen Guénon articles between August/September 1925 and May 1927, the symbolist scholar Louis Charbonneau-Lassay having recruited him — the high point of his attempted rapprochement with Catholic milieux. Guénon's 12-page letter of 8 June 1928 to Charbonneau-Lassay closes the episode; Guénon blamed 'the hostility of some neo-scholastic milieus' (his framing), while Zoccatelli's study documents intra-congregational controversies around Anizan's Sacred Heart theology from 1923.", "sources": ["cesnur-zoccatelli", "cesnur-guenon", "bertagni-regnabit"] },
-    { "year": 1927, "date": "1927", "dateVerified": true, "place": "Paris, France", "title": "'La Crise du monde moderne'", "text": "The school's most-read statement of civilizational critique — the template for all its later 'crisis' literature.", "sources": ["wikipedia-guenon"] },
-    { "year": 1929, "date": "1929", "dateVerified": true, "place": "Paris, France", "title": "'Autorité spirituelle et pouvoir temporel'", "text": "Guénon asserts the priority of the sacerdotal over the royal — the doctrinal fault line that would divide him from Evola.", "sources": ["wikipedia-guenon"] },
-    { "year": 1930, "date": "1930", "dateVerified": true, "place": "Cairo, Egypt", "title": "Guénon settles in Cairo", "text": "He writes thereafter as a Muslim while addressing a mainly French readership, until his death in 1951.", "sources": ["wikipedia-guenon"] },
-    { "year": 1932, "date": "1932", "dateVerified": true, "place": "Boston, USA", "title": "Coomaraswamy's metaphysical turn", "text": "The Boston Museum of Fine Arts curator shifts from art history to studies of tradition, myth and metaphysics — the essays of 1932–1947 make him the school's comparativist of 'traditional art', Vedanta and Platonism.", "sources": ["wikipedia-coomaraswamy", "lipsey-papers", "sutrajournal-coomaraswamy-true-art"] },
-    { "year": 1934, "date": "1934", "dateVerified": true, "place": "Milan, Italy", "title": "Evola's 'Revolt Against the Modern World'", "text": "Julius Evola's political-heroic adaptation of Traditionalism subordinates the priestly to the regal — against Guénon's 1929 position; Guénon's review rejected key theses while granting the work's interest.", "sources": ["wikipedia-evola", "gornahoor-letters"] },
-    { "year": 1935, "date": "1935", "dateVerified": true, "title": "Schuon's first book, 'Leitgedanken zur Urbesinnung'", "text": "Frithjof Schuon's first book — written in German, completed in 1932 and published in 1935, later translated into English as 'Primordial Meditation: Contemplating the Real' — precedes 'The Transcendent Unity of Religions' (1948) by thirteen years. The place of publication is not recorded here. The title does not appear in the French-language bibliography on the official Schuon site, which begins at 1948; the 1935 date rests on the encyclopedia entry.", "sources": ["wikipedia-schuon", "fschuon-bibliography"] },
-    { "year": 1936, "date": "1936-01", "dateVerified": true, "place": "Paris, France", "title": "'Études Traditionnelles' is born", "text": "Le Voile d'Isis (founded 1889) is renamed Études Traditionnelles, reflecting Guénon's dominance of the review — the school's house journal until 1992, with a wartime gap 1940–45.", "sources": ["frwiki-etudes", "iapsop-etudes"] },
-    { "year": 1939, "date": "1939", "dateVerified": true, "place": "London, England", "title": "'Peaks and Lamas'", "text": "Marco Pallis's best-selling mountaineering-and-Buddhism book carries a Traditionalist reading of Tibet to a wide audience.", "sources": ["wikipedia-pallis"] },
-    { "year": 1940, "date": "1940-05", "dateVerified": true, "place": "England", "title": "'Look to the Land' coins 'organic farming'", "text": "Lord Northbourne — later a Traditionalist author and translator of Guénon — introduces the term 'organic farming', framing agriculture as a clash of worldviews; the school's most unexpected export.", "sources": ["paull-northbourne", "sedgwick-blog-northbourne"] },
-    { "year": 1945, "date": "1945", "dateVerified": true, "place": "Paris, France", "title": "'The Reign of Quantity'", "text": "Guénon's summa on modernity as the reign of quantity is published in the Liberation moment.", "sources": ["wikipedia-guenon"] },
-    { "year": 1945, "date": "1945", "dateVerified": true, "place": "New York, USA", "title": "Huxley's other 'Perennial Philosophy'", "text": "Aldous Huxley's bestselling anthology (Harper & Brothers, New York, 1945; Chatto & Windus, London, 1946) popularizes the phrase in a universalist-mystical sense — indifferent to orthodoxy and initiation — that the Guénonians rejected as syncretism. Same words, different lineage.", "sources": ["wikipedia-huxley-pp", "wikipedia-perennial-philosophy"] },
-    { "year": 1947, "date": "1947-09-09", "dateVerified": true, "place": "Needham, Massachusetts, USA", "title": "Death of Ananda Coomaraswamy", "sources": ["wikipedia-coomaraswamy"] },
-    { "year": 1948, "date": "1948", "dateVerified": true, "place": "Paris, France", "title": "'The Transcendent Unity of Religions'", "text": "Schuon's classic statement of the transcendent unity of religions (French 'De l'unité transcendante des religions', 1948; English translation by Peter Townsend, Faber and Faber, 1953 — not 1957); T. S. Eliot: 'I have met with no more impressive work in the comparative study of Oriental and Occidental religion.'", "sources": ["wikipedia-schuon"] },
-    { "year": 1951, "date": "1951-01-07", "dateVerified": true, "place": "Cairo, Egypt", "title": "Death of René Guénon", "sources": ["wikipedia-guenon"] },
-    { "year": 1951, "date": "1951-11-20", "dateVerified": true, "place": "Rome, Italy", "title": "Evola tried and acquitted", "text": "Arrested as alleged ideologue of the neofascist FAR, Evola declares himself 'superfascista' while denying party fascism, and is acquitted — the trial that fixes his postwar political persona.", "sources": ["wikipedia-evola"] },
-    { "year": 1958, "date": "1958", "dateVerified": true, "place": "Paris / Lausanne", "title": "'Sacred Art in East and West'", "text": "Titus Burckhardt's canonical Traditionalist theory of sacred art across five traditions (English translation by Lord Northbourne).", "sources": ["wikipedia-burckhardt"] },
-    { "year": 1958, "date": "1958", "dateVerified": true, "place": "United States", "title": "'The Religions of Man'", "text": "Huston Smith's textbook (later 'The World's Religions') dominates American comparative-religion teaching; his openly perennialist 'Forgotten Truth' (1976) follows under Schuon's influence.", "sources": ["wikipedia-smith", "academia-smith"] },
-    { "year": 1961, "date": "1961", "dateVerified": true, "place": "Paris, France", "title": "'Understanding Islam'", "text": "Schuon's most popular book (French 'Comprendre l'Islam', Gallimard, 1961; English 1963) becomes a key channel of perennialism into Islamic studies. The 1961 first edition is confirmed by the official Schuon bibliography and Gallimard.", "sources": ["fschuon-bibliography", "wikipedia-schuon"] },
-    { "year": 1961, "date": "1953/1961", "dateVerified": true, "place": "Rome, Italy", "title": "Evola's postwar canon", "text": "'Men Among the Ruins' (1953) and 'Ride the Tiger' (1961) join 'Revolt' as the canon of the postwar Italian radical right, of which scholarship describes Evola as chief ideologue.", "sources": ["wikipedia-evola", "cambridge-evola"] },
-    { "year": 1975, "date": "1975", "dateVerified": true, "place": "London / Paris", "title": "'Logic and Transcendence'", "text": "Schuon's fullest engagement with modern philosophy (French 'Logique et transcendance', Les Éditions Traditionnelles, 1970; English 1975). The 1970 French first edition is confirmed by the official Schuon bibliography.", "sources": ["fschuon-bibliography", "wikipedia-schuon"] },
-    { "year": 1980, "date": "1980", "dateVerified": true, "place": "London, England", "title": "'Temenos' launches", "text": "Kathleen Raine, Keith Critchlow, Brian Keeble and Philip Sherrard found the review devoted to 'the arts of the imagination' — seed of the Temenos Academy (1990), of which the Prince of Wales (now King Charles III) has been patron since its founding.", "sources": ["wikipedia-temenos", "temenos-history"] },
-    { "year": 1981, "date": "1981", "dateVerified": true, "place": "Edinburgh, Scotland", "title": "Nasr's Gifford Lectures", "text": "Seyyed Hossein Nasr delivers the Gifford Lectures, published as 'Knowledge and the Sacred' — per the Gifford records, the first Muslim and first non-Westerner to do so: the school's academic high-water mark.", "sources": ["gifford-nasr", "gifford-archives-nasr"] },
-    { "year": 1983, "date": "1983", "dateVerified": true, "place": "London, England", "title": "Lings's 'Muhammad'", "text": "Martin Lings's prize-winning biography becomes the school's biggest crossover into mainstream Islamic readership.", "sources": ["wikipedia-lings-muhammad"] },
-    { "year": 1992, "date": "1992-12", "dateVerified": true, "place": "Paris, France", "title": "'Études Traditionnelles' ends", "text": "The school's flagship journal closes with the October–December 1992 issue, after a 1936–1992 run.", "sources": ["frwiki-etudes"] },
-    { "year": 2001, "date": "2001-01-28/2001-02-03", "dateVerified": true, "place": "Brazil", "title": "The Carvalho-Fedeli exchange on Guénon", "text": "In letters of 28 and 30 January 2001, published by the traditionalist-Catholic Associação Cultural Montfort, Olavo de Carvalho defends René Guénon against Orlando Fedeli's charge of gnosticism: the spiritual elevation Guénon shows 'in numerous passages of his work', he writes, is enough to inhibit any disrespectful contestation, and Guénon's relation to Christianity cannot be reduced to that of an infiltrator in Catholic circles. He also faults Fedeli's source, Marie-France James's 'Ésotérisme et christianisme' (1981), as having 'investigated so remotely, through indirect testimony', and says James treats Martin Lings and Lings's own pen-name Sidi Abu Bakr as two people. Fedeli's reply of 3 February 2001 presses him on whether he is himself Catholic. Both positions are the correspondents' own, not this site's. The exchange dates the Brazilian reception: Carvalho was still publicly defending Guénon in 2001, fifteen years before the 2016 'As garras da Esfinge' reversed that position — when he left Schuon's order is an order-side question and belongs to the sibling cronologia/tariqa project.", "sources": ["montfort-carta-guenon-olavo", "montfort-gnose-guenon-olavo"] },
-    { "year": 2004, "date": "2004", "dateVerified": true, "place": "Oxford, England", "title": "'Against the Modern World'", "text": "Mark Sedgwick publishes the first full history of the movement — the academic backbone of this site.", "sources": ["sedgwick-2004"] },
-    { "year": 2009, "date": "2009", "dateVerified": true, "place": "Moscow, Russia", "title": "Dugin's 'Fourth Political Theory'", "text": "Aleksandr Dugin's post-liberal ideology (English translation 2012) draws explicitly on Traditionalism, making him the key conduit of its vocabulary into Russian geopolitics — an Evolian-line reception, attributed as such.", "sources": ["wikipedia-dugin-4pt"] },
-    { "year": 2010, "date": "2010", "dateVerified": true, "place": "London, England", "title": "'Harmony' and the royal reception", "text": "The Prince of Wales publishes 'Harmony: A New Way of Looking at Our World'; commentators — Sedgwick, Commonweal — read Traditionalist and Nasrian influence in it, though the book cites no Traditionalist sources. Reported strictly as attributed reception, never as affiliation.", "sources": ["wikipedia-harmony", "commonweal-charles"] },
-    { "year": 2012, "date": "2012", "dateVerified": true, "place": "Amsterdam / Cambridge", "title": "Hanegraaff's 'Esotericism and the Academy'", "text": "Wouter Hanegraaff's study treats Traditionalism critically as 'religionism' within the academic history of Western esotericism.", "sources": ["hanegraaff-2012"] },
-    { "year": 2016, "date": "2016-07/2016-10", "dateVerified": true, "place": "Brazil", "title": "'As garras da Esfinge' — the 'islamization' reading", "text": "Olavo de Carvalho publishes in Verbum (Ano I, nos. 1 e 2, Julho-Outubro de 2016) the programmatic statement of the reading that casts Guénon as an agent of Islam in the West: on his argument the labyrinth of impossibilities has one exit — 'o catolicismo só pode ser devolvido à sua integridade originária se consentir em submeter-se ao guiamento de mestres islâmicos. Ou isso, ou a ocupação do Ocidente pelos muçulmanos. Tertium non datur.' The same article grants that Guénon and his continuators made 'várias contribuições valiosas até mesmo à compreensão do catolicismo pelos próprios intelectuais católicos, especialmente no que concerne ao simbolismo e à arte sacra'. It reads the 1925-1927 Regnabit articles as proving only that Guénon still hoped to steer the Catholic Church 'por meio da persuasão gentil e da infiltração', and his 1930 departure for Egypt as the moment that hope is abandoned. The reading is Carvalho's and is contested; it is recorded here as reception, never as the site's voice. One of its supporting details is wrong: the article has Guénon marrying a daughter of Sheikh Elish El-Kebir, whereas the standard account has him marry Fatima Ibrahim, daughter of Sheikh Mohammad Ibrahim, in 1934, and never meet Elish El-Kebir, who had died.", "sources": ["olavo-garras-esfinge", "wikipedia-guenon"] },
-    { "year": 2017, "date": "2017-02-10", "dateVerified": true, "place": "Washington / New York, USA", "title": "The Bannon–Evola episode", "text": "After Steve Bannon's 2014 Vatican-conference remarks referencing Dugin and 'what's called the traditionalist movement', the New York Times' 'Steve Bannon Cited Italian Thinker Who Inspired Fascists' makes Evola and Traditionalism briefly front-page news, amid the alt-right republication of Evola.", "sources": ["oup-bannon", "sedgwick-blog-bannon-evola"] },
-    { "year": 2020, "date": "2020", "dateVerified": true, "place": "New York, USA", "title": "'War for Eternity'", "text": "Benjamin Teitelbaum's ethnographic account links Bannon, Dugin and Olavo de Carvalho through Traditionalism, based on extensive Bannon interviews; reviewers dispute how coherent or consequential the 'network' really is — the book's stronger claims are the author's, not consensus.", "sources": ["foreignaffairs-teitelbaum", "colorado-teitelbaum"] },
-    { "year": 2022, "date": "2022", "dateVerified": true, "place": "Brazil", "title": "The 'Box Essencial Guénon'", "text": "A boxed set of eight Guénon titles newly translated from the French appears in Brazil. Felipe Souza, writing on Mark Sedgwick's Traditionalists blog on 23 October 2023, records the 'Essential René Guénon Box' as released in 2022 by Editora Bismillah 'in collaboration with Editorial Estrela da Manhã'; the ICLS launch livestream 'Por que ler René Guénon?' presents Editorial Estrela da Manhã as the publisher, with Marcelo Cipolla as the project's editor and Marcos Monteiro as translator. The two accounts of the imprint are recorded, not reconciled. Souza adds that the quality of the rival IRGET translations 'is a subject of controversy'. The launch stream's own date of 11 March 2022 is uploader metadata (to verify).", "sources": ["souza-traditionalism-brazil", "icls-box-guenon-launch"] },
-    { "year": 2023, "date": "2023", "dateVerified": true, "place": "Oxford, England", "title": "Sedgwick's 'Traditionalism'", "text": "The analytic synthesis of the philosophy of Guénon, Evola and Schuon and its applications — the school historicized by the scholar who mapped it.", "sources": ["sedgwick-2023"] }
+    {
+      "year": 1540,
+      "date": "1540",
+      "dateVerified": true,
+      "place": "Italy",
+      "title": "Steuco coins 'philosophia perennis'",
+      "text": "Agostino Steuco's 'De perenni philosophia' introduces the term — for a continuity thesis inside Christian Platonism, centuries before and apart from the Guénonian school.",
+      "sources": [
+        "lexicon-steuco",
+        "wikipedia-perennial-philosophy"
+      ]
+    },
+    {
+      "year": 1921,
+      "date": "1921",
+      "dateVerified": true,
+      "place": "Paris, France",
+      "title": "Guénon's first books",
+      "text": "'Introduction générale à l'étude des doctrines hindoues' frames 'Tradition' against modernity; 'Le Théosophisme' separates the school-to-be from occultism and Theosophy.",
+      "sources": [
+        "wikipedia-guenon"
+      ]
+    },
+    {
+      "year": 1923,
+      "date": "1923",
+      "dateVerified": true,
+      "place": "Paris, France",
+      "title": "'L'Erreur spirite'",
+      "text": "Guénon's companion polemic against Spiritism completes the boundary-drawing against the occult milieu.",
+      "sources": [
+        "wikipedia-guenon",
+        "bertagni-regnabit"
+      ]
+    },
+    {
+      "year": 1924,
+      "date": "1924",
+      "dateVerified": true,
+      "place": "Paris, France",
+      "title": "'Orient et Occident'",
+      "text": "Guénon's program for a Western elite reoriented by Eastern metaphysics — and his break with the Catholic intellectuals among whom he had first written.",
+      "sources": [
+        "wikipedia-guenon"
+      ]
+    },
+    {
+      "year": 1925,
+      "date": "1925",
+      "dateVerified": true,
+      "place": "Paris, France",
+      "title": "'L'Homme et son devenir selon le Vêdânta'",
+      "text": "Guénon's central metaphysical exposition, published in 1925 by Bossard (Paris) — confirmed against the French Wikipedia bibliographic record and Zoccatelli's CESNUR study, which both date the first edition to 1925; the '1927' of a derived source was an error.",
+      "sources": [
+        "cesnur-zoccatelli",
+        "frwiki-guenon-homme",
+        "wikipedia-guenon"
+      ]
+    },
+    {
+      "year": 1925,
+      "date": "1925/1927",
+      "dateVerified": true,
+      "place": "Paris, France",
+      "title": "The Regnabit episode",
+      "text": "Regnabit — revue universelle du Sacré-Cœur, founded in June 1921 by Fr. Félix Anizan OMI, carries nineteen Guénon articles between August/September 1925 and May 1927, the symbolist scholar Louis Charbonneau-Lassay having recruited him — the high point of his attempted rapprochement with Catholic milieux. Guénon's 12-page letter of 8 June 1928 to Charbonneau-Lassay closes the episode; Guénon blamed 'the hostility of some neo-scholastic milieus' (his framing), while Zoccatelli's study documents intra-congregational controversies around Anizan's Sacred Heart theology from 1923.",
+      "sources": [
+        "cesnur-zoccatelli",
+        "cesnur-guenon",
+        "bertagni-regnabit"
+      ]
+    },
+    {
+      "year": 1927,
+      "date": "1927",
+      "dateVerified": true,
+      "place": "Paris, France",
+      "title": "'La Crise du monde moderne'",
+      "text": "The school's most-read statement of civilizational critique — the template for all its later 'crisis' literature.",
+      "sources": [
+        "wikipedia-guenon"
+      ]
+    },
+    {
+      "year": 1929,
+      "date": "1929",
+      "dateVerified": true,
+      "place": "Paris, France",
+      "title": "'Autorité spirituelle et pouvoir temporel'",
+      "text": "Guénon asserts the priority of the sacerdotal over the royal — the doctrinal fault line that would divide him from Evola.",
+      "sources": [
+        "wikipedia-guenon"
+      ]
+    },
+    {
+      "year": 1930,
+      "date": "1930",
+      "dateVerified": true,
+      "place": "Cairo, Egypt",
+      "title": "Guénon settles in Cairo",
+      "text": "He writes thereafter as a Muslim while addressing a mainly French readership, until his death in 1951.",
+      "sources": [
+        "wikipedia-guenon"
+      ]
+    },
+    {
+      "year": 1932,
+      "date": "1932",
+      "dateVerified": true,
+      "place": "Boston, USA",
+      "title": "Coomaraswamy's metaphysical turn",
+      "text": "The Boston Museum of Fine Arts curator shifts from art history to studies of tradition, myth and metaphysics — the essays of 1932–1947 make him the school's comparativist of 'traditional art', Vedanta and Platonism.",
+      "sources": [
+        "wikipedia-coomaraswamy",
+        "lipsey-papers",
+        "sutrajournal-coomaraswamy-true-art"
+      ]
+    },
+    {
+      "year": 1934,
+      "date": "1934",
+      "dateVerified": true,
+      "place": "Milan, Italy",
+      "title": "Evola's 'Revolt Against the Modern World'",
+      "text": "Julius Evola's political-heroic adaptation of Traditionalism subordinates the priestly to the regal — against Guénon's 1929 position; Guénon's review rejected key theses while granting the work's interest.",
+      "sources": [
+        "wikipedia-evola",
+        "gornahoor-letters"
+      ]
+    },
+    {
+      "year": 1935,
+      "date": "1935",
+      "dateVerified": true,
+      "title": "Schuon's first book, 'Leitgedanken zur Urbesinnung'",
+      "text": "Frithjof Schuon's first book — written in German, completed in 1932 and published in 1935, later translated into English as 'Primordial Meditation: Contemplating the Real' — precedes 'The Transcendent Unity of Religions' (1948) by thirteen years. The place of publication is not recorded here. The title does not appear in the French-language bibliography on the official Schuon site, which begins at 1948; the 1935 date rests on the encyclopedia entry.",
+      "sources": [
+        "wikipedia-schuon",
+        "fschuon-bibliography"
+      ]
+    },
+    {
+      "year": 1936,
+      "date": "1936-01",
+      "dateVerified": true,
+      "place": "Paris, France",
+      "title": "'Études Traditionnelles' is born",
+      "text": "Le Voile d'Isis (founded 1889) is renamed Études Traditionnelles, reflecting Guénon's dominance of the review — the school's house journal until 1992, with a wartime gap 1940–45.",
+      "sources": [
+        "frwiki-etudes",
+        "iapsop-etudes"
+      ]
+    },
+    {
+      "year": 1939,
+      "date": "1939",
+      "dateVerified": true,
+      "place": "London, England",
+      "title": "'Peaks and Lamas'",
+      "text": "Marco Pallis's best-selling mountaineering-and-Buddhism book carries a Traditionalist reading of Tibet to a wide audience.",
+      "sources": [
+        "wikipedia-pallis"
+      ]
+    },
+    {
+      "year": 1940,
+      "date": "1940-05",
+      "dateVerified": true,
+      "place": "England",
+      "title": "'Look to the Land' coins 'organic farming'",
+      "text": "Lord Northbourne — later a Traditionalist author and translator of Guénon — introduces the term 'organic farming', framing agriculture as a clash of worldviews; the school's most unexpected export.",
+      "sources": [
+        "paull-northbourne",
+        "sedgwick-blog-northbourne"
+      ]
+    },
+    {
+      "year": 1945,
+      "date": "1945",
+      "dateVerified": true,
+      "place": "Paris, France",
+      "title": "'The Reign of Quantity'",
+      "text": "Guénon's summa on modernity as the reign of quantity is published in the Liberation moment.",
+      "sources": [
+        "wikipedia-guenon"
+      ]
+    },
+    {
+      "year": 1945,
+      "date": "1945",
+      "dateVerified": true,
+      "place": "New York, USA",
+      "title": "Huxley's other 'Perennial Philosophy'",
+      "text": "Aldous Huxley's bestselling anthology (Harper & Brothers, New York, 1945; Chatto & Windus, London, 1946) popularizes the phrase in a universalist-mystical sense — indifferent to orthodoxy and initiation — that the Guénonians rejected as syncretism. Same words, different lineage.",
+      "sources": [
+        "wikipedia-huxley-pp",
+        "wikipedia-perennial-philosophy"
+      ]
+    },
+    {
+      "year": 1947,
+      "date": "1947-09-09",
+      "dateVerified": true,
+      "place": "Needham, Massachusetts, USA",
+      "title": "Death of Ananda Coomaraswamy",
+      "sources": [
+        "wikipedia-coomaraswamy"
+      ]
+    },
+    {
+      "year": 1948,
+      "date": "1948",
+      "dateVerified": true,
+      "place": "Paris, France",
+      "title": "'The Transcendent Unity of Religions'",
+      "text": "Schuon's classic statement of the transcendent unity of religions (French 'De l'unité transcendante des religions', 1948; English translation by Peter Townsend, Faber and Faber, 1953 — not 1957); T. S. Eliot: 'I have met with no more impressive work in the comparative study of Oriental and Occidental religion.'",
+      "sources": [
+        "wikipedia-schuon"
+      ]
+    },
+    {
+      "year": 1951,
+      "date": "1951-01-07",
+      "dateVerified": true,
+      "place": "Cairo, Egypt",
+      "title": "Death of René Guénon",
+      "sources": [
+        "wikipedia-guenon"
+      ]
+    },
+    {
+      "year": 1951,
+      "date": "1951-11-20",
+      "dateVerified": true,
+      "place": "Rome, Italy",
+      "title": "Evola tried and acquitted",
+      "text": "Arrested as alleged ideologue of the neofascist FAR, Evola declares himself 'superfascista' while denying party fascism, and is acquitted — the trial that fixes his postwar political persona.",
+      "sources": [
+        "wikipedia-evola"
+      ]
+    },
+    {
+      "year": 1958,
+      "date": "1958",
+      "dateVerified": true,
+      "place": "Paris / Lausanne",
+      "title": "'Sacred Art in East and West'",
+      "text": "Titus Burckhardt's canonical Traditionalist theory of sacred art across five traditions (English translation by Lord Northbourne).",
+      "sources": [
+        "wikipedia-burckhardt"
+      ]
+    },
+    {
+      "year": 1958,
+      "date": "1958",
+      "dateVerified": true,
+      "place": "United States",
+      "title": "'The Religions of Man'",
+      "text": "Huston Smith's textbook (later 'The World's Religions') dominates American comparative-religion teaching; his openly perennialist 'Forgotten Truth' (1976) follows under Schuon's influence.",
+      "sources": [
+        "wikipedia-smith",
+        "academia-smith"
+      ]
+    },
+    {
+      "year": 1961,
+      "date": "1961",
+      "dateVerified": true,
+      "place": "Paris, France",
+      "title": "'Understanding Islam'",
+      "text": "Schuon's most popular book (French 'Comprendre l'Islam', Gallimard, 1961; English 1963) becomes a key channel of perennialism into Islamic studies. The 1961 first edition is confirmed by the official Schuon bibliography and Gallimard.",
+      "sources": [
+        "fschuon-bibliography",
+        "wikipedia-schuon"
+      ]
+    },
+    {
+      "year": 1961,
+      "date": "1953/1961",
+      "dateVerified": true,
+      "place": "Rome, Italy",
+      "title": "Evola's postwar canon",
+      "text": "'Men Among the Ruins' (1953) and 'Ride the Tiger' (1961) join 'Revolt' as the canon of the postwar Italian radical right, of which scholarship describes Evola as chief ideologue.",
+      "sources": [
+        "wikipedia-evola",
+        "cambridge-evola"
+      ]
+    },
+    {
+      "year": 1975,
+      "date": "1975",
+      "dateVerified": true,
+      "place": "London / Paris",
+      "title": "'Logic and Transcendence'",
+      "text": "Schuon's fullest engagement with modern philosophy (French 'Logique et transcendance', Les Éditions Traditionnelles, 1970; English 1975). The 1970 French first edition is confirmed by the official Schuon bibliography.",
+      "sources": [
+        "fschuon-bibliography",
+        "wikipedia-schuon"
+      ]
+    },
+    {
+      "year": 1980,
+      "date": "1980",
+      "dateVerified": true,
+      "place": "London, England",
+      "title": "'Temenos' launches",
+      "text": "Kathleen Raine, Keith Critchlow, Brian Keeble and Philip Sherrard found the review devoted to 'the arts of the imagination' — seed of the Temenos Academy (1990), of which the Prince of Wales (now King Charles III) has been patron since its founding.",
+      "sources": [
+        "wikipedia-temenos",
+        "temenos-history"
+      ]
+    },
+    {
+      "year": 1981,
+      "date": "1981",
+      "dateVerified": true,
+      "place": "Edinburgh, Scotland",
+      "title": "Nasr's Gifford Lectures",
+      "text": "Seyyed Hossein Nasr delivers the Gifford Lectures, published as 'Knowledge and the Sacred' — per the Gifford records, the first Muslim and first non-Westerner to do so: the school's academic high-water mark.",
+      "sources": [
+        "gifford-nasr",
+        "gifford-archives-nasr"
+      ]
+    },
+    {
+      "year": 1983,
+      "date": "1983",
+      "dateVerified": true,
+      "place": "London, England",
+      "title": "Lings's 'Muhammad'",
+      "text": "Martin Lings's prize-winning biography becomes the school's biggest crossover into mainstream Islamic readership.",
+      "sources": [
+        "wikipedia-lings-muhammad"
+      ]
+    },
+    {
+      "year": 1992,
+      "date": "1992-12",
+      "dateVerified": true,
+      "place": "Paris, France",
+      "title": "'Études Traditionnelles' ends",
+      "text": "The school's flagship journal closes with the October–December 1992 issue, after a 1936–1992 run.",
+      "sources": [
+        "frwiki-etudes"
+      ]
+    },
+    {
+      "year": 2001,
+      "date": "2001-01-28/2001-02-03",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "The Carvalho-Fedeli exchange on Guénon",
+      "text": "In letters of 28 and 30 January 2001, published by the traditionalist-Catholic Associação Cultural Montfort, Olavo de Carvalho defends René Guénon against Orlando Fedeli's charge of gnosticism: the spiritual elevation Guénon shows 'in numerous passages of his work', he writes, is enough to inhibit any disrespectful contestation, and Guénon's relation to Christianity cannot be reduced to that of an infiltrator in Catholic circles. He also faults Fedeli's source, Marie-France James's 'Ésotérisme et christianisme' (1981), as having 'investigated so remotely, through indirect testimony', and says James treats Martin Lings and Lings's own pen-name Sidi Abu Bakr as two people. Fedeli's reply of 3 February 2001 presses him on whether he is himself Catholic. Both positions are the correspondents' own, not this site's. The exchange dates the Brazilian reception: Carvalho was still publicly defending Guénon in 2001, fifteen years before the 2016 'As garras da Esfinge' reversed that position — when he left Schuon's order is an order-side question and belongs to the sibling cronologia/tariqa project.",
+      "sources": [
+        "montfort-carta-guenon-olavo",
+        "montfort-gnose-guenon-olavo"
+      ]
+    },
+    {
+      "year": 2004,
+      "date": "2004",
+      "dateVerified": true,
+      "place": "Oxford, England",
+      "title": "'Against the Modern World'",
+      "text": "Mark Sedgwick publishes the first full history of the movement — the academic backbone of this site.",
+      "sources": [
+        "sedgwick-2004"
+      ]
+    },
+    {
+      "year": 2009,
+      "date": "2009",
+      "dateVerified": true,
+      "place": "Moscow, Russia",
+      "title": "Dugin's 'Fourth Political Theory'",
+      "text": "Aleksandr Dugin's post-liberal ideology (English translation 2012) draws explicitly on Traditionalism, making him the key conduit of its vocabulary into Russian geopolitics — an Evolian-line reception, attributed as such.",
+      "sources": [
+        "wikipedia-dugin-4pt"
+      ]
+    },
+    {
+      "year": 2010,
+      "date": "2010",
+      "dateVerified": true,
+      "place": "London, England",
+      "title": "'Harmony' and the royal reception",
+      "text": "The Prince of Wales publishes 'Harmony: A New Way of Looking at Our World'; commentators — Sedgwick, Commonweal — read Traditionalist and Nasrian influence in it, though the book cites no Traditionalist sources. Reported strictly as attributed reception, never as affiliation.",
+      "sources": [
+        "wikipedia-harmony",
+        "commonweal-charles"
+      ]
+    },
+    {
+      "year": 2012,
+      "date": "2012",
+      "dateVerified": true,
+      "place": "Amsterdam / Cambridge",
+      "title": "Hanegraaff's 'Esotericism and the Academy'",
+      "text": "Wouter Hanegraaff's study treats Traditionalism critically as 'religionism' within the academic history of Western esotericism.",
+      "sources": [
+        "hanegraaff-2012"
+      ]
+    },
+    {
+      "year": 2016,
+      "date": "2016-07/2016-10",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "'As garras da Esfinge' — the 'islamization' reading",
+      "text": "Olavo de Carvalho publishes in Verbum (Ano I, nos. 1 e 2, Julho-Outubro de 2016) the programmatic statement of the reading that casts Guénon as an agent of Islam in the West: on his argument the labyrinth of impossibilities has one exit — 'o catolicismo só pode ser devolvido à sua integridade originária se consentir em submeter-se ao guiamento de mestres islâmicos. Ou isso, ou a ocupação do Ocidente pelos muçulmanos. Tertium non datur.' The same article grants that Guénon and his continuators made 'várias contribuições valiosas até mesmo à compreensão do catolicismo pelos próprios intelectuais católicos, especialmente no que concerne ao simbolismo e à arte sacra'. It reads the 1925-1927 Regnabit articles as proving only that Guénon still hoped to steer the Catholic Church 'por meio da persuasão gentil e da infiltração', and his 1930 departure for Egypt as the moment that hope is abandoned. The reading is Carvalho's and is contested; it is recorded here as reception, never as the site's voice. One of its supporting details is wrong: the article has Guénon marrying a daughter of Sheikh Elish El-Kebir, whereas the standard account has him marry Fatima Ibrahim, daughter of Sheikh Mohammad Ibrahim, in 1934, and never meet Elish El-Kebir, who had died.",
+      "sources": [
+        "olavo-garras-esfinge",
+        "wikipedia-guenon"
+      ]
+    },
+    {
+      "year": 2017,
+      "date": "2017-02-10",
+      "dateVerified": true,
+      "place": "Washington / New York, USA",
+      "title": "The Bannon–Evola episode",
+      "text": "After Steve Bannon's 2014 Vatican-conference remarks referencing Dugin and 'what's called the traditionalist movement', the New York Times' 'Steve Bannon Cited Italian Thinker Who Inspired Fascists' makes Evola and Traditionalism briefly front-page news, amid the alt-right republication of Evola.",
+      "sources": [
+        "oup-bannon",
+        "sedgwick-blog-bannon-evola"
+      ]
+    },
+    {
+      "year": 2020,
+      "date": "2020",
+      "dateVerified": true,
+      "place": "New York, USA",
+      "title": "'War for Eternity'",
+      "text": "Benjamin Teitelbaum's ethnographic account links Bannon, Dugin and Olavo de Carvalho through Traditionalism, based on extensive Bannon interviews; reviewers dispute how coherent or consequential the 'network' really is — the book's stronger claims are the author's, not consensus.",
+      "sources": [
+        "foreignaffairs-teitelbaum",
+        "colorado-teitelbaum"
+      ]
+    },
+    {
+      "year": 2022,
+      "date": "2022",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "The 'Box Essencial Guénon'",
+      "text": "A boxed set of eight Guénon titles newly translated from the French appears in Brazil. Felipe Souza, writing on Mark Sedgwick's Traditionalists blog on 23 October 2023, records the 'Essential René Guénon Box' as released in 2022 by Editora Bismillah 'in collaboration with Editorial Estrela da Manhã'; the ICLS launch livestream 'Por que ler René Guénon?' presents Editorial Estrela da Manhã as the publisher, with Marcelo Cipolla as the project's editor and Marcos Monteiro as translator. The two accounts of the imprint are recorded, not reconciled. Souza adds that the quality of the rival IRGET translations 'is a subject of controversy'. The launch stream's own date of 11 March 2022 is uploader metadata (to verify).",
+      "sources": [
+        "souza-traditionalism-brazil",
+        "icls-box-guenon-launch"
+      ]
+    },
+    {
+      "year": 2023,
+      "date": "2023",
+      "dateVerified": true,
+      "place": "Oxford, England",
+      "title": "Sedgwick's 'Traditionalism'",
+      "text": "The analytic synthesis of the philosophy of Guénon, Evola and Schuon and its applications — the school historicized by the scholar who mapped it.",
+      "sources": [
+        "sedgwick-2023"
+      ]
+    }
   ],
   "figures": [
-    { "name": "René Guénon", "role": "Founder-metaphysician of the school; his 1921–1951 corpus defines 'Tradition', the critique of modernity and the primacy of metaphysics; Paris, then Cairo from 1930.", "dates": "1886–1951", "country": "France / Egypt", "sources": ["wikipedia-guenon"] },
-    { "name": "Ananda K. Coomaraswamy", "role": "Ceylonese-British art historian and Boston MFA curator; after his 1932 metaphysical turn, the school's comparativist of traditional art, Vedanta and Platonism.", "dates": "1877–1947", "country": "Ceylon / UK / USA", "sources": ["wikipedia-coomaraswamy"] },
-    { "name": "Frithjof Schuon (as author)", "role": "The school's most systematic expositor: 'The Transcendent Unity of Religions' (1948) and some twenty further books on the religio perennis. His order, the Maryamiyya, is the sibling tariqa project's subject.", "dates": "1907–1998", "country": "Switzerland / USA", "sources": ["wikipedia-schuon"] },
-    { "name": "Julius Evola", "role": "The political adaptation: warrior-regal Traditionalism ('Revolt Against the Modern World', 1934), against Guénon's priority of the sacerdotal; never a fascist party member, self-styled 'superfascista' at his 1951 trial (acquitted); chief ideologue of the postwar Italian radical right per scholarship, revived by the 2010s alt-right.", "dates": "1898–1974", "country": "Italy", "sources": ["wikipedia-evola", "cambridge-evola"] },
-    { "name": "Seyyed Hossein Nasr", "role": "The academic institutionalizer: Gifford Lectures 1981 ('Knowledge and the Sacred') — first Muslim Gifford lecturer per the Gifford records — 'sacred science' and Islamic environmentalism. He left Temple University in 1984 for George Washington University as University Professor of Islamic Studies and, per his official biography, that same year founded the Foundation for Traditional Studies, 'promoting traditional wisdom and publishing the journal Sophia'. His standing inside Schuon's order is the tariqa project's subject, not this one's.", "dates": "b. 1933", "country": "Iran / USA", "sources": ["wikipedia-nasr", "gifford-nasr", "nasr-official-bio"] },
-    { "name": "Martin Lings (as author)", "role": "Keeper of Oriental manuscripts at the British Museum/Library; the prize-winning 'Muhammad' (1983) and Shakespeare-as-sacred-art studies.", "dates": "1909–2005", "country": "England", "sources": ["wikipedia-lings-muhammad"] },
-    { "name": "Titus Burckhardt", "role": "Theorist of sacred art ('Sacred Art in East and West', 1958; 'Art of Islam', 1976); Fez and Chartres monographs; UNESCO consultant on Fez.", "dates": "1908–1984", "country": "Switzerland", "sources": ["wikipedia-burckhardt"] },
-    { "name": "Huston Smith", "role": "American comparative religion's public face ('The Religions of Man', 1958); openly perennialist from 'Forgotten Truth' (1976) under Schuon's influence — the bridge into US classrooms.", "dates": "1919–2016", "country": "USA", "sources": ["wikipedia-smith", "academia-smith"] },
-    { "name": "Marco Pallis", "role": "Mountaineer-author ('Peaks and Lamas', 1939); Tibetan Buddhism's Traditionalist interpreter and Guénon translator.", "dates": "1895–1989", "country": "England", "sources": ["wikipedia-pallis"] },
-    { "name": "Lord Northbourne (Walter James)", "role": "Agronomist peer who coined 'organic farming' ('Look to the Land', 1940) and later translated Guénon and Burckhardt — the school's link to the organic movement.", "dates": "1896–1982", "country": "England", "sources": ["paull-northbourne", "sedgwick-blog-northbourne"] },
-    { "name": "Jean-Louis Michon", "role": "French scholar-translator of Moroccan Sufism and Islamic art; UNESCO cultural-heritage work in Morocco; perennialist author.", "dates": "1924–2013", "country": "France / Switzerland", "sources": ["wikipedia-traditionalism"] },
-    { "name": "Aldous Huxley", "role": "Contrast figure: his 'The Perennial Philosophy' (1945) popularized the phrase in a universalist-mystical sense unconnected to — and rejected by — the Guénonian school.", "dates": "1894–1963", "country": "England / USA", "sources": ["wikipedia-huxley-pp"] },
-    { "name": "Mircea Eliade", "role": "The contested case: he read Guénon and Evola in interwar Romania; Sedgwick treats him as a concealed 'soft' Traditionalist, while Davide Marino (Aries, 2022) and the earlier Italian reassessment call the affinity a myth — the site records the debate, not a verdict.", "dates": "1907–1986", "country": "Romania / USA", "sources": ["academia-eliade", "sedgwick-blog-eliade", "scagno-confronto"] },
-    { "name": "Mark Sedgwick & Wouter Hanegraaff", "role": "The historians of the school: Sedgwick (Aarhus; 'Against the Modern World' 2004, 'Traditionalism' 2023, the Traditionalists blog) and Hanegraaff (Amsterdam; Traditionalism as 'religionism' within esotericism studies).", "dates": "b. 1960 / b. 1961", "country": "UK-Denmark / Netherlands", "sources": ["sedgwick-2004", "hanegraaff-2012"] }
+    {
+      "name": "René Guénon",
+      "role": "Founder-metaphysician of the school; his 1921–1951 corpus defines 'Tradition', the critique of modernity and the primacy of metaphysics; Paris, then Cairo from 1930.",
+      "dates": "1886–1951",
+      "country": "France / Egypt",
+      "sources": [
+        "wikipedia-guenon"
+      ]
+    },
+    {
+      "name": "Ananda K. Coomaraswamy",
+      "role": "Ceylonese-British art historian and Boston MFA curator; after his 1932 metaphysical turn, the school's comparativist of traditional art, Vedanta and Platonism.",
+      "dates": "1877–1947",
+      "country": "Ceylon / UK / USA",
+      "sources": [
+        "wikipedia-coomaraswamy"
+      ]
+    },
+    {
+      "name": "Frithjof Schuon (as author)",
+      "role": "The school's most systematic expositor: 'The Transcendent Unity of Religions' (1948) and some twenty further books on the religio perennis. His order, the Maryamiyya, is the sibling tariqa project's subject.",
+      "dates": "1907–1998",
+      "country": "Switzerland / USA",
+      "sources": [
+        "wikipedia-schuon"
+      ]
+    },
+    {
+      "name": "Julius Evola",
+      "role": "The political adaptation: warrior-regal Traditionalism ('Revolt Against the Modern World', 1934), against Guénon's priority of the sacerdotal; never a fascist party member, self-styled 'superfascista' at his 1951 trial (acquitted); chief ideologue of the postwar Italian radical right per scholarship, revived by the 2010s alt-right.",
+      "dates": "1898–1974",
+      "country": "Italy",
+      "sources": [
+        "wikipedia-evola",
+        "cambridge-evola"
+      ]
+    },
+    {
+      "name": "Seyyed Hossein Nasr",
+      "role": "The academic institutionalizer: Gifford Lectures 1981 ('Knowledge and the Sacred') — first Muslim Gifford lecturer per the Gifford records — 'sacred science' and Islamic environmentalism. He left Temple University in 1984 for George Washington University as University Professor of Islamic Studies and, per his official biography, that same year founded the Foundation for Traditional Studies, 'promoting traditional wisdom and publishing the journal Sophia'. His standing inside Schuon's order is the tariqa project's subject, not this one's.",
+      "dates": "b. 1933",
+      "country": "Iran / USA",
+      "sources": [
+        "wikipedia-nasr",
+        "gifford-nasr",
+        "nasr-official-bio"
+      ]
+    },
+    {
+      "name": "Martin Lings (as author)",
+      "role": "Keeper of Oriental manuscripts at the British Museum/Library; the prize-winning 'Muhammad' (1983) and Shakespeare-as-sacred-art studies.",
+      "dates": "1909–2005",
+      "country": "England",
+      "sources": [
+        "wikipedia-lings-muhammad"
+      ]
+    },
+    {
+      "name": "Titus Burckhardt",
+      "role": "Theorist of sacred art ('Sacred Art in East and West', 1958; 'Art of Islam', 1976); Fez and Chartres monographs; UNESCO consultant on Fez.",
+      "dates": "1908–1984",
+      "country": "Switzerland",
+      "sources": [
+        "wikipedia-burckhardt"
+      ]
+    },
+    {
+      "name": "Huston Smith",
+      "role": "American comparative religion's public face ('The Religions of Man', 1958); openly perennialist from 'Forgotten Truth' (1976) under Schuon's influence — the bridge into US classrooms.",
+      "dates": "1919–2016",
+      "country": "USA",
+      "sources": [
+        "wikipedia-smith",
+        "academia-smith"
+      ]
+    },
+    {
+      "name": "Marco Pallis",
+      "role": "Mountaineer-author ('Peaks and Lamas', 1939); Tibetan Buddhism's Traditionalist interpreter and Guénon translator.",
+      "dates": "1895–1989",
+      "country": "England",
+      "sources": [
+        "wikipedia-pallis"
+      ]
+    },
+    {
+      "name": "Lord Northbourne (Walter James)",
+      "role": "Agronomist peer who coined 'organic farming' ('Look to the Land', 1940) and later translated Guénon and Burckhardt — the school's link to the organic movement.",
+      "dates": "1896–1982",
+      "country": "England",
+      "sources": [
+        "paull-northbourne",
+        "sedgwick-blog-northbourne"
+      ]
+    },
+    {
+      "name": "Jean-Louis Michon",
+      "role": "French scholar-translator of Moroccan Sufism and Islamic art; UNESCO cultural-heritage work in Morocco; perennialist author.",
+      "dates": "1924–2013",
+      "country": "France / Switzerland",
+      "sources": [
+        "wikipedia-traditionalism"
+      ]
+    },
+    {
+      "name": "Aldous Huxley",
+      "role": "Contrast figure: his 'The Perennial Philosophy' (1945) popularized the phrase in a universalist-mystical sense unconnected to — and rejected by — the Guénonian school.",
+      "dates": "1894–1963",
+      "country": "England / USA",
+      "sources": [
+        "wikipedia-huxley-pp"
+      ]
+    },
+    {
+      "name": "Mircea Eliade",
+      "role": "The contested case: he read Guénon and Evola in interwar Romania; Sedgwick treats him as a concealed 'soft' Traditionalist, while Davide Marino (Aries, 2022) and the earlier Italian reassessment call the affinity a myth — the site records the debate, not a verdict.",
+      "dates": "1907–1986",
+      "country": "Romania / USA",
+      "sources": [
+        "academia-eliade",
+        "sedgwick-blog-eliade",
+        "scagno-confronto"
+      ]
+    },
+    {
+      "name": "Mark Sedgwick & Wouter Hanegraaff",
+      "role": "The historians of the school: Sedgwick (Aarhus; 'Against the Modern World' 2004, 'Traditionalism' 2023, the Traditionalists blog) and Hanegraaff (Amsterdam; Traditionalism as 'religionism' within esotericism studies).",
+      "dates": "b. 1960 / b. 1961",
+      "country": "UK-Denmark / Netherlands",
+      "sources": [
+        "sedgwick-2004",
+        "hanegraaff-2012"
+      ]
+    }
   ],
   "organizations": [
-    { "name": "Études Traditionnelles (journal)", "founded": "1936", "place": "Paris, France", "relation": "The school's house journal — Le Voile d'Isis (1889) renamed under Guénon's dominance; monthly then quarterly, with a 1940–45 wartime gap, until its 1992 close. Digitized runs survive at IAPSOP.", "url": "http://iapsop.com/archive/materials/etudes_traditionnelles/", "sources": ["frwiki-etudes", "iapsop-etudes"] },
-    { "name": "Sophia Perennis (publisher)", "relation": "James R. Wetmore's press — publisher of the English 'Collected Works of René Guénon' (23 volumes); described on Sedgwick's blog as the leading US Guénonian-Traditionalist publisher. Founding year still to pin down.", "place": "New York State, USA", "sources": ["sedgwick-blog-sophia"] },
-    { "name": "World Wisdom (publisher)", "founded": "1980", "place": "Bloomington, Indiana, USA", "relation": "The 'Library of Perennial Philosophy' — main English-language publisher of Schuon, Burckhardt, Pallis and Nasr; participant-run, labeled sympathetic. Shared with the tariqa project's story.", "sources": ["wikipedia-worldwisdom"] },
-    { "name": "Fons Vitae (publisher)", "place": "Louisville, Kentucky, USA", "relation": "Aisha Gray Henry's nonprofit press — Sufism, the Ghazali series, Lings's works. The founding year remains genuinely unresolved across sources: Wikipedia's narrative gives 1984 (tracing Gray Henry's publishing back through the Quinta Essentia imprint she ran at the Islamic Texts Society, later transferred to Fons Vitae), its infobox gives 1996, and IRS/nonprofit records for 'Fons Vitae of Kentucky' give a formation year of 2000. The Quinta Essentia predecessor explains much of the split between the earlier and later dates.", "notes": "Founding year unresolved: 1984 (Wikipedia narrative / Quinta Essentia lineage), 1996 (Wikipedia infobox), 2000 (Kentucky nonprofit formation).", "sources": ["fonsvitae-about", "wikipedia-fonsvitae", "causeiq-fonsvitae"] },
-    { "name": "Temenos Academy", "founded": "1990", "place": "London, England", "relation": "Grew from the Temenos review (1980, Kathleen Raine and colleagues); initially housed in the Prince of Wales's Institute of Architecture, with Charles — now King Charles III — as patron since its founding. The institutional face of the school's arts-and-imagination wing; royal 'sympathies' beyond the documented patronage are reported only as attributed commentary.", "url": "https://www.temenosacademy.org/", "sources": ["wikipedia-temenos", "temenos-history", "commonweal-charles"] },
-    { "name": "Foundation for Traditional Studies / journal Sophia", "founded": "1984", "place": "Washington, DC, USA (to verify)", "relation": "The school's academic-facing organ. Nasr founded it in 1984 — the year he moved to George Washington University — 'promoting traditional wisdom and publishing the journal Sophia', per his official biography. Nasr's Sophia is not the Springer / University of Melbourne 'Sophia: International Journal of Philosophy and Traditions' (founded 1962): a name collision, not a relation. Who among Schuon's order sat on the Foundation and wrote for the journal is the tariqa project's material, cross-referenced there rather than repeated here — a deliberate difference of scope between the two datasets, not a disagreement about the facts.", "notes": "Two dates on one card: 1984 is the Foundation's founding; the journal came later — the Matheson Trust dates Sophia's semi-annual run 'since 1995'. The Washington, DC seat is flagged to verify: neither cited source states an address.", "sources": ["wikipedia-nasr", "nasr-official-bio", "matheson-sophia", "wikipedia-sophia-journal"] }
+    {
+      "name": "Études Traditionnelles (journal)",
+      "founded": "1936",
+      "place": "Paris, France",
+      "relation": "The school's house journal — Le Voile d'Isis (1889) renamed under Guénon's dominance; monthly then quarterly, with a 1940–45 wartime gap, until its 1992 close. Digitized runs survive at IAPSOP.",
+      "url": "http://iapsop.com/archive/materials/etudes_traditionnelles/",
+      "sources": [
+        "frwiki-etudes",
+        "iapsop-etudes"
+      ]
+    },
+    {
+      "name": "Sophia Perennis (publisher)",
+      "relation": "James R. Wetmore's press — publisher of the English 'Collected Works of René Guénon' (23 volumes); described on Sedgwick's blog as the leading US Guénonian-Traditionalist publisher. Founding year still to pin down.",
+      "place": "New York State, USA",
+      "sources": [
+        "sedgwick-blog-sophia"
+      ]
+    },
+    {
+      "name": "World Wisdom (publisher)",
+      "founded": "1980",
+      "place": "Bloomington, Indiana, USA",
+      "relation": "The 'Library of Perennial Philosophy' — main English-language publisher of Schuon, Burckhardt, Pallis and Nasr; participant-run, labeled sympathetic. Shared with the tariqa project's story.",
+      "sources": [
+        "wikipedia-worldwisdom"
+      ]
+    },
+    {
+      "name": "Fons Vitae (publisher)",
+      "place": "Louisville, Kentucky, USA",
+      "relation": "Aisha Gray Henry's nonprofit press — Sufism, the Ghazali series, Lings's works. The founding year remains genuinely unresolved across sources: Wikipedia's narrative gives 1984 (tracing Gray Henry's publishing back through the Quinta Essentia imprint she ran at the Islamic Texts Society, later transferred to Fons Vitae), its infobox gives 1996, and IRS/nonprofit records for 'Fons Vitae of Kentucky' give a formation year of 2000. The Quinta Essentia predecessor explains much of the split between the earlier and later dates.",
+      "notes": "Founding year unresolved: 1984 (Wikipedia narrative / Quinta Essentia lineage), 1996 (Wikipedia infobox), 2000 (Kentucky nonprofit formation).",
+      "sources": [
+        "fonsvitae-about",
+        "wikipedia-fonsvitae",
+        "causeiq-fonsvitae"
+      ]
+    },
+    {
+      "name": "Temenos Academy",
+      "founded": "1990",
+      "place": "London, England",
+      "relation": "Grew from the Temenos review (1980, Kathleen Raine and colleagues); initially housed in the Prince of Wales's Institute of Architecture, with Charles — now King Charles III — as patron since its founding. The institutional face of the school's arts-and-imagination wing; royal 'sympathies' beyond the documented patronage are reported only as attributed commentary.",
+      "url": "https://www.temenosacademy.org/",
+      "sources": [
+        "wikipedia-temenos",
+        "temenos-history",
+        "commonweal-charles"
+      ]
+    },
+    {
+      "name": "Foundation for Traditional Studies / journal Sophia",
+      "founded": "1984",
+      "place": "Washington, DC, USA (to verify)",
+      "relation": "The school's academic-facing organ. Nasr founded it in 1984 — the year he moved to George Washington University — 'promoting traditional wisdom and publishing the journal Sophia', per his official biography. Nasr's Sophia is not the Springer / University of Melbourne 'Sophia: International Journal of Philosophy and Traditions' (founded 1962): a name collision, not a relation. Who among Schuon's order sat on the Foundation and wrote for the journal is the tariqa project's material, cross-referenced there rather than repeated here — a deliberate difference of scope between the two datasets, not a disagreement about the facts.",
+      "notes": "Two dates on one card: 1984 is the Foundation's founding; the journal came later — the Matheson Trust dates Sophia's semi-annual run 'since 1995'. The Washington, DC seat is flagged to verify: neither cited source states an address.",
+      "sources": [
+        "wikipedia-nasr",
+        "nasr-official-bio",
+        "matheson-sophia",
+        "wikipedia-sophia-journal"
+      ]
+    }
   ],
   "disambiguation": {
     "note": "The word 'perennialism' is a collision zone, and the school's political receptions are contested. These cards keep the lines straight; every characterization is attributed.",
     "items": [
-      { "title": "Guénonian Traditionalism ≠ Huxley's perennialism", "text": "Huxley's 1945 anthology is experiential-mystical universalism, indifferent to orthodoxy and initiation; the Guénonians insist truth is transmitted only through orthodox revealed traditions and generally rejected Huxley-style syncretism. Same phrase, two lineages.", "sources": ["wikipedia-huxley-pp", "wikipedia-perennial-philosophy"] },
-      { "title": "≠ 'philosophia perennis' in academic philosophy", "text": "Steuco (1540) and Leibniz used the term for a continuity thesis inside Western philosophy and Christian Platonism, and neo-Scholastics applied it to Thomism — neither is the Guénonian doctrine.", "sources": ["lexicon-steuco", "wikipedia-perennial-philosophy"] },
-      { "title": "The school ≠ the order", "text": "This site covers the school of ideas — books, journals, reception. The initiatic and organizational history of Schuon's Maryamiyya order is the sibling cronologia/tariqa project; events belong to exactly one of the two.", "sources": ["wikipedia-traditionalism"] },
-      { "title": "Evola's line ≠ Schuon's line", "text": "Evola politicized Tradition — regal, activist, with a postwar neofascist reception running to Dugin and the alt-right; Schuon's line is religious-metaphysical and non-political. Guénon himself criticized Evola's inversions. Every claim placing a modern actor in this lineage is attributed to the scholar or actor making it.", "sources": ["wikipedia-evola", "sedgwick-2023", "oup-bannon"] },
-      { "title": "Eliade is a debate, not a datum", "text": "Mark Sedgwick reads Mircea Eliade as a concealed 'soft' Traditionalist ('Against the Modern World', 2004) — a reading he restated in 2022 even while granting that Eliade's references to Guénon grew critical after the 1950s ('his early soft Traditionalism is still found in his later work'). Against this, Davide Marino ('Mircea Eliade and René Guénon', Aries, 2022) argues the 'myth of affinity' arose from misunderstandings and that Traditionalism and Eliade's hermeneutics are theoretically irreconcilable; the earlier Italian reassessment gathered in Arcella, Pisi and Scagno's 'Confronto con Mircea Eliade' (Jaca Book, 1998) had already questioned the traditionalist reading. The site records the debate, not a verdict.", "sources": ["academia-eliade", "sedgwick-blog-eliade", "scagno-confronto"] },
-      { "title": "The royal reception is attributed commentary", "text": "King Charles III's Temenos patronage (documented since 1990) and 'Harmony' (2010) are read by commentators as showing Traditionalist and Nasrian influence; the book cites no Traditionalist sources and no membership or self-identification exists. Sympathies are reported as the commentators' claims — never as affiliation.", "sources": ["commonweal-charles", "wikipedia-harmony", "temenos-history"] },
-      { "title": "'Founder' or 'developer': how Coomaraswamy gets described", "text": "Popular reprints and introductions call Ananda K. Coomaraswamy a co-founder — the Sutra Journal reprint of his 'True Art' (October 2015) says in its editorial introduction, not in Coomaraswamy's own text, that he 'is regarded as one of the three founders of Perennialism, also called the Traditionalist School', alongside Guénon and Schuon. This chronology uses the framing of its own summary: Guénon founded the current, Coomaraswamy and Schuon developed it — the school's formation is usually described as an intellectual convergence rather than an act of foundation, and Schuon (b. 1907) belongs to a later generation than Guénon (b. 1886) and Coomaraswamy (b. 1877). The sibling cronologia/tariqa dataset describes him instead as one of the school's 'three founding authors'; the divergence is recorded here rather than resolved, since it turns on what 'founding' is taken to mean. Note also that Ananda K. Coomaraswamy (1877-1947), the art historian, is not his son Rama P. Coomaraswamy — a distinction the sibling cronologia projects depend on.", "sources": ["sutrajournal-coomaraswamy-true-art", "wikipedia-traditionalism", "wikipedia-coomaraswamy"] }
+      {
+        "title": "Guénonian Traditionalism ≠ Huxley's perennialism",
+        "text": "Huxley's 1945 anthology is experiential-mystical universalism, indifferent to orthodoxy and initiation; the Guénonians insist truth is transmitted only through orthodox revealed traditions and generally rejected Huxley-style syncretism. Same phrase, two lineages.",
+        "sources": [
+          "wikipedia-huxley-pp",
+          "wikipedia-perennial-philosophy"
+        ]
+      },
+      {
+        "title": "≠ 'philosophia perennis' in academic philosophy",
+        "text": "Steuco (1540) and Leibniz used the term for a continuity thesis inside Western philosophy and Christian Platonism, and neo-Scholastics applied it to Thomism — neither is the Guénonian doctrine.",
+        "sources": [
+          "lexicon-steuco",
+          "wikipedia-perennial-philosophy"
+        ]
+      },
+      {
+        "title": "The school ≠ the order",
+        "text": "This site covers the school of ideas — books, journals, reception. The initiatic and organizational history of Schuon's Maryamiyya order is the sibling cronologia/tariqa project; events belong to exactly one of the two.",
+        "sources": [
+          "wikipedia-traditionalism"
+        ]
+      },
+      {
+        "title": "Evola's line ≠ Schuon's line",
+        "text": "Evola politicized Tradition — regal, activist, with a postwar neofascist reception running to Dugin and the alt-right; Schuon's line is religious-metaphysical and non-political. Guénon himself criticized Evola's inversions. Every claim placing a modern actor in this lineage is attributed to the scholar or actor making it.",
+        "sources": [
+          "wikipedia-evola",
+          "sedgwick-2023",
+          "oup-bannon"
+        ]
+      },
+      {
+        "title": "Eliade is a debate, not a datum",
+        "text": "Mark Sedgwick reads Mircea Eliade as a concealed 'soft' Traditionalist ('Against the Modern World', 2004) — a reading he restated in 2022 even while granting that Eliade's references to Guénon grew critical after the 1950s ('his early soft Traditionalism is still found in his later work'). Against this, Davide Marino ('Mircea Eliade and René Guénon', Aries, 2022) argues the 'myth of affinity' arose from misunderstandings and that Traditionalism and Eliade's hermeneutics are theoretically irreconcilable; the earlier Italian reassessment gathered in Arcella, Pisi and Scagno's 'Confronto con Mircea Eliade' (Jaca Book, 1998) had already questioned the traditionalist reading. The site records the debate, not a verdict.",
+        "sources": [
+          "academia-eliade",
+          "sedgwick-blog-eliade",
+          "scagno-confronto"
+        ]
+      },
+      {
+        "title": "The royal reception is attributed commentary",
+        "text": "King Charles III's Temenos patronage (documented since 1990) and 'Harmony' (2010) are read by commentators as showing Traditionalist and Nasrian influence; the book cites no Traditionalist sources and no membership or self-identification exists. Sympathies are reported as the commentators' claims — never as affiliation.",
+        "sources": [
+          "commonweal-charles",
+          "wikipedia-harmony",
+          "temenos-history"
+        ]
+      },
+      {
+        "title": "'Founder' or 'developer': how Coomaraswamy gets described",
+        "text": "Popular reprints and introductions call Ananda K. Coomaraswamy a co-founder — the Sutra Journal reprint of his 'True Art' (October 2015) says in its editorial introduction, not in Coomaraswamy's own text, that he 'is regarded as one of the three founders of Perennialism, also called the Traditionalist School', alongside Guénon and Schuon. This chronology uses the framing of its own summary: Guénon founded the current, Coomaraswamy and Schuon developed it — the school's formation is usually described as an intellectual convergence rather than an act of foundation, and Schuon (b. 1907) belongs to a later generation than Guénon (b. 1886) and Coomaraswamy (b. 1877). The sibling cronologia/tariqa dataset describes him instead as one of the school's 'three founding authors'; the divergence is recorded here rather than resolved, since it turns on what 'founding' is taken to mean. Note also that Ananda K. Coomaraswamy (1877-1947), the art historian, is not his son Rama P. Coomaraswamy — a distinction the sibling cronologia projects depend on.",
+        "sources": [
+          "sutrajournal-coomaraswamy-true-art",
+          "wikipedia-traditionalism",
+          "wikipedia-coomaraswamy"
+        ]
+      }
     ]
   },
   "lineage": {
@@ -134,69 +812,100 @@
       {
         "title": "The Guénonian line",
         "summary": "From Guénon's founding corpus (1921–1951) through Coomaraswamy's metaphysical turn and Schuon's continuation to the postwar expositors and Nasr's academic institutionalization.",
-        "sources": ["wikipedia-traditionalism", "sedgwick-2004"],
+        "sources": [
+          "wikipedia-traditionalism",
+          "sedgwick-2004"
+        ],
         "root": {
           "name": "René Guénon",
           "detail": "founder-metaphysician; corpus 1921–1951",
-          "sources": ["wikipedia-guenon"],
+          "sources": [
+            "wikipedia-guenon"
+          ],
           "children": [
             {
               "name": "Ananda K. Coomaraswamy",
               "detail": "co-expositor; metaphysical turn, 1932",
-              "sources": ["wikipedia-coomaraswamy"]
+              "sources": [
+                "wikipedia-coomaraswamy"
+              ]
             },
             {
               "name": "Frithjof Schuon (as author)",
               "detail": "continuator; 'The Transcendent Unity of Religions', 1948",
-              "sources": ["wikipedia-schuon"],
+              "sources": [
+                "wikipedia-schuon"
+              ],
               "children": [
                 {
                   "name": "Titus Burckhardt",
                   "detail": "theorist of sacred art, 1958; lifelong associate of Schuon",
-                  "sources": ["wikipedia-burckhardt"]
+                  "sources": [
+                    "wikipedia-burckhardt"
+                  ]
                 },
                 {
                   "name": "Martin Lings (as author)",
                   "detail": "'Muhammad', 1983 — the school's biggest crossover",
-                  "sources": ["wikipedia-lings-muhammad"]
+                  "sources": [
+                    "wikipedia-lings-muhammad"
+                  ]
                 },
                 {
                   "name": "Seyyed Hossein Nasr",
                   "detail": "academic institutionalization; Gifford Lectures, 1981",
-                  "sources": ["wikipedia-nasr", "gifford-nasr"]
+                  "sources": [
+                    "wikipedia-nasr",
+                    "gifford-nasr"
+                  ]
                 },
                 {
                   "name": "Huston Smith",
                   "detail": "'Forgotten Truth', 1976",
                   "edge": "indirect",
                   "edgeLabel": "openly perennialist under Schuon's influence (attributed)",
-                  "sources": ["wikipedia-smith", "academia-smith"]
+                  "sources": [
+                    "wikipedia-smith",
+                    "academia-smith"
+                  ]
                 },
                 {
                   "name": "Maryamiyya ṭarīqa",
                   "detail": "order-internal & initiatic history in the sibling cronologia/tariqa project",
                   "edge": "indirect",
                   "edgeLabel": "initiation → tariqa (ideas here, order there)",
-                  "sources": ["wikipedia-schuon", "wikipedia-traditionalism"]
+                  "sources": [
+                    "wikipedia-schuon",
+                    "wikipedia-traditionalism"
+                  ]
                 }
               ]
             },
             {
               "name": "Marco Pallis",
               "detail": "'Peaks and Lamas', 1939; Guénon translator",
-              "sources": ["wikipedia-pallis"]
+              "sources": [
+                "wikipedia-pallis"
+              ]
             },
             {
               "name": "Lord Northbourne (Walter James)",
               "detail": "Guénon/Burckhardt translator; coined 'organic farming', 1940",
-              "sources": ["paull-northbourne", "sedgwick-blog-northbourne"]
+              "sources": [
+                "paull-northbourne",
+                "sedgwick-blog-northbourne"
+              ]
             },
             {
               "name": "Mircea Eliade",
               "detail": "read Guénon and Evola in interwar Romania",
               "edge": "indirect",
               "edgeLabel": "contested affinity — Sedgwick affirms, Marino rejects; a debate, not a datum",
-              "sources": ["academia-eliade", "sedgwick-blog-eliade", "scagno-confronto"]
+              "sources": [
+                "academia-eliade",
+                "sedgwick-blog-eliade",
+                "scagno-confronto"
+              ]
             }
           ]
         }
@@ -204,26 +913,38 @@
       {
         "title": "The political adaptation — a separate line (Evola)",
         "summary": "Evola's political-heroic reading subordinated the priestly to the regal, against Guénon's 1929 priority of the sacerdotal; Guénon's own reviews rejected key theses. Its postwar radical-right receptions are attributed to the scholar or actor asserting them — never to the Guénonian school itself.",
-        "sources": ["wikipedia-evola", "sedgwick-2023"],
+        "sources": [
+          "wikipedia-evola",
+          "sedgwick-2023"
+        ],
         "separate": true,
         "root": {
           "name": "Julius Evola",
           "detail": "'Revolt Against the Modern World', 1934",
-          "sources": ["wikipedia-evola", "cambridge-evola"],
+          "sources": [
+            "wikipedia-evola",
+            "cambridge-evola"
+          ],
           "children": [
             {
               "name": "Aleksandr Dugin",
               "detail": "'The Fourth Political Theory', 2009",
               "edge": "indirect",
               "edgeLabel": "Evolian-line reception into Russian geopolitics (attributed)",
-              "sources": ["wikipedia-dugin-4pt"]
+              "sources": [
+                "wikipedia-dugin-4pt"
+              ]
             },
             {
               "name": "The Bannon / alt-right episode",
               "detail": "2017 media episode; alt-right republication of Evola",
               "edge": "indirect",
               "edgeLabel": "network claimed by Sedgwick & Teitelbaum; reviewers dispute its coherence",
-              "sources": ["oup-bannon", "sedgwick-blog-bannon-evola", "foreignaffairs-teitelbaum"]
+              "sources": [
+                "oup-bannon",
+                "sedgwick-blog-bannon-evola",
+                "foreignaffairs-teitelbaum"
+              ]
             }
           ]
         }
@@ -231,12 +952,17 @@
       {
         "title": "A name collision — not this lineage (Huxley)",
         "summary": "Aldous Huxley's 'The Perennial Philosophy' (1945) popularized the phrase in an experiential, universalist-mystical sense — indifferent to orthodoxy and initiation — that the Guénonians rejected as syncretism. Same words, unrelated lineage; placed here only to mark the boundary.",
-        "sources": ["wikipedia-huxley-pp", "wikipedia-perennial-philosophy"],
+        "sources": [
+          "wikipedia-huxley-pp",
+          "wikipedia-perennial-philosophy"
+        ],
         "separate": true,
         "root": {
           "name": "Aldous Huxley",
           "detail": "'The Perennial Philosophy', 1945 — experiential universalism, rejected by the school",
-          "sources": ["wikipedia-huxley-pp"]
+          "sources": [
+            "wikipedia-huxley-pp"
+          ]
         }
       }
     ]
@@ -253,74 +979,475 @@
       "label": "Traditionalist corpus",
       "start": 1921,
       "note": "The school's continuous published output, from Guénon's first books (1921) to Sedgwick's scholarly synthesis (2023).",
-      "sources": ["wikipedia-traditionalism", "sedgwick-2023"]
+      "sources": [
+        "wikipedia-traditionalism",
+        "sedgwick-2023"
+      ]
     },
     "branches": [
-      { "id": "guenon", "label": "René Guénon", "year": 1921, "end": 1951, "note": "From the 'Introduction générale' (1921) to 'The Reign of Quantity' (1945); died 1951.", "sources": ["wikipedia-guenon"] },
-      { "id": "coomaraswamy", "label": "A. K. Coomaraswamy", "year": 1932, "end": 1947, "note": "Metaphysical essays from his 1932 turn to his death in 1947.", "sources": ["wikipedia-coomaraswamy"] },
-      { "id": "evola", "label": "Julius Evola (political line)", "year": 1934, "end": 1974, "note": "'Revolt' (1934) to 'Ride the Tiger' (1961) and after; the separate political adaptation, dates only.", "sources": ["wikipedia-evola"] },
-      { "id": "etudes", "label": "Études Traditionnelles (journal)", "year": 1936, "end": 1992, "note": "The house journal — Le Voile d'Isis renamed 1936, closed 1992, with a 1940–45 wartime gap; the background band against which the corpus reads.", "sources": ["frwiki-etudes", "iapsop-etudes"] },
-      { "id": "schuon", "label": "Frithjof Schuon", "year": 1948, "end": 1998, "note": "From 'The Transcendent Unity of Religions' (1948) across some twenty books to his death in 1998.", "sources": ["wikipedia-schuon"] },
-      { "id": "nasr", "label": "S. H. Nasr", "year": 1981, "note": "Academic institutionalization from the 1981 Gifford Lectures onward; corpus open.", "sources": ["gifford-nasr", "wikipedia-nasr"] }
+      {
+        "id": "guenon",
+        "label": "René Guénon",
+        "year": 1921,
+        "end": 1951,
+        "note": "From the 'Introduction générale' (1921) to 'The Reign of Quantity' (1945); died 1951.",
+        "sources": [
+          "wikipedia-guenon"
+        ]
+      },
+      {
+        "id": "coomaraswamy",
+        "label": "A. K. Coomaraswamy",
+        "year": 1932,
+        "end": 1947,
+        "note": "Metaphysical essays from his 1932 turn to his death in 1947.",
+        "sources": [
+          "wikipedia-coomaraswamy"
+        ]
+      },
+      {
+        "id": "evola",
+        "label": "Julius Evola (political line)",
+        "year": 1934,
+        "end": 1974,
+        "note": "'Revolt' (1934) to 'Ride the Tiger' (1961) and after; the separate political adaptation, dates only.",
+        "sources": [
+          "wikipedia-evola"
+        ]
+      },
+      {
+        "id": "etudes",
+        "label": "Études Traditionnelles (journal)",
+        "year": 1936,
+        "end": 1992,
+        "note": "The house journal — Le Voile d'Isis renamed 1936, closed 1992, with a 1940–45 wartime gap; the background band against which the corpus reads.",
+        "sources": [
+          "frwiki-etudes",
+          "iapsop-etudes"
+        ]
+      },
+      {
+        "id": "schuon",
+        "label": "Frithjof Schuon",
+        "year": 1948,
+        "end": 1998,
+        "note": "From 'The Transcendent Unity of Religions' (1948) across some twenty books to his death in 1998.",
+        "sources": [
+          "wikipedia-schuon"
+        ]
+      },
+      {
+        "id": "nasr",
+        "label": "S. H. Nasr",
+        "year": 1981,
+        "note": "Academic institutionalization from the 1981 Gifford Lectures onward; corpus open.",
+        "sources": [
+          "gifford-nasr",
+          "wikipedia-nasr"
+        ]
+      }
     ]
   },
+  "chronologySpine": {},
   "references": [
-    { "id": "wikipedia-traditionalism", "title": "Traditionalism (perennialism)", "url": "https://en.wikipedia.org/wiki/Traditionalism_(perennialism)", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-perennial-philosophy", "title": "Perennial philosophy", "url": "https://en.wikipedia.org/wiki/Perennial_philosophy", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-guenon", "title": "René Guénon", "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Gu%C3%A9non", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-schuon", "title": "Frithjof Schuon", "url": "https://en.wikipedia.org/wiki/Frithjof_Schuon", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-evola", "title": "Julius Evola", "url": "https://en.wikipedia.org/wiki/Julius_Evola", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-coomaraswamy", "title": "Ananda Coomaraswamy", "url": "https://en.wikipedia.org/wiki/Ananda_Coomaraswamy", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-huxley-pp", "title": "The Perennial Philosophy (Aldous Huxley, 1945)", "url": "https://en.wikipedia.org/wiki/The_Perennial_Philosophy", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-pallis", "title": "Marco Pallis", "url": "https://en.wikipedia.org/wiki/Marco_Pallis", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-burckhardt", "title": "Titus Burckhardt", "url": "https://en.wikipedia.org/wiki/Titus_Burckhardt", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-smith", "title": "Huston Smith", "url": "https://en.wikipedia.org/wiki/Huston_Smith", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-nasr", "title": "Seyyed Hossein Nasr", "url": "https://en.wikipedia.org/wiki/Seyyed_Hossein_Nasr", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-sophia-journal", "title": "Sophia (journal) — 'Sophia: International Journal of Philosophy and Traditions' (Springer, for the University of Melbourne; founded 1962): the name collision, not Nasr's journal", "url": "https://en.wikipedia.org/wiki/Sophia_(journal)", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-lings-muhammad", "title": "Muhammad: His Life Based on the Earliest Sources (Martin Lings, 1983)", "url": "https://en.wikipedia.org/wiki/Muhammad:_His_Life_Based_on_the_Earliest_Sources", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-dugin-4pt", "title": "The Fourth Political Theory", "url": "https://en.wikipedia.org/wiki/The_Fourth_Political_Theory", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-harmony", "title": "Harmony: A New Way of Looking at Our World", "url": "https://en.wikipedia.org/wiki/Harmony:_A_New_Way_of_Looking_at_Our_World", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-temenos", "title": "Temenos Academy", "url": "https://en.wikipedia.org/wiki/Temenos_Academy", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-worldwisdom", "title": "World Wisdom", "url": "https://en.wikipedia.org/wiki/World_Wisdom", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "wikipedia-fonsvitae", "title": "Fons Vitae Publishing", "url": "https://en.wikipedia.org/wiki/Fons_Vitae_Publishing", "publisher": "Wikipedia (EN)", "type": "encyclopedia" },
-    { "id": "frwiki-etudes", "title": "Études traditionnelles", "url": "https://fr.wikipedia.org/wiki/%C3%89tudes_traditionnelles", "publisher": "Wikipédia (FR)", "type": "encyclopedia" },
-    { "id": "iapsop-etudes", "title": "Études Traditionnelles — digitized archive", "url": "http://iapsop.com/archive/materials/etudes_traditionnelles/", "publisher": "IAPSOP", "type": "primary" },
-    { "id": "sedgwick-2004", "title": "Against the Modern World: Traditionalism and the Secret Intellectual History of the Twentieth Century (2004)", "url": "https://global.oup.com/academic/product/against-the-modern-world-9780195396010", "publisher": "Mark Sedgwick / Oxford University Press", "type": "academic" },
-    { "id": "sedgwick-2023", "title": "Traditionalism: The Radical Project for Restoring Sacred Order (2023)", "url": "https://global.oup.com/academic/product/traditionalism-9780197683767", "publisher": "Mark Sedgwick / Oxford University Press", "type": "academic" },
-    { "id": "sedgwick-blog-northbourne", "title": "Lord Northbourne and organic agriculture (Traditionalists blog)", "url": "https://traditionalistblog.blogspot.com/2014/07/lord-northbourne-organic-agriculture.html", "publisher": "Mark Sedgwick", "type": "academic" },
-    { "id": "sedgwick-blog-bannon-evola", "title": "More on Bannon and Evola (Traditionalists blog, March 2017)", "url": "https://traditionalistblog.blogspot.com/2017/03/more-on-bannon-and-evola.html", "publisher": "Mark Sedgwick", "type": "academic" },
-    { "id": "sedgwick-blog-eliade", "title": "New article on Mircea Eliade and Traditionalism (Traditionalists blog, 2022)", "url": "https://traditionalistblog.blogspot.com/2022/02/new-article-on-mircea-eliade-and.html", "publisher": "Mark Sedgwick", "type": "academic" },
-    { "id": "sedgwick-blog-sophia", "title": "Catholic and Guénonian Traditionalism (Traditionalists blog, June 2022)", "url": "https://traditionalistblog.blogspot.com/2022/06/catholic-and-guenonian-traditionalism.html", "publisher": "Mark Sedgwick", "type": "academic" },
-    { "id": "hanegraaff-2012", "title": "Esotericism and the Academy: Rejected Knowledge in Western Culture (2012)", "url": "https://www.cambridge.org/core/books/esotericism-and-the-academy/4532A70CA2235EED1DD9FD7F5BCAC100", "publisher": "Wouter Hanegraaff / Cambridge University Press", "type": "academic" },
-    { "id": "cambridge-evola", "title": "Julius Evola: Tradition, Reaction, and the Radical Right (European Journal of Sociology)", "url": "https://www.cambridge.org/core/journals/european-journal-of-sociology-archives-europeennes-de-sociologie/article/abs/julius-evola-tradition-reaction-and-the-radical-right/40B8C534101D56E3F62B006D82074B5C", "publisher": "Cambridge University Press", "type": "academic" },
-    { "id": "gifford-nasr", "title": "Knowledge and the Sacred — Gifford Lectures record", "url": "https://www.giffordlectures.org/lectures/knowledge-and-sacred-0", "publisher": "Gifford Lectures (official)", "type": "primary" },
-    { "id": "gifford-archives-nasr", "title": "Seyyed Hossein Nasr — Gifford archives (first Muslim and non-Westerner)", "url": "https://giffordarchives.org/lecturers/seyyed-hossein-nasr", "publisher": "Gifford Lectures archives", "type": "primary" },
-    { "id": "temenos-history", "title": "Temenos Academy — history and royal patronage", "url": "https://www.temenosacademy.org/history", "publisher": "Temenos Academy (official)", "type": "official-site" },
-    { "id": "fonsvitae-about", "title": "Fons Vitae — about", "url": "https://fonsvitae.com/about-us/", "publisher": "Fons Vitae (official)", "type": "official-site" },
-    { "id": "nasr-official-bio", "title": "Seyyed Hossein Nasr — Biography ('That same year, he founded the Foundation for Traditional Studies, promoting traditional wisdom and publishing the journal Sophia')", "url": "https://www.seyyedhosseinnasr.com/about/biography", "publisher": "seyyedhosseinnasr.com — the subject's own official site; self-description, labeled as such", "type": "official-site" },
-    { "id": "matheson-sophia", "title": "Journals — listing for 'Sophia, The Journal of Traditional Studies' ('Since 1995 … published semi-annually by The Foundation for Traditional Studies')", "url": "https://www.themathesontrust.org/links/journals", "publisher": "The Matheson Trust for the Study of Comparative Religion (London, established 1974) — a foundation for 'the underlying harmony of the great religious and philosophical traditions'; sympathetic to the perennialist reading, labeled as such", "type": "official-site" },
-    { "id": "paull-northbourne", "title": "Lord Northbourne, the man who invented organic farming — a biography (John Paull)", "url": "https://www.researchgate.net/publication/263506175_Lord_Northbourne_the_man_who_invented_organic_farming_a_biography", "publisher": "Journal of Organic Systems / ResearchGate", "type": "academic" },
-    { "id": "lipsey-papers", "title": "Coomaraswamy: Selected Papers — Metaphysics (ed. Roger Lipsey, Bollingen)", "url": "https://us.amazon.com/Selected-Papers-Coomaraswamy-Metaphysics-Bollingen/dp/0691277524", "publisher": "Princeton University Press", "type": "academic" },
-    { "id": "academia-smith", "title": "Huston Smith: Pilgrim of the Perennial Philosophy", "url": "https://www.academia.edu/34205962/Huston_Smith_Pilgrim_of_the_Perennial_Philosophy", "publisher": "Academia.edu", "type": "academic" },
-    { "id": "academia-eliade", "title": "Davide Marino, 'Mircea Eliade and René Guénon: Patterns of Initiation and the Myth of Affinity' (Aries, Brill, 2022; DOI 10.1163/15700593-20211007)", "url": "https://www.academia.edu/70308024/Mircea_Eliade_and_Ren%C3%A9_Gu%C3%A9non", "publisher": "Davide Marino / Aries (Brill) — peer-reviewed, critical of the affinity thesis", "type": "academic" },
-    { "id": "scagno-confronto", "title": "Luciano Arcella, Paola Pisi & Roberto Scagno (eds.), 'Confronto con Mircea Eliade: archetipi mitici e identità storica' (Milano: Jaca Book, 1998)", "url": "https://books.google.com/books/about/Confronto_con_Mircea_Eliade.html?id=2vOQGqcBopEC", "publisher": "Jaca Book — Italian scholarly reassessment of Eliade's traditionalism", "type": "academic" },
-    { "id": "cesnur-zoccatelli", "title": "PierLuigi Zoccatelli, 'René Guénon and Louis Charbonneau-Lassay: notes on an unpublished correspondence' (CESNUR)", "url": "https://www.cesnur.org/testi/bryn/br_plz.htm", "publisher": "CESNUR / PierLuigi Zoccatelli", "type": "academic" },
-    { "id": "frwiki-guenon-homme", "title": "L'Homme et son devenir selon le Vêdânta (Bossard, 1925)", "url": "https://fr.wikipedia.org/wiki/L%27Homme_et_son_devenir_selon_le_V%C3%AAd%C3%A2nta", "publisher": "Wikipédia (FR)", "type": "encyclopedia" },
-    { "id": "fschuon-bibliography", "title": "Frithjof Schuon — bibliographie (first-edition years, official site)", "url": "https://fr.fschuon.info/?page_id=861", "publisher": "fschuon.info (official Schuon site)", "type": "official-site" },
-    { "id": "causeiq-fonsvitae", "title": "Fons Vitae of Kentucky — nonprofit profile (year formed 2000)", "url": "https://www.causeiq.com/organizations/fons-vitae-of-kentucky,611381228/", "publisher": "Cause IQ (IRS nonprofit records)", "type": "primary" },
-    { "id": "cesnur-guenon", "title": "Guénon and the Regnabit episode (Charbonneau-Lassay correspondence)", "url": "https://www.cesnur.org/paraclet/guenon.html", "publisher": "CESNUR", "type": "academic" },
-    { "id": "bertagni-regnabit", "title": "Guénon's Regnabit articles — scholarly edition (PDF)", "url": "http://www.gianfrancobertagni.it/materiali/reneguenon/regnabit.pdf", "publisher": "gianfrancobertagni.it", "type": "academic" },
-    { "id": "lexicon-steuco", "title": "Philosophia perennis: from Steuco to Leibniz (Lexicon Philosophicum)", "url": "https://lexicon.cnr.it/ojs/index.php/LP/article/view/655", "publisher": "CNR Lexicon Philosophicum", "type": "academic" },
-    { "id": "gornahoor-letters", "title": "Guénon–Evola correspondence (eleven letters, 1930–1951)", "url": "https://gornahoor.net/?p=4489", "publisher": "Gornahoor (Evolian-sympathetic site — labeled)", "type": "analysis" },
-    { "id": "oup-bannon", "title": "Julius Evola, the White House, and Steve Bannon (OUP blog, May 2017)", "url": "https://blog.oup.com/2017/05/julius-evola-white-house-steve-bannon/", "publisher": "Oxford University Press blog", "type": "analysis" },
-    { "id": "foreignaffairs-teitelbaum", "title": "War for Eternity — review", "url": "https://www.foreignaffairs.com/reviews/capsule-review/2020-08-11/war-eternity-inside-bannons-far-right-circle-global-power-brokers", "publisher": "Foreign Affairs (skeptical review — labeled)", "type": "analysis" },
-    { "id": "colorado-teitelbaum", "title": "Inside Steve Bannon's 'War for Eternity' (University of Colorado)", "url": "https://www.colorado.edu/today/2020/04/22/inside-steve-bannons-war-eternity", "publisher": "University of Colorado Boulder", "type": "news" },
-    { "id": "commonweal-charles", "title": "King Charles's coronation, Traditionalism, Nasr, Guénon and environmentalism", "url": "https://www.commonwealmagazine.org/king-charles-coronation-traditionalism-nasr-guenon-environmentalism", "publisher": "Commonweal", "type": "analysis" },
-    { "id": "olavo-garras-esfinge", "title": "Olavo de Carvalho, 'As garras da Esfinge — René Guénon e a islamização do Ocidente' (Verbum, Ano I, nos. 1 e 2, Julho-Outubro de 2016)", "url": "https://olavodecarvalho.org/as-garras-da-esfinge-rene-guenon-e-a-islamizacao-do-ocidente/", "publisher": "olavodecarvalho.org, the author's site — Brazilian post-Traditionalist critic; polemical, attributed. Checked 25 July 2026: the live URL returns HTTP 200 but now serves unrelated commercial content, so the archived capture of 24 February 2026 is the text of record", "type": "commentary" },
-    { "id": "montfort-carta-guenon-olavo", "title": "'René Guénon: carta de Olavo de Carvalho' — the letters of 28 and 30 January 2001 with Orlando Fedeli's reply of 3 February 2001", "url": "https://www.montfort.org.br/bra/cartas/gnose/20040728192545/", "publisher": "Associação Cultural Montfort — traditionalist-Catholic apostolate, critical of Guénonism; the page carries Olavo de Carvalho's own letters", "type": "primary" },
-    { "id": "montfort-gnose-guenon-olavo", "title": "Orlando Fedeli, 'A Gnose Tradicionalista de René Guénon e Olavo de Carvalho' (the word Tradicionalista appears in scare quotes in the original title)", "url": "https://www.montfort.org.br/bra/cadernos/religiao/guenon/", "publisher": "Associação Cultural Montfort — traditionalist-Catholic critique of both Guénon and Carvalho; partisan, labeled as such", "type": "commentary" },
-    { "id": "sutrajournal-coomaraswamy-true-art", "title": "Ananda K. Coomaraswamy, 'True Art' (Sutra Journal, October 2015) — an excerpt from 'The Essential Ananda K. Coomaraswamy', pp. 129-130, with an editorial introduction", "url": "https://www.sutrajournal.com/coomaraswamy-true-art", "publisher": "Sutra Journal — perennialist-sympathetic online journal; reprint of a 20th-century primary text. The 'three founders of Perennialism' phrasing is the editorial introduction's, not Coomaraswamy's", "type": "primary" },
-    { "id": "souza-traditionalism-brazil", "title": "Felipe Souza, 'Traditionalism in Brazil today' (23 October 2023)", "url": "https://traditionalistblog.blogspot.com/2023/10/traditionalism-in-brazil-today.html", "publisher": "Traditionalists — the blog for the study of Traditionalism moderated by Mark Sedgwick; guest post", "type": "academic" },
-    { "id": "icls-box-guenon-launch", "title": "Live 'Por que ler René Guénon?' — Lançamento do 'Box Essencial Guénon' (ICLS)", "url": "https://www.youtube.com/watch?v=r2ROPEN9wJI", "publisher": "ICLS / Instituto Cultural Lux et Sapientia (YouTube) — Brazilian Guénonian institute; a publisher launch event, sympathetic and commercial", "type": "video" }
+    {
+      "id": "wikipedia-traditionalism",
+      "title": "Traditionalism (perennialism)",
+      "url": "https://en.wikipedia.org/wiki/Traditionalism_(perennialism)",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-perennial-philosophy",
+      "title": "Perennial philosophy",
+      "url": "https://en.wikipedia.org/wiki/Perennial_philosophy",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-guenon",
+      "title": "René Guénon",
+      "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Gu%C3%A9non",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-schuon",
+      "title": "Frithjof Schuon",
+      "url": "https://en.wikipedia.org/wiki/Frithjof_Schuon",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-evola",
+      "title": "Julius Evola",
+      "url": "https://en.wikipedia.org/wiki/Julius_Evola",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-coomaraswamy",
+      "title": "Ananda Coomaraswamy",
+      "url": "https://en.wikipedia.org/wiki/Ananda_Coomaraswamy",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-huxley-pp",
+      "title": "The Perennial Philosophy (Aldous Huxley, 1945)",
+      "url": "https://en.wikipedia.org/wiki/The_Perennial_Philosophy",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-pallis",
+      "title": "Marco Pallis",
+      "url": "https://en.wikipedia.org/wiki/Marco_Pallis",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-burckhardt",
+      "title": "Titus Burckhardt",
+      "url": "https://en.wikipedia.org/wiki/Titus_Burckhardt",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-smith",
+      "title": "Huston Smith",
+      "url": "https://en.wikipedia.org/wiki/Huston_Smith",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-nasr",
+      "title": "Seyyed Hossein Nasr",
+      "url": "https://en.wikipedia.org/wiki/Seyyed_Hossein_Nasr",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-sophia-journal",
+      "title": "Sophia (journal) — 'Sophia: International Journal of Philosophy and Traditions' (Springer, for the University of Melbourne; founded 1962): the name collision, not Nasr's journal",
+      "url": "https://en.wikipedia.org/wiki/Sophia_(journal)",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-lings-muhammad",
+      "title": "Muhammad: His Life Based on the Earliest Sources (Martin Lings, 1983)",
+      "url": "https://en.wikipedia.org/wiki/Muhammad:_His_Life_Based_on_the_Earliest_Sources",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-dugin-4pt",
+      "title": "The Fourth Political Theory",
+      "url": "https://en.wikipedia.org/wiki/The_Fourth_Political_Theory",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-harmony",
+      "title": "Harmony: A New Way of Looking at Our World",
+      "url": "https://en.wikipedia.org/wiki/Harmony:_A_New_Way_of_Looking_at_Our_World",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-temenos",
+      "title": "Temenos Academy",
+      "url": "https://en.wikipedia.org/wiki/Temenos_Academy",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-worldwisdom",
+      "title": "World Wisdom",
+      "url": "https://en.wikipedia.org/wiki/World_Wisdom",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-fonsvitae",
+      "title": "Fons Vitae Publishing",
+      "url": "https://en.wikipedia.org/wiki/Fons_Vitae_Publishing",
+      "publisher": "Wikipedia (EN)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "frwiki-etudes",
+      "title": "Études traditionnelles",
+      "url": "https://fr.wikipedia.org/wiki/%C3%89tudes_traditionnelles",
+      "publisher": "Wikipédia (FR)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "iapsop-etudes",
+      "title": "Études Traditionnelles — digitized archive",
+      "url": "http://iapsop.com/archive/materials/etudes_traditionnelles/",
+      "publisher": "IAPSOP",
+      "type": "primary"
+    },
+    {
+      "id": "sedgwick-2004",
+      "title": "Against the Modern World: Traditionalism and the Secret Intellectual History of the Twentieth Century (2004)",
+      "url": "https://global.oup.com/academic/product/against-the-modern-world-9780195396010",
+      "publisher": "Mark Sedgwick / Oxford University Press",
+      "type": "academic"
+    },
+    {
+      "id": "sedgwick-2023",
+      "title": "Traditionalism: The Radical Project for Restoring Sacred Order (2023)",
+      "url": "https://global.oup.com/academic/product/traditionalism-9780197683767",
+      "publisher": "Mark Sedgwick / Oxford University Press",
+      "type": "academic"
+    },
+    {
+      "id": "sedgwick-blog-northbourne",
+      "title": "Lord Northbourne and organic agriculture (Traditionalists blog)",
+      "url": "https://traditionalistblog.blogspot.com/2014/07/lord-northbourne-organic-agriculture.html",
+      "publisher": "Mark Sedgwick",
+      "type": "academic"
+    },
+    {
+      "id": "sedgwick-blog-bannon-evola",
+      "title": "More on Bannon and Evola (Traditionalists blog, March 2017)",
+      "url": "https://traditionalistblog.blogspot.com/2017/03/more-on-bannon-and-evola.html",
+      "publisher": "Mark Sedgwick",
+      "type": "academic"
+    },
+    {
+      "id": "sedgwick-blog-eliade",
+      "title": "New article on Mircea Eliade and Traditionalism (Traditionalists blog, 2022)",
+      "url": "https://traditionalistblog.blogspot.com/2022/02/new-article-on-mircea-eliade-and.html",
+      "publisher": "Mark Sedgwick",
+      "type": "academic"
+    },
+    {
+      "id": "sedgwick-blog-sophia",
+      "title": "Catholic and Guénonian Traditionalism (Traditionalists blog, June 2022)",
+      "url": "https://traditionalistblog.blogspot.com/2022/06/catholic-and-guenonian-traditionalism.html",
+      "publisher": "Mark Sedgwick",
+      "type": "academic"
+    },
+    {
+      "id": "hanegraaff-2012",
+      "title": "Esotericism and the Academy: Rejected Knowledge in Western Culture (2012)",
+      "url": "https://www.cambridge.org/core/books/esotericism-and-the-academy/4532A70CA2235EED1DD9FD7F5BCAC100",
+      "publisher": "Wouter Hanegraaff / Cambridge University Press",
+      "type": "academic"
+    },
+    {
+      "id": "cambridge-evola",
+      "title": "Julius Evola: Tradition, Reaction, and the Radical Right (European Journal of Sociology)",
+      "url": "https://www.cambridge.org/core/journals/european-journal-of-sociology-archives-europeennes-de-sociologie/article/abs/julius-evola-tradition-reaction-and-the-radical-right/40B8C534101D56E3F62B006D82074B5C",
+      "publisher": "Cambridge University Press",
+      "type": "academic"
+    },
+    {
+      "id": "gifford-nasr",
+      "title": "Knowledge and the Sacred — Gifford Lectures record",
+      "url": "https://www.giffordlectures.org/lectures/knowledge-and-sacred-0",
+      "publisher": "Gifford Lectures (official)",
+      "type": "primary"
+    },
+    {
+      "id": "gifford-archives-nasr",
+      "title": "Seyyed Hossein Nasr — Gifford archives (first Muslim and non-Westerner)",
+      "url": "https://giffordarchives.org/lecturers/seyyed-hossein-nasr",
+      "publisher": "Gifford Lectures archives",
+      "type": "primary"
+    },
+    {
+      "id": "temenos-history",
+      "title": "Temenos Academy — history and royal patronage",
+      "url": "https://www.temenosacademy.org/history",
+      "publisher": "Temenos Academy (official)",
+      "type": "official-site"
+    },
+    {
+      "id": "fonsvitae-about",
+      "title": "Fons Vitae — about",
+      "url": "https://fonsvitae.com/about-us/",
+      "publisher": "Fons Vitae (official)",
+      "type": "official-site"
+    },
+    {
+      "id": "nasr-official-bio",
+      "title": "Seyyed Hossein Nasr — Biography ('That same year, he founded the Foundation for Traditional Studies, promoting traditional wisdom and publishing the journal Sophia')",
+      "url": "https://www.seyyedhosseinnasr.com/about/biography",
+      "publisher": "seyyedhosseinnasr.com — the subject's own official site; self-description, labeled as such",
+      "type": "official-site"
+    },
+    {
+      "id": "matheson-sophia",
+      "title": "Journals — listing for 'Sophia, The Journal of Traditional Studies' ('Since 1995 … published semi-annually by The Foundation for Traditional Studies')",
+      "url": "https://www.themathesontrust.org/links/journals",
+      "publisher": "The Matheson Trust for the Study of Comparative Religion (London, established 1974) — a foundation for 'the underlying harmony of the great religious and philosophical traditions'; sympathetic to the perennialist reading, labeled as such",
+      "type": "official-site"
+    },
+    {
+      "id": "paull-northbourne",
+      "title": "Lord Northbourne, the man who invented organic farming — a biography (John Paull)",
+      "url": "https://www.researchgate.net/publication/263506175_Lord_Northbourne_the_man_who_invented_organic_farming_a_biography",
+      "publisher": "Journal of Organic Systems / ResearchGate",
+      "type": "academic"
+    },
+    {
+      "id": "lipsey-papers",
+      "title": "Coomaraswamy: Selected Papers — Metaphysics (ed. Roger Lipsey, Bollingen)",
+      "url": "https://us.amazon.com/Selected-Papers-Coomaraswamy-Metaphysics-Bollingen/dp/0691277524",
+      "publisher": "Princeton University Press",
+      "type": "academic"
+    },
+    {
+      "id": "academia-smith",
+      "title": "Huston Smith: Pilgrim of the Perennial Philosophy",
+      "url": "https://www.academia.edu/34205962/Huston_Smith_Pilgrim_of_the_Perennial_Philosophy",
+      "publisher": "Academia.edu",
+      "type": "academic"
+    },
+    {
+      "id": "academia-eliade",
+      "title": "Davide Marino, 'Mircea Eliade and René Guénon: Patterns of Initiation and the Myth of Affinity' (Aries, Brill, 2022; DOI 10.1163/15700593-20211007)",
+      "url": "https://www.academia.edu/70308024/Mircea_Eliade_and_Ren%C3%A9_Gu%C3%A9non",
+      "publisher": "Davide Marino / Aries (Brill) — peer-reviewed, critical of the affinity thesis",
+      "type": "academic"
+    },
+    {
+      "id": "scagno-confronto",
+      "title": "Luciano Arcella, Paola Pisi & Roberto Scagno (eds.), 'Confronto con Mircea Eliade: archetipi mitici e identità storica' (Milano: Jaca Book, 1998)",
+      "url": "https://books.google.com/books/about/Confronto_con_Mircea_Eliade.html?id=2vOQGqcBopEC",
+      "publisher": "Jaca Book — Italian scholarly reassessment of Eliade's traditionalism",
+      "type": "academic"
+    },
+    {
+      "id": "cesnur-zoccatelli",
+      "title": "PierLuigi Zoccatelli, 'René Guénon and Louis Charbonneau-Lassay: notes on an unpublished correspondence' (CESNUR)",
+      "url": "https://www.cesnur.org/testi/bryn/br_plz.htm",
+      "publisher": "CESNUR / PierLuigi Zoccatelli",
+      "type": "academic"
+    },
+    {
+      "id": "frwiki-guenon-homme",
+      "title": "L'Homme et son devenir selon le Vêdânta (Bossard, 1925)",
+      "url": "https://fr.wikipedia.org/wiki/L%27Homme_et_son_devenir_selon_le_V%C3%AAd%C3%A2nta",
+      "publisher": "Wikipédia (FR)",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "fschuon-bibliography",
+      "title": "Frithjof Schuon — bibliographie (first-edition years, official site)",
+      "url": "https://fr.fschuon.info/?page_id=861",
+      "publisher": "fschuon.info (official Schuon site)",
+      "type": "official-site"
+    },
+    {
+      "id": "causeiq-fonsvitae",
+      "title": "Fons Vitae of Kentucky — nonprofit profile (year formed 2000)",
+      "url": "https://www.causeiq.com/organizations/fons-vitae-of-kentucky,611381228/",
+      "publisher": "Cause IQ (IRS nonprofit records)",
+      "type": "primary"
+    },
+    {
+      "id": "cesnur-guenon",
+      "title": "Guénon and the Regnabit episode (Charbonneau-Lassay correspondence)",
+      "url": "https://www.cesnur.org/paraclet/guenon.html",
+      "publisher": "CESNUR",
+      "type": "academic"
+    },
+    {
+      "id": "bertagni-regnabit",
+      "title": "Guénon's Regnabit articles — scholarly edition (PDF)",
+      "url": "http://www.gianfrancobertagni.it/materiali/reneguenon/regnabit.pdf",
+      "publisher": "gianfrancobertagni.it",
+      "type": "academic"
+    },
+    {
+      "id": "lexicon-steuco",
+      "title": "Philosophia perennis: from Steuco to Leibniz (Lexicon Philosophicum)",
+      "url": "https://lexicon.cnr.it/ojs/index.php/LP/article/view/655",
+      "publisher": "CNR Lexicon Philosophicum",
+      "type": "academic"
+    },
+    {
+      "id": "gornahoor-letters",
+      "title": "Guénon–Evola correspondence (eleven letters, 1930–1951)",
+      "url": "https://gornahoor.net/?p=4489",
+      "publisher": "Gornahoor (Evolian-sympathetic site — labeled)",
+      "type": "analysis"
+    },
+    {
+      "id": "oup-bannon",
+      "title": "Julius Evola, the White House, and Steve Bannon (OUP blog, May 2017)",
+      "url": "https://blog.oup.com/2017/05/julius-evola-white-house-steve-bannon/",
+      "publisher": "Oxford University Press blog",
+      "type": "analysis"
+    },
+    {
+      "id": "foreignaffairs-teitelbaum",
+      "title": "War for Eternity — review",
+      "url": "https://www.foreignaffairs.com/reviews/capsule-review/2020-08-11/war-eternity-inside-bannons-far-right-circle-global-power-brokers",
+      "publisher": "Foreign Affairs (skeptical review — labeled)",
+      "type": "analysis"
+    },
+    {
+      "id": "colorado-teitelbaum",
+      "title": "Inside Steve Bannon's 'War for Eternity' (University of Colorado)",
+      "url": "https://www.colorado.edu/today/2020/04/22/inside-steve-bannons-war-eternity",
+      "publisher": "University of Colorado Boulder",
+      "type": "news"
+    },
+    {
+      "id": "commonweal-charles",
+      "title": "King Charles's coronation, Traditionalism, Nasr, Guénon and environmentalism",
+      "url": "https://www.commonwealmagazine.org/king-charles-coronation-traditionalism-nasr-guenon-environmentalism",
+      "publisher": "Commonweal",
+      "type": "analysis"
+    },
+    {
+      "id": "olavo-garras-esfinge",
+      "title": "Olavo de Carvalho, 'As garras da Esfinge — René Guénon e a islamização do Ocidente' (Verbum, Ano I, nos. 1 e 2, Julho-Outubro de 2016)",
+      "url": "https://olavodecarvalho.org/as-garras-da-esfinge-rene-guenon-e-a-islamizacao-do-ocidente/",
+      "publisher": "olavodecarvalho.org, the author's site — Brazilian post-Traditionalist critic; polemical, attributed. Checked 25 July 2026: the live URL returns HTTP 200 but now serves unrelated commercial content, so the archived capture of 24 February 2026 is the text of record",
+      "type": "commentary"
+    },
+    {
+      "id": "montfort-carta-guenon-olavo",
+      "title": "'René Guénon: carta de Olavo de Carvalho' — the letters of 28 and 30 January 2001 with Orlando Fedeli's reply of 3 February 2001",
+      "url": "https://www.montfort.org.br/bra/cartas/gnose/20040728192545/",
+      "publisher": "Associação Cultural Montfort — traditionalist-Catholic apostolate, critical of Guénonism; the page carries Olavo de Carvalho's own letters",
+      "type": "primary"
+    },
+    {
+      "id": "montfort-gnose-guenon-olavo",
+      "title": "Orlando Fedeli, 'A Gnose Tradicionalista de René Guénon e Olavo de Carvalho' (the word Tradicionalista appears in scare quotes in the original title)",
+      "url": "https://www.montfort.org.br/bra/cadernos/religiao/guenon/",
+      "publisher": "Associação Cultural Montfort — traditionalist-Catholic critique of both Guénon and Carvalho; partisan, labeled as such",
+      "type": "commentary"
+    },
+    {
+      "id": "sutrajournal-coomaraswamy-true-art",
+      "title": "Ananda K. Coomaraswamy, 'True Art' (Sutra Journal, October 2015) — an excerpt from 'The Essential Ananda K. Coomaraswamy', pp. 129-130, with an editorial introduction",
+      "url": "https://www.sutrajournal.com/coomaraswamy-true-art",
+      "publisher": "Sutra Journal — perennialist-sympathetic online journal; reprint of a 20th-century primary text. The 'three founders of Perennialism' phrasing is the editorial introduction's, not Coomaraswamy's",
+      "type": "primary"
+    },
+    {
+      "id": "souza-traditionalism-brazil",
+      "title": "Felipe Souza, 'Traditionalism in Brazil today' (23 October 2023)",
+      "url": "https://traditionalistblog.blogspot.com/2023/10/traditionalism-in-brazil-today.html",
+      "publisher": "Traditionalists — the blog for the study of Traditionalism moderated by Mark Sedgwick; guest post",
+      "type": "academic"
+    },
+    {
+      "id": "icls-box-guenon-launch",
+      "title": "Live 'Por que ler René Guénon?' — Lançamento do 'Box Essencial Guénon' (ICLS)",
+      "url": "https://www.youtube.com/watch?v=r2ROPEN9wJI",
+      "publisher": "ICLS / Instituto Cultural Lux et Sapientia (YouTube) — Brazilian Guénonian institute; a publisher launch event, sympathetic and commercial",
+      "type": "video"
+    }
   ]
 }
