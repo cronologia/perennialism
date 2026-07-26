@@ -23,6 +23,36 @@ search gets wrong) and the **term that actually works**. Counts are from
 measurements recorded here or on the tickets cited; re-measure before trusting
 a number that carries a date.
 
+### The two traps that made the 2026-07 COF mining wave necessary
+
+Both were established on `archive#14` and are restated here with the numbers
+re-measured in this repo on 2026-07-26.
+
+- **The entity index is not a mention index — it misses 88% of the corpus.**
+  `cof/index.json` ranks each aula's *distinctive* multiword proper nouns, so a
+  lecture that discusses someone without dwelling on him never appears.
+  `René Guénon` is a distinctive entity in **15** aulas (`cof-xref.py`, alias
+  map applied) and is present in the full text of **123** (`Gu[eé]n[oó]n`,
+  case-insensitive, whole corpus). `Frithjof Schuon` is distinctive in **1**
+  aula (COF094) against 231 occurrences of `Schuon` in `revisadas` alone.
+  **Treating `cof-xref.py` output as coverage misses 108 of 123 Guénon aulas.**
+  Measured on the 35-aula seam mined for #32 in this session: the entity index
+  flags **2** of them (COF005, COF131); the full text carries `Guénon` in **30**
+  and `Guénon` or `Schuon` in **35 of 35**. `cof-xref.py` is a lead generator,
+  never a coverage measure — grep the full text before concluding absence.
+- **The `Olavo de Carvalho` byline trap, and a correction to its size.** A raw
+  file count returns **291 of 589**, but the string is mostly the transcription's
+  own credit line. `archive#14` measured **218 of 257** `revisadas` carrying a
+  standalone byline line of exactly `Olavo de Carvalho`. Re-measured here, the
+  byline has **two** forms and they are disjoint: **218** files write the bare
+  string on its own line and a further **31** write
+  `[Olavo de Carvalho]{.smallcaps}` — **249 of 257**, with only 8 carrying
+  neither. In **157** of those the byline is the *only* occurrence of the name
+  in the file. Counting only the bare form undercounts the boilerplate by 31
+  files. **Strip both byline forms (and the four-line credit blockquote of `>`
+  lines that follows the header) before counting anything.** His own speech in
+  the transcriptions is separately prefixed `Olavo:`.
+
 ### Terms that return nothing
 
 - **`Guenon` (unaccented, capitalized) — ZERO hits in `data/chronology.json`.**
@@ -121,7 +151,9 @@ these forms exist so the passages can be **located**.
 - **Burckhardt** → `Burkart`, `Burkhart`, `Burkhan`, `Burkard`, `Burkle`,
   `Burkher`, `Tito Zumbur`, `Tito Bucke` (COF; also `Burkhart` in transcripts
   56/57). **`Burke` (7×, transcript-4) is NOT Burckhardt** — it is Cardinal
-  Raymond Burke, in an SSPX discussion.
+  Raymond Burke, in an SSPX discussion. See also the **Jacob-vs-Titus** split
+  under *Ambiguous referents* below: the manglings attach to both men, so the
+  variant set widens the search and does not disambiguate it.
 - **Lings** → `Martin Ling` (singular), `Martin Lynch` (COF). **`Martin Luther
   King` is a false hit on any `Martin L` pattern** (COF).
 - **Teitelbaum** → `Titlebaum`; **Bannon** → `Band-Aid`, `Band-Aidism`
@@ -178,6 +210,22 @@ these forms exist so the passages can be **located**.
   `sufismo` — 39 occurrences in 21 files. Recorded on perennialism#32 and
   `archive#13` §2; re-measured this session. **Search `sufismo`, `sufis\b`, or
   `sufi\b` — never bare `sufi`.**
+- **`Burckhardt` in COF is two different men, and the Traditionalist is the
+  minority of neither.** Measured across the corpus 2026-07-26 with the variant
+  set `Bur[ck]{1,2}h?ar[dt]t?`: **30 files**, of which **19** name *Titus*
+  Burckhardt (also written `Tito`) and **12** name *Jacob* Burckhardt, the Swiss
+  historian of the Renaissance — a standing reference of Olavo's political
+  lectures, cited for *Reflexões sobre a História Universal*. One file (COF250)
+  has both, and no file leaves the surname unqualified. **A bare surname search
+  is ~40% wrong here**, and the ASR manglings do not help: `Burkart`/`Burkard`/
+  `Burkhart` occur for Jacob (COF320, COF510) as well as for Titus. Search the
+  first name — `Titus`/`Tito` for this repo's figure, `Jacob` for the historian.
+- **`Agartha` cannot be searched as a substring in Portuguese: `agarta` is
+  inside `lagarta` ("caterpillar").** Measured: `agarta` as a substring matches
+  4 COF files; as a whole word (`\bagarth?a\b`) it matches exactly **2**
+  (COF041, COF414). COF049 appears to be a 12-hit Agartha file and is in fact a
+  lecture about caterpillars becoming butterflies. Same failure mode as
+  `sufi`/`suficiente` and `rama`/`programa`; use word boundaries.
 - **`Sophia` has three referents inside this dataset**: *Sophia Perennis* the
   publisher (1×), the *journal Sophia* of the Foundation for Traditional Studies
   (4×), and the Latin `sophia perennis` (3×). Disambiguate before citing.
@@ -257,6 +305,30 @@ this subject use them and a searcher here needs to recognize them.
   instead promotes `COF041` (22,564 words) over `COF223`; rank by density.
   Per perennialism#32, `COF138`, `COF223` and `COF241` are shared with
   `tariqa#30` and `fsspx#49` — mine once.
+- **A COF header date is not a verified date.** `cof/index.json` marks all 257
+  `revisadas` `dateVerified: true` because a header said so. `archive#20`
+  measured **14 headers that contradict both their dated neighbours**, five of
+  them probable whole-year typos (COF027, COF079, COF089, COF143, COF149) and
+  the rest ordering anomalies (COF018/019, COF047, COF076, COF105/106, COF115,
+  COF176, COF222). **Check that list before citing an aula**, say so in the
+  reference when the aula is on it, and never "correct" a header — the header is
+  the evidence, an inference is not. This dataset cites COF105 and COF106 with
+  that caveat attached.
+- **Guénon's works are cited in COF by their PORTUGUESE titles**, which none of
+  the French or English forms will find: `O Reino das Quantidades e os Sinais
+  dos Tempos`, `O Homem e seu devir segundo o Vedanta`, `Os Estados Múltiplos do
+  Ser`, `Os Princípios do Cálculo Infinitesimal`, `Metafísica Oriental`,
+  `Teosofismo` / `Le Théosophisme, a História de uma Pseudoreligião`, and the
+  symbolism collection referred to as *os símbolos da ciência sagrada*. Titus
+  Burckhardt appears as `Ciência Moderna e Sabedoria Tradicional` and
+  `A Civilização Hispano-Árabe`. Two secondary works appear only in Portuguese
+  form too: Gaston Georgel's `Les quatre âges de l'humanité` (glossed *As quatro
+  eras da humanidade*) and Jean-Marc Allemand's `René Guénon e as Sete Torres do
+  Diabo`.
+- **`Michel Veber` and `Michel Weber` are the same person in COF** — Olavo's
+  Chinese-martial-arts teacher and the author of commentaries on Guénon's
+  *Metafísica Oriental*. Aula 105 writes `Veber`, aula 141 writes `Weber`.
+  Search both; neither is Michel Weber the process-philosophy scholar.
 - **Aula number is not a date, and the two do not track each other.** Measured
   on `cof/index.json` this session: dated aulas run **COF001 (2009-03-14) →
   COF293 (2015-05-23)**, and the *highest aula number carrying any date is
