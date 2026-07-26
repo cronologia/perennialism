@@ -51,11 +51,15 @@ argue for or against the school.
 
 ## State of the dataset
 
-`data/chronology.json` currently holds **41 events (1540–2023)**, 14 figures,
-6 organizations, 6 summary facts, a 9-item disambiguation block and **64
+`data/chronology.json` currently holds **45 events (1540–2023)**, 14 figures,
+6 organizations, 6 summary facts, a 9-item disambiguation block and **75
 references** — encyclopedia, academic, primary, analysis, official sites, news,
 plus the mined-source types added in July 2026 (*academic interview*, *primary
-footage*, *commentary*, *testimony*). Every event carries `dateVerified: true`
+footage*, *commentary*, *testimony*). Eleven of the testimony references are
+individual lectures of Olavo de Carvalho's *Curso Online de Filosofia*, cited by
+aula number and lecture date per `cronologia/archive` ADR-0005; two of them
+(aulas 105 and 106) carry the `archive#20` header-date caveat in the reference
+itself. Every event carries `dateVerified: true`
 and a non-empty `sources[]`; six fields are flagged as unverified
 (`python3 core/tools/unverified-report.py perennialism`) — the Box Guénon
 launch date, the Foundation for Traditional Studies' place and second date, the
