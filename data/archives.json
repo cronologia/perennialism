@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-07-25",
+  "updatedAt": "2026-07-27",
   "snapshots": {
     "http://iapsop.com/archive/materials/etudes_traditionnelles/": {
       "archiveUrl": "https://web.archive.org/web/20260618220513/https://iapsop.com/archive/materials/etudes_traditionnelles/",
@@ -84,6 +84,12 @@
       "timestamp": "20260627155534",
       "checkedAt": "2026-07-24"
     },
+    "https://en.wikipedia.org/wiki/Sophia_(journal)": {
+      "refId": "wikipedia-sophia-journal",
+      "archiveUrl": "https://web.archive.org/web/20251116043256/https://en.wikipedia.org/wiki/Sophia_(journal)",
+      "timestamp": "20251116043256",
+      "checkedAt": "2026-07-27"
+    },
     "https://en.wikipedia.org/wiki/Temenos_Academy": {
       "refId": "wikipedia-temenos",
       "archiveUrl": "https://web.archive.org/web/20260312045656/https://en.wikipedia.org/wiki/Temenos_Academy",
@@ -138,6 +144,12 @@
       "timestamp": "20251210072421",
       "checkedAt": "2026-07-24"
     },
+    "https://giffordarchives.org/lecturers/seyyed-hossein-nasr": {
+      "refId": "gifford-archives-nasr",
+      "archiveUrl": "https://web.archive.org/web/20260727100736/https://giffordarchives.org/lecturers/seyyed-hossein-nasr",
+      "timestamp": "20260727100736",
+      "checkedAt": "2026-07-27"
+    },
     "https://global.oup.com/academic/product/against-the-modern-world-9780195396010": {
       "refId": "sedgwick-2004",
       "archiveUrl": "https://web.archive.org/web/20251027063108/https://global.oup.com/academic/product/against-the-modern-world-9780195396010",
@@ -168,6 +180,12 @@
       "timestamp": "20260224103523",
       "checkedAt": "2026-07-25"
     },
+    "https://periodicos.ufpb.br/index.php/religare/about": {
+      "refId": "ufpb-religare-about",
+      "archiveUrl": "https://web.archive.org/web/20260309122857/https://periodicos.ufpb.br/index.php/religare/about",
+      "timestamp": "20260309122857",
+      "checkedAt": "2026-07-27"
+    },
     "https://traditionalistblog.blogspot.com/2014/07/lord-northbourne-organic-agriculture.html": {
       "archiveUrl": "https://web.archive.org/web/20250810103634/https://traditionalistblog.blogspot.com/2014/07/lord-northbourne-organic-agriculture.html",
       "timestamp": "20250810103634"
@@ -189,6 +207,18 @@
       "archiveUrl": "https://web.archive.org/web/20260720013504/https://traditionalistblog.blogspot.com/2023/10/traditionalism-in-brazil-today.html",
       "timestamp": "20260720013504",
       "checkedAt": "2026-07-25"
+    },
+    "https://us.amazon.com/Selected-Papers-Coomaraswamy-Metaphysics-Bollingen/dp/0691277524": {
+      "refId": "lipsey-papers",
+      "archiveUrl": "https://web.archive.org/web/20260727100821/https://www.amazon.com/dp/B0GKCXYHRM/?_encoding=UTF8&pd_rd_i=B0GKCXYHRM&pd_rd_i=B0GKCXYHRM&ref_=sbx_be_s_sparkle_ssd_vid&pd_rd_w=CKUKX&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=DSQMBRZR4WGADKTFGDZH&pd_rd_wg=zFNBG&pd_rd_r=7253bf46-a483-4eb6-b501-c59034451545&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=DSQMBRZR4WGADKTFGDZH&pd_rd_wg=zFNBG&pd_rd_w=CKUKX&pd_rd_r=7253bf46-a483-4eb6-b501-c59034451545",
+      "timestamp": "20260727100821",
+      "checkedAt": "2026-07-27"
+    },
+    "https://www.academia.edu/34205962/Huston_Smith_Pilgrim_of_the_Perennial_Philosophy": {
+      "refId": "academia-smith",
+      "archiveUrl": "https://web.archive.org/web/20260727100851/https://www.academia.edu/34205962/Huston_Smith_Pilgrim_of_the_Perennial_Philosophy",
+      "timestamp": "20260727100851",
+      "checkedAt": "2026-07-27"
     },
     "https://www.cambridge.org/core/books/esotericism-and-the-academy/4532A70CA2235EED1DD9FD7F5BCAC100": {
       "refId": "hanegraaff-2012",
@@ -234,6 +264,12 @@
       "timestamp": "20231207140936",
       "checkedAt": "2026-07-24"
     },
+    "https://www.montfort.org.br/bra/cadernos/religiao/guenon/": {
+      "refId": "montfort-gnose-guenon-olavo",
+      "archiveUrl": "https://web.archive.org/web/20260226184837/https://www.montfort.org.br/bra/cadernos/religiao/guenon/",
+      "timestamp": "20260226184837",
+      "checkedAt": "2026-07-27"
+    },
     "https://www.montfort.org.br/bra/cartas/gnose/20040728192545/": {
       "refId": "montfort-carta-guenon-olavo",
       "archiveUrl": "https://web.archive.org/web/20260520193038/https://www.montfort.org.br/bra/cartas/gnose/20040728192545/",
@@ -246,6 +282,12 @@
       "timestamp": "20221228185458",
       "checkedAt": "2026-07-24"
     },
+    "https://www.seyyedhosseinnasr.com/about/biography": {
+      "refId": "nasr-official-bio",
+      "archiveUrl": "https://web.archive.org/web/20260627132046/https://www.seyyedhosseinnasr.com/about/biography",
+      "timestamp": "20260627132046",
+      "checkedAt": "2026-07-27"
+    },
     "https://www.sutrajournal.com/coomaraswamy-true-art": {
       "refId": "sutrajournal-coomaraswamy-true-art",
       "archiveUrl": "https://web.archive.org/web/20260725002956/https://www.sutrajournal.com/coomaraswamy-true-art",
@@ -255,6 +297,18 @@
     "https://www.temenosacademy.org/history": {
       "archiveUrl": "https://web.archive.org/web/20251118081545/https://www.temenosacademy.org/history",
       "timestamp": "20251118081545"
+    },
+    "https://www.themathesontrust.org/links/journals": {
+      "refId": "matheson-sophia",
+      "archiveUrl": "https://web.archive.org/web/20260725100844/https://www.themathesontrust.org/links/journals",
+      "timestamp": "20260725100844",
+      "checkedAt": "2026-07-27"
+    },
+    "https://www.youtube.com/live/U2JrgpNNvY8": {
+      "refId": "pazebem-1294-miele",
+      "archiveUrl": "https://web.archive.org/web/20260727101356/https://www.youtube.com/live/U2JrgpNNvY8",
+      "timestamp": "20260727101356",
+      "checkedAt": "2026-07-27"
     },
     "https://www.youtube.com/watch?v=r2ROPEN9wJI": {
       "refId": "icls-box-guenon-launch",
