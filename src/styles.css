@@ -100,6 +100,10 @@ td.year { font-weight: 700; white-space: nowrap; }
 .cp-card p { margin: .4rem 0; font-size: .9rem; }
 
 /* Citations */
+/* Inline glossary cross-links (from [[term-id]] markers in prose fields). */
+.glossary-link { color: var(--accent); text-decoration: none; border-bottom: 1px dotted var(--accent); }
+.glossary-link:hover { border-bottom-style: solid; }
+
 sup.cite { font-size: .68rem; line-height: 0; margin-left: .12rem; }
 sup.cite a { color: var(--accent); text-decoration: none; font-weight: 700; }
 sup.cite a:hover { text-decoration: underline; }
@@ -118,7 +122,7 @@ ol.references a:hover { text-decoration: underline; }
 .site-footer { border-top: 1px solid var(--line); padding: 1.5rem 0; color: var(--muted); font-size: .85rem; }
 .site-footer code { background: #efece6; padding: .1rem .35rem; border-radius: 3px; }
 
-/* Genealogy / lineage trees (shared renderer; rendered only when the data
+/* Genealogy / lineage trees (fsspx pattern; rendered only when the data
    declares `lineage`/`episcopalLineage`) */
 .lineage-branch { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--accent); border-radius: 6px; padding: 1rem 1.25rem; margin: 1rem 0; }
 .lineage-branch h3 { margin: 0 0 .25rem; }
@@ -134,8 +138,8 @@ ul.tree ul li::before { content: ""; position: absolute; top: 1em; left: -1.05re
 .tree-status { font-size: .78rem; color: var(--accent-dark); background: var(--accent-soft); display: inline-block; border-radius: 999px; padding: .05rem .6rem; margin: .15rem 0 0; }
 .lineage-separate .tree-status { color: #7a5410; background: #f7ecd4; }
 
-/* Typed edges: solid connector = direct discipleship/collaboration (default);
-   dashed connector = indirect influence/reception/cross-link, always attributed */
+/* Typed edges: solid connector = direct consecration/initiation (default);
+   dashed connector = indirect reference/association, NOT lineage */
 ul.tree ul li.tree-edge-indirect::before { border-top-style: dashed; }
 .tree-edge-label { font-size: .72rem; font-style: italic; color: var(--muted); background: #f3f1ec; border: 1px dashed var(--line); border-radius: 999px; padding: 0 .5rem; white-space: nowrap; }
 .lineage-legend { display: flex; flex-wrap: wrap; gap: .5rem 1.5rem; margin: .75rem 0 .25rem; font-size: .82rem; color: var(--muted); }
@@ -166,6 +170,27 @@ figure.branch-timeline figcaption { margin-top: .75rem; }
 ol.branch-notes { margin: 0; padding-left: 1.25rem; font-size: .88rem; }
 ol.branch-notes li { margin-bottom: .35rem; }
 
+/* Contested-numbers chart (rendered only when the data declares
+   `numbersChart`). Each series is a self-contained panel on its OWN axis and
+   unit — the series are deliberately never merged onto one scale. */
+figure.numbers-chart { margin: 1rem 0 0; }
+.nc-series { background: var(--surface); border: 1px solid var(--line); border-radius: 6px; padding: .85rem 1rem; margin: 0 0 1rem; }
+.nc-series-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .35rem .75rem; }
+.nc-series-label { font-weight: 700; }
+.nc-source-badge { font-size: .74rem; font-weight: 600; color: var(--accent-dark); background: var(--accent-soft); border-radius: 999px; padding: .1rem .6rem; white-space: nowrap; }
+.nc-axis-note { font-size: .76rem; color: var(--muted); margin: .1rem 0 .55rem; }
+.nc-row { display: flex; align-items: center; flex-wrap: wrap; gap: .25rem .6rem; margin: .35rem 0; }
+.nc-year { flex: 0 0 2.4rem; font-weight: 700; font-size: .8rem; color: var(--muted); }
+.nc-track { flex: 1 1 140px; min-width: 120px; height: 1.05rem; background: #f0ece5; border-radius: 3px; overflow: hidden; }
+.nc-bar { display: block; height: 100%; border-radius: 3px; }
+.nc-value { flex: 1 1 100%; margin-left: 3rem; font-size: .82rem; color: var(--ink); }
+.nc-axis { display: flex; align-items: center; gap: .6rem; margin-top: .15rem; }
+.nc-ticks { flex: 1 1 140px; min-width: 120px; display: flex; justify-content: space-between; font-size: .7rem; color: var(--muted); }
+.nc-c0 { background: #c2571f; } .nc-c1 { background: #2f7d4f; } .nc-c2 { background: #7b4fa6; }
+.nc-c3 { background: #b02a37; } .nc-c4 { background: #0f7f8b; } .nc-c5 { background: #946200; }
+figure.numbers-chart figcaption { margin-top: .25rem; }
+
+/* Mobile baseline: compact header + nav as a single horizontal scroll strip */
 @media (max-width: 560px) {
   .site-header { padding: 1.4rem 0 1.1rem; }
   .site-header h1 { font-size: 1.5rem; }
@@ -177,6 +202,7 @@ ol.branch-notes li { margin-bottom: .35rem; }
   .site-nav a { font-size: .82rem; }
   .facts { grid-template-columns: 1fr; gap: .1rem; }
   .facts dt { margin-top: .5rem; }
+  .nc-value { margin-left: 0; }
 }
 
 /* Print baseline (book series): every visualization is a static figure that
@@ -190,7 +216,7 @@ ol.branch-notes li { margin-bottom: .35rem; }
   section { margin: 1.25rem 0; }
   table.meetings thead th { position: static; }
   /* Figures must not split across pages */
-  .lineage-branch, figure.branch-timeline, .party-card, .related-card, .cp-card { break-inside: avoid; page-break-inside: avoid; }
+  .lineage-branch, figure.branch-timeline, figure.numbers-chart, figure.chrono-spine, .nc-series, .party-card, .related-card, .cp-card { break-inside: avoid; page-break-inside: avoid; }
   /* Trees are static HTML/CSS and print as-is; the subway SVG scales to the
      page width via its viewBox instead of scrolling */
   .viz-scroll { overflow: visible; }
@@ -273,4 +299,54 @@ figure.chrono-spine figcaption {
 .i18n-disclaimer {
   background: #fff8e6; border-bottom: 1px solid #f0e2b8; color: #6b5a17;
   font-size: .82rem; text-align: center; padding: .45rem 1rem;
+}
+
+/* ---------------------------------------------------------------------------
+   Places map — event places as sized markers on a world basemap.
+
+   Encoding is never colour-only or pointer-only: marker AREA carries the
+   count, hollow-vs-filled carries precision, dashed carries an unverified
+   first date — and the full text list of mapped places renders under the
+   figure as the baseline. The year control is progressive enhancement: it is
+   hidden until the inline script enables it, so the no-JS and print state is
+   the complete map.
+   ------------------------------------------------------------------------ */
+figure.places-map { margin: 0 0 .5rem; }
+figure.places-map svg { display: block; width: 100%; height: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 6px; }
+.pm-land { fill: var(--accent-soft); stroke: var(--line); stroke-width: 1px; vector-effect: non-scaling-stroke; }
+.pm-pin circle {
+  fill: var(--accent); fill-opacity: .78; stroke: var(--accent-dark);
+  stroke-width: 1.2px; vector-effect: non-scaling-stroke;
+}
+.pm-pin:hover circle, .pm-pin:focus-visible circle { fill-opacity: 1; }
+.pm-pin:focus-visible { outline: none; }
+.pm-pin:focus-visible circle { stroke-width: 3px; }
+/* Country-level locations: hollow — a centroid is not a site. */
+.pm-approx circle { fill: none; stroke: var(--accent-dark); stroke-width: 1.6px; }
+/* Unverified first date: dashed, mirroring the table's `?` flag. */
+.pm-unverified circle { stroke-dasharray: 3 2; }
+/* Year control (enabled by the inline script) hides later places. */
+.pm-future { display: none; }
+.pm-controls { display: flex; align-items: center; gap: .6rem; margin: 0 0 .5rem; }
+.pm-controls .pm-slider { flex: 1 1 auto; min-width: 120px; }
+.pm-controls .pm-play {
+  font: inherit; font-size: .8rem; padding: .25rem .6rem; border: 1px solid var(--line);
+  border-radius: 4px; background: var(--surface); color: inherit; cursor: pointer;
+}
+.pm-controls .pm-play:hover { background: var(--accent-soft); }
+.pm-year { font-variant-numeric: tabular-nums; font-weight: 700; font-size: .9rem; min-width: 3ch; }
+.pm-legend { font-size: .75rem; color: var(--muted); margin: .5rem 0 0; line-height: 1.45; }
+figure.places-map figcaption { font-size: .78rem; color: var(--muted); margin-top: .35rem; line-height: 1.45; }
+.pm-list { margin: .35rem 0 0; }
+.pm-list summary { font-size: .8rem; color: var(--muted); cursor: pointer; }
+.pm-list ol { font-size: .8rem; color: var(--muted); margin: .35rem 0 0; padding-left: 1.4rem; line-height: 1.5; }
+.pm-approx-badge {
+  font-size: .68rem; border: 1px solid var(--line); border-radius: 3px;
+  padding: 0 .3rem; color: var(--muted); white-space: nowrap;
+}
+
+@media print {
+  figure.places-map { break-inside: avoid; page-break-inside: avoid; }
+  .pm-controls { display: none; }
+  .pm-future { display: initial; } /* the print form is the complete map */
 }
