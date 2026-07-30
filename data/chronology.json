@@ -5,7 +5,7 @@
     "description": "An open, source-referenced chronology of perennialism — the Traditionalist School of René Guénon, Ananda Coomaraswamy and Frithjof Schuon — as a movement of ideas: the books, the journals, the political adaptations and the reception, from the 1920s to the school's unexpected afterlife in 21st-century politics. The Maryamiyya order's initiatic history is the sibling project cronologia/tariqa.",
     "language": "en",
     "siteUrl": "https://cronologia.github.io/perennialism/",
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-30",
     "dataQualityNote": "This is a work-in-progress dataset about a contested intellectual lineage whose political receptions are actively disputed. Every fact is cited; dates the sources dispute are flagged with a ? mark; and every characterization — above all about the Evola line, the alt-right reception, contested affiliations (Eliade) and living figures — is attributed to the scholar or actor making it, never asserted in the site's own voice. Corrections against published sources are welcome.",
     "vizChips": [
       {
@@ -535,6 +535,40 @@
       "text": "Wouter Hanegraaff's study treats Traditionalism critically as 'religionism' within the academic history of Western esotericism.",
       "sources": [
         "hanegraaff-2012"
+      ]
+    },
+    {
+      "year": 2013,
+      "date": "2013-06-01",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "Carvalho denies having introduced Guénon and Evola to Brazil",
+      "text": "In aula 206 of the Curso Online de Filosofia (1 June 2013) Olavo de Carvalho rejects the claim, which he attributes to his own Wikipedia entry, that he introduced the works of René Guénon and Julius Evola to Brazil. On his account, translations of both authors and an active Guenonian circle had existed in Brazil for some forty years before him, and he counts himself the last to arrive on that scene. In the same answer he calls Evola a genius but mentally unbalanced and advises his students against reading him without long prior formation. The denial is a first-person correction to a widely repeated statement about the ideas' arrival in Brazil; his counter-claims — the decades of prior translations, the pre-existing Guenonian circle — are his own account, corroborated nowhere in this dataset's sources, and are recorded as attributed testimony, not as a finding about the Brazilian reception. The lecture is a community transcription not checked against audio; everything above is paraphrase and nothing is quoted.",
+      "sources": [
+        "olavo-cof-206"
+      ]
+    },
+    {
+      "year": 2013,
+      "date": "2013-10-26",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "Guénon's French Catholic reception, as told in the Curso Online de Filosofia",
+      "text": "Answering a student on the influence of the transcendent-unity idea over ecumenism, in aula 225 (26 October 2013) Carvalho describes Guénon's influence on French intellectual and especially Catholic milieux from the 1920s as profound but rarely acknowledged in public. He holds up Xavier Accart's monograph 'Guénon ou le renversement des clartés' (Édidit/Archè, 2005) as the documentation of that influence; points to Guénon's debate with Jean Daniélou, part of which he says is available in the Brazilian translation 'Sobre o Mistério da História'; and claims that Joseph Ratzinger, while a cardinal, credited Daniélou and Guénon with having turned the study of symbolism into a scientific field. The Ratzinger attribution is Carvalho's: no primary Ratzinger text was located when this entry was made — an endorsement of similar wording circulates in publisher material for Guénon's 'Symboles de la Science sacrée', without a citation — so it is carried here only as his claim, not as a fact about Ratzinger. In the same answer he restates the narrow assent the course had held since 2009: the transcendent-unity theory is correct insofar as it asserts a metaphysics common to the great religions, with Whitall Perry's anthology as the documentation, while salvation depends on divine action and lies outside what that common metaphysics covers. The lecture is a community transcription not checked against audio; everything above is paraphrase and nothing is quoted.",
+      "sources": [
+        "olavo-cof-225",
+        "accart-renversement"
+      ]
+    },
+    {
+      "year": 2014,
+      "date": "2014-04-19",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "Guénon's theory of initiation read against the Catholic sacraments",
+      "text": "In aula 246 (19 April 2014) Carvalho expounds, and in part rejects, Guénon's theory of initiation as applied to Christianity. He states Guénon's thesis that Christianity began as an initiatic organization which, for want of valid religious institutions around it, externalized itself into a popular religion — and rejects it on the ground that Christ declared he had taught nothing in secret. He allows that the sacraments are, in Guénon's vocabulary, the Christian initiation, invoking John Paul II's description of baptism as the beginning of Christian initiation, while insisting that the initiation/esoterism grid fits the Islamic world — where the tariqas stand as distinct initiatic organizations beside a common popular religion — and not Christianity, where the rites are the same for everyone and only the depth of participation differs. Later in the lecture he restates Guénon's doctrine that an initiation received is virtual until effectuated and may remain virtual for a lifetime. All of this is reception of Guénon's doctrine of initiation; Carvalho's own initiatic history is order-side material and lives in the sibling cronologia/tariqa project. The lecture is a community transcription not checked against audio; everything above is paraphrase and nothing is quoted.",
+      "sources": [
+        "olavo-cof-246"
       ]
     },
     {
@@ -1658,6 +1692,34 @@
       "url": "https://archive.org/details/COFemAudio",
       "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist and right-wing political commentator, recorded lecture (Curso Online de Filosofia, aula 151), 21 April 2012. Reception of the school, never a finding about it: he is a post-Traditionalist critic, and on Schuon's order an interested participant-witness — per Mark Sedgwick's obituary notice he was briefly a Maryami and Schuon's khalifa in Brazil during the 1980s, while the sibling cronologia/tariqa project records his appointment there as muqaddam; that divergence is recorded there and not resolved here. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred). The text is a community transcription that has not been checked against the audio, so everything drawn from it is paraphrase and never quotation. Audio of record: the COFemAudio collection.",
       "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-206",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 206, 1 June 2013 — denying that he introduced Guénon and Evola to Brazil",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist and right-wing political commentator, recorded lecture (Curso Online de Filosofia, aula 206), 1 June 2013. Reception of the school, never a finding about it: he is a post-Traditionalist critic, and on Schuon's order an interested participant-witness — per Mark Sedgwick's obituary notice he was briefly a Maryami and Schuon's khalifa in Brazil during the 1980s, while the sibling cronologia/tariqa project records his appointment there as muqaddam; that divergence is recorded there and not resolved here. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form-ordinal' — read from the transcription's own header, never inferred). The text is a community transcription that has not been checked against the audio, so everything drawn from it is paraphrase and never quotation. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-225",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 225, 26 October 2013 — on Guénon's influence in French Catholic milieux, the Daniélou debate, and a claimed Ratzinger endorsement",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist and right-wing political commentator, recorded lecture (Curso Online de Filosofia, aula 225), 26 October 2013. Reception of the school, never a finding about it: he is a post-Traditionalist critic, and on Schuon's order an interested participant-witness — per Mark Sedgwick's obituary notice he was briefly a Maryami and Schuon's khalifa in Brazil during the 1980s, while the sibling cronologia/tariqa project records his appointment there as muqaddam; that divergence is recorded there and not resolved here. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred). The text is a community transcription that has not been checked against the audio, so everything drawn from it is paraphrase and never quotation. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-246",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 246, 19 April 2014 — expounding Guénon's theory of initiation against the Catholic sacraments",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist and right-wing political commentator, recorded lecture (Curso Online de Filosofia, aula 246), 19 April 2014. Reception of the school, never a finding about it: he is a post-Traditionalist critic, and on Schuon's order an interested participant-witness — per Mark Sedgwick's obituary notice he was briefly a Maryami and Schuon's khalifa in Brazil during the 1980s, while the sibling cronologia/tariqa project records his appointment there as muqaddam; that divergence is recorded there and not resolved here. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred). The text is a community transcription that has not been checked against the audio, so everything drawn from it is paraphrase and never quotation. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "accart-renversement",
+      "title": "Xavier Accart, 'Guénon ou le renversement des clartés. Influence d'un métaphysicien sur la vie littéraire et intellectuelle française (1920-1970)' (Édidit / Archè, 2005)",
+      "url": "https://www.decitre.fr/livres/guenon-ou-le-renversement-des-clartes-9782912770035.html",
+      "publisher": "Édidit / Archè — academic monograph from doctoral research, preface by Antoine Compagnon; cited at bibliographic-record level as the book Carvalho holds up in aula 225 of the Curso Online de Filosofia; the book itself was not consulted for this dataset",
+      "type": "academic"
     }
   ]
 }
