@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-07-27",
+  "updatedAt": "2026-07-30",
   "snapshots": {
     "http://iapsop.com/archive/materials/etudes_traditionnelles/": {
       "archiveUrl": "https://web.archive.org/web/20260618220513/https://iapsop.com/archive/materials/etudes_traditionnelles/",
@@ -17,6 +17,12 @@
       "archiveUrl": "https://web.archive.org/web/20260310184846/https://blog.oup.com/2017/05/julius-evola-white-house-steve-bannon/",
       "timestamp": "20260310184846",
       "checkedAt": "2026-07-24"
+    },
+    "https://books.google.com/books/about/Confronto_con_Mircea_Eliade.html?id=2vOQGqcBopEC": {
+      "refId": "scagno-confronto",
+      "archiveUrl": "https://web.archive.org/web/20260727101028/https://books.google.com/books/about/Confronto_con_Mircea_Eliade.html?id=2vOQGqcBopEC",
+      "timestamp": "20260727101028",
+      "checkedAt": "2026-07-30"
     },
     "https://en.wikipedia.org/wiki/Ananda_Coomaraswamy": {
       "refId": "wikipedia-coomaraswamy",
@@ -251,6 +257,12 @@
       "archiveUrl": "https://web.archive.org/web/20260713003143/https://www.commonwealmagazine.org/king-charles-coronation-traditionalism-nasr-guenon-environmentalism",
       "timestamp": "20260713003143",
       "checkedAt": "2026-07-24"
+    },
+    "https://www.decitre.fr/livres/guenon-ou-le-renversement-des-clartes-9782912770035.html": {
+      "refId": "accart-renversement",
+      "archiveUrl": "https://web.archive.org/web/20200813205919/https://www.decitre.fr/livres/guenon-ou-le-renversement-des-clartes-9782912770035.html",
+      "timestamp": "20200813205919",
+      "checkedAt": "2026-07-30"
     },
     "https://www.foreignaffairs.com/reviews/capsule-review/2020-08-11/war-eternity-inside-bannons-far-right-circle-global-power-brokers": {
       "refId": "foreignaffairs-teitelbaum",

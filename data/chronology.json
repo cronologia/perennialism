@@ -5,7 +5,7 @@
     "description": "An open, source-referenced chronology of perennialism — the Traditionalist School of René Guénon, Ananda Coomaraswamy and Frithjof Schuon — as a movement of ideas: the books, the journals, the political adaptations and the reception, from the 1920s to the school's unexpected afterlife in 21st-century politics. The Maryamiyya order's initiatic history is the sibling project cronologia/tariqa.",
     "language": "en",
     "siteUrl": "https://cronologia.github.io/perennialism/",
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-30",
     "dataQualityNote": "This is a work-in-progress dataset about a contested intellectual lineage whose political receptions are actively disputed. Every fact is cited; dates the sources dispute are flagged with a ? mark; and every characterization — above all about the Evola line, the alt-right reception, contested affiliations (Eliade) and living figures — is attributed to the scholar or actor making it, never asserted in the site's own voice. Corrections against published sources are welcome.",
     "vizChips": [
       {
@@ -503,6 +503,21 @@
     },
     {
       "year": 2010,
+      "date": "2010-01-09/2013-07-13",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "Credit where he gives it: the school's expositors acknowledged in the Curso Online de Filosofia",
+      "text": "Alongside the concealment charge and the 'islamization' reading, the same course carries a steady line of dated, specific credit to the school's authors, and the two lines run together without either cancelling the other. In aula 040 (9 January 2010) Carvalho credits Guénon, Titus Burckhardt and Jean Borella with having restored the capacity to perceive the symbolic nature of reality, objecting in the same breath that by their method everything becomes symbol and one arrives only at an impersonal God. In aula 057 (8 May 2010) — the same year he presses the islamization charge — he says he cannot deny that the whole reconquest of the symbolic understanding of the universe came to the West by the Islamic route, through the Sufi turuq, Guénon and Schuon, and that thanks are owed. In aula 163 (14 July 2012) he recommends Schuon's L'Œil du Cœur and calls Schuon a great expositor of these matters even while under suspicion in other respects — the assent and the polemic in a single sentence. In aula 203 (11 May 2013) he credits Schuon with settling the question of whether logic binds God, citing Schuon's formulation of logic as the ontology of the microcosm that is human reason. In aula 211 (13 July 2013) he calls Schuon the coiner of the term 'transcendent unity of religions' and its most eloquent expositor, grants that the demonstration is irrefutable at the level of shared metaphysical principles, restates that a religion is not a metaphysical doctrine but a way of transformation and salvation whose differences live at that level — and adds that Schuon died leaving the resulting impasse unsolved (religions identical at the doctrinal summit yet neither interchangeable nor mixable), saying he does not know the solution either. All of this is Carvalho's dated, attributed reception; the lectures are community transcriptions unchecked against audio, so everything here is paraphrase and nothing is quoted.",
+      "sources": [
+        "olavo-cof-040",
+        "olavo-cof-057",
+        "olavo-cof-163",
+        "olavo-cof-203",
+        "olavo-cof-211"
+      ]
+    },
+    {
+      "year": 2010,
       "date": "2010-12-18/2011-01-29",
       "dateVerified": true,
       "place": "Brazil",
@@ -538,6 +553,40 @@
       ]
     },
     {
+      "year": 2013,
+      "date": "2013-06-01",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "Carvalho denies having introduced Guénon and Evola to Brazil",
+      "text": "In aula 206 of the Curso Online de Filosofia (1 June 2013) Olavo de Carvalho rejects the claim, which he attributes to his own Wikipedia entry, that he introduced the works of René Guénon and Julius Evola to Brazil. On his account, translations of both authors and an active Guenonian circle had existed in Brazil for some forty years before him, and he counts himself the last to arrive on that scene. In the same answer he calls Evola a genius but mentally unbalanced and advises his students against reading him without long prior formation. The denial is a first-person correction to a widely repeated statement about the ideas' arrival in Brazil; his counter-claims — the decades of prior translations, the pre-existing Guenonian circle — are his own account, corroborated nowhere in this dataset's sources, and are recorded as attributed testimony, not as a finding about the Brazilian reception. The lecture is a community transcription not checked against audio; everything above is paraphrase and nothing is quoted.",
+      "sources": [
+        "olavo-cof-206"
+      ]
+    },
+    {
+      "year": 2013,
+      "date": "2013-10-26",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "Guénon's French Catholic reception, as told in the Curso Online de Filosofia",
+      "text": "Answering a student on the influence of the transcendent-unity idea over ecumenism, in aula 225 (26 October 2013) Carvalho describes Guénon's influence on French intellectual and especially Catholic milieux from the 1920s as profound but rarely acknowledged in public. He holds up Xavier Accart's monograph 'Guénon ou le renversement des clartés' (Édidit/Archè, 2005) as the documentation of that influence; points to Guénon's debate with Jean Daniélou, part of which he says is available in the Brazilian translation 'Sobre o Mistério da História'; and claims that Joseph Ratzinger, while a cardinal, credited Daniélou and Guénon with having turned the study of symbolism into a scientific field. The Ratzinger attribution is Carvalho's: no primary Ratzinger text was located when this entry was made — an endorsement of similar wording circulates in publisher material for Guénon's 'Symboles de la Science sacrée', without a citation — so it is carried here only as his claim, not as a fact about Ratzinger. In the same answer he restates the narrow assent the course had held since 2009: the transcendent-unity theory is correct insofar as it asserts a metaphysics common to the great religions, with Whitall Perry's anthology as the documentation, while salvation depends on divine action and lies outside what that common metaphysics covers. The lecture is a community transcription not checked against audio; everything above is paraphrase and nothing is quoted.",
+      "sources": [
+        "olavo-cof-225",
+        "accart-renversement"
+      ]
+    },
+    {
+      "year": 2014,
+      "date": "2014-04-19",
+      "dateVerified": true,
+      "place": "Brazil",
+      "title": "Guénon's theory of initiation read against the Catholic sacraments",
+      "text": "In aula 246 (19 April 2014) Carvalho expounds, and in part rejects, Guénon's theory of initiation as applied to Christianity. He states Guénon's thesis that Christianity began as an initiatic organization which, for want of valid religious institutions around it, externalized itself into a popular religion — and rejects it on the ground that Christ declared he had taught nothing in secret. He allows that the sacraments are, in Guénon's vocabulary, the Christian initiation, invoking John Paul II's description of baptism as the beginning of Christian initiation, while insisting that the initiation/esoterism grid fits the Islamic world — where the tariqas stand as distinct initiatic organizations beside a common popular religion — and not Christianity, where the rites are the same for everyone and only the depth of participation differs. Later in the lecture he restates Guénon's doctrine that an initiation received is virtual until effectuated and may remain virtual for a lifetime. All of this is reception of Guénon's doctrine of initiation; Carvalho's own initiatic history is order-side material and lives in the sibling cronologia/tariqa project. The lecture is a community transcription not checked against audio; everything above is paraphrase and nothing is quoted.",
+      "sources": [
+        "olavo-cof-246"
+      ]
+    },
+    {
       "year": 2016,
       "date": "2016-07/2016-10",
       "dateVerified": true,
@@ -568,11 +617,12 @@
       "dateVerified": true,
       "place": "New York, USA",
       "title": "'War for Eternity'",
-      "text": "Benjamin Teitelbaum's ethnographic account links Bannon, Dugin and Olavo de Carvalho through Traditionalism, based on extensive Bannon interviews; reviewers dispute how coherent or consequential the 'network' really is — the book's stronger claims are the author's, not consensus. Interviewed on the Pill Pod podcast on or about 8 January 2021, Teitelbaum named his own object 'rightist' or political traditionalism — a term he says the Traditionalist author Charles Upton, himself strongly opposed to the figures the book studies, asked him to use, and which draws the same religious/political line this chronology draws; Upton is carried in the sibling cronologia/tariqa project, not here. In the same interview he set his own limit on the network thesis: that Traditionalism may be, as he put it, the fancy language of people who are populist but dislike thinking of themselves as populist, and that deciding otherwise would require a degree of mind-reading he is not comfortable with as a scholar. He also reported the reception — Bannon considering his own sections faithful, Dugin liking the book, and Olavo de Carvalho answering it with videos attacking him by name — and noted that the US and European editions carry different subtitles. Auto-captioned interview, unchecked against the audio: paraphrase, not quotation.",
+      "text": "Benjamin Teitelbaum's ethnographic account links Bannon, Dugin and Olavo de Carvalho through Traditionalism, based on extensive Bannon interviews; reviewers dispute how coherent or consequential the 'network' really is — the book's stronger claims are the author's, not consensus. Interviewed on the Pill Pod podcast on or about 8 January 2021, Teitelbaum named his own object 'rightist' or political traditionalism — a term he says the Traditionalist author Charles Upton, himself strongly opposed to the figures the book studies, asked him to use, and which draws the same religious/political line this chronology draws; Upton is carried in the sibling cronologia/tariqa project, not here. In the same interview he set his own limit on the network thesis: that Traditionalism may be, as he put it, the fancy language of people who are populist but dislike thinking of themselves as populist, and that deciding otherwise would require a degree of mind-reading he is not comfortable with as a scholar. He also reported the reception — Bannon considering his own sections faithful, Dugin liking the book, and Olavo de Carvalho answering it with videos attacking him by name — and noted that the US and European editions carry different subtitles. Auto-captioned interview, unchecked against the audio: paraphrase, not quotation. A second reviewer datum, read in full for this entry: Luke Harding's Guardian review of 5 June 2020, headlined 'starstruck by Steve Bannon', finds the book good on Bannon but weak on Dugin and Russian politics; presses that Teitelbaum refers to Bannon chummily as 'Steve' and that it is never entirely clear whether the author shares his subjects' extreme views or regards them as 'ethnographic curiosities'; and rejects the Dugin-inspired-Putin framing — on Harding's account the Kremlin promoted Dugin because his theories suited Putin's great-power project, a mission owing nothing to Evola or Guénon. The same review supplies a printed figure for the interviews behind the book: twenty hours of conversation with Bannon in 2018–19.",
       "sources": [
         "foreignaffairs-teitelbaum",
         "colorado-teitelbaum",
-        "teitelbaum-pillpod-2021"
+        "teitelbaum-pillpod-2021",
+        "guardian-harding-teitelbaum"
       ]
     },
     {
@@ -1658,6 +1708,76 @@
       "url": "https://archive.org/details/COFemAudio",
       "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist and right-wing political commentator, recorded lecture (Curso Online de Filosofia, aula 151), 21 April 2012. Reception of the school, never a finding about it: he is a post-Traditionalist critic, and on Schuon's order an interested participant-witness — per Mark Sedgwick's obituary notice he was briefly a Maryami and Schuon's khalifa in Brazil during the 1980s, while the sibling cronologia/tariqa project records his appointment there as muqaddam; that divergence is recorded there and not resolved here. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred). The text is a community transcription that has not been checked against the audio, so everything drawn from it is paraphrase and never quotation. Audio of record: the COFemAudio collection.",
       "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-206",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 206, 1 June 2013 — denying that he introduced Guénon and Evola to Brazil",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist and right-wing political commentator, recorded lecture (Curso Online de Filosofia, aula 206), 1 June 2013. Reception of the school, never a finding about it: he is a post-Traditionalist critic, and on Schuon's order an interested participant-witness — per Mark Sedgwick's obituary notice he was briefly a Maryami and Schuon's khalifa in Brazil during the 1980s, while the sibling cronologia/tariqa project records his appointment there as muqaddam; that divergence is recorded there and not resolved here. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form-ordinal' — read from the transcription's own header, never inferred). The text is a community transcription that has not been checked against the audio, so everything drawn from it is paraphrase and never quotation. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-225",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 225, 26 October 2013 — on Guénon's influence in French Catholic milieux, the Daniélou debate, and a claimed Ratzinger endorsement",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist and right-wing political commentator, recorded lecture (Curso Online de Filosofia, aula 225), 26 October 2013. Reception of the school, never a finding about it: he is a post-Traditionalist critic, and on Schuon's order an interested participant-witness — per Mark Sedgwick's obituary notice he was briefly a Maryami and Schuon's khalifa in Brazil during the 1980s, while the sibling cronologia/tariqa project records his appointment there as muqaddam; that divergence is recorded there and not resolved here. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred). The text is a community transcription that has not been checked against the audio, so everything drawn from it is paraphrase and never quotation. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-246",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 246, 19 April 2014 — expounding Guénon's theory of initiation against the Catholic sacraments",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist and right-wing political commentator, recorded lecture (Curso Online de Filosofia, aula 246), 19 April 2014. Reception of the school, never a finding about it: he is a post-Traditionalist critic, and on Schuon's order an interested participant-witness — per Mark Sedgwick's obituary notice he was briefly a Maryami and Schuon's khalifa in Brazil during the 1980s, while the sibling cronologia/tariqa project records his appointment there as muqaddam; that divergence is recorded there and not resolved here. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred). The text is a community transcription that has not been checked against the audio, so everything drawn from it is paraphrase and never quotation. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "accart-renversement",
+      "title": "Xavier Accart, 'Guénon ou le renversement des clartés. Influence d'un métaphysicien sur la vie littéraire et intellectuelle française (1920-1970)' (Édidit / Archè, 2005)",
+      "url": "https://www.decitre.fr/livres/guenon-ou-le-renversement-des-clartes-9782912770035.html",
+      "publisher": "Édidit / Archè — academic monograph from doctoral research, preface by Antoine Compagnon; cited at bibliographic-record level as the book Carvalho holds up in aula 225 of the Curso Online de Filosofia; the book itself was not consulted for this dataset",
+      "type": "academic"
+    },
+    {
+      "id": "olavo-cof-040",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 040, 9 January 2010 — crediting Guénon, Titus Burckhardt and Jean Borella with restoring the perception of symbolism",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist and right-wing political commentator, recorded lecture (Curso Online de Filosofia, aula 040), 9 January 2010. Reception of the school, never a finding about it: he is a post-Traditionalist critic, and on Schuon's order an interested participant-witness — per Mark Sedgwick's obituary notice he was briefly a Maryami and Schuon's khalifa in Brazil during the 1980s, while the sibling cronologia/tariqa project records his appointment there as muqaddam; that divergence is recorded there and not resolved here. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred). The text is a community transcription that has not been checked against the audio, so everything drawn from it is paraphrase and never quotation. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-057",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 057, 8 May 2010 — on the recovery of symbolic understanding having come through the Sufi turuq, Guénon and Schuon, with thanks owed",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist and right-wing political commentator, recorded lecture (Curso Online de Filosofia, aula 057), 8 May 2010. Reception of the school, never a finding about it: he is a post-Traditionalist critic, and on Schuon's order an interested participant-witness — per Mark Sedgwick's obituary notice he was briefly a Maryami and Schuon's khalifa in Brazil during the 1980s, while the sibling cronologia/tariqa project records his appointment there as muqaddam; that divergence is recorded there and not resolved here. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred). The text is a community transcription that has not been checked against the audio, so everything drawn from it is paraphrase and never quotation. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-163",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 163, 14 July 2012 — recommending Schuon's L'Œil du Cœur — a great expositor, though under suspicion in other respects",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist and right-wing political commentator, recorded lecture (Curso Online de Filosofia, aula 163), 14 July 2012. Reception of the school, never a finding about it: he is a post-Traditionalist critic, and on Schuon's order an interested participant-witness — per Mark Sedgwick's obituary notice he was briefly a Maryami and Schuon's khalifa in Brazil during the 1980s, while the sibling cronologia/tariqa project records his appointment there as muqaddam; that divergence is recorded there and not resolved here. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred). The text is a community transcription that has not been checked against the audio, so everything drawn from it is paraphrase and never quotation. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-203",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 203, 11 May 2013 — crediting Schuon with settling whether logic binds God",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist and right-wing political commentator, recorded lecture (Curso Online de Filosofia, aula 203), 11 May 2013. Reception of the school, never a finding about it: he is a post-Traditionalist critic, and on Schuon's order an interested participant-witness — per Mark Sedgwick's obituary notice he was briefly a Maryami and Schuon's khalifa in Brazil during the 1980s, while the sibling cronologia/tariqa project records his appointment there as muqaddam; that divergence is recorded there and not resolved here. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred). The text is a community transcription that has not been checked against the audio, so everything drawn from it is paraphrase and never quotation. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "olavo-cof-211",
+      "title": "Olavo de Carvalho, Curso Online de Filosofia, aula 211, 13 July 2013 — on Schuon as coiner of the transcendent unity of religions, and the impasse he died leaving",
+      "url": "https://archive.org/details/COFemAudio",
+      "publisher": "Olavo de Carvalho (1947–2022), Brazilian essayist and right-wing political commentator, recorded lecture (Curso Online de Filosofia, aula 211), 13 July 2013. Reception of the school, never a finding about it: he is a post-Traditionalist critic, and on Schuon's order an interested participant-witness — per Mark Sedgwick's obituary notice he was briefly a Maryami and Schuon's khalifa in Brazil during the 1980s, while the sibling cronologia/tariqa project records his appointment there as muqaddam; that divergence is recorded there and not resolved here. Aula number and date are those recorded in the COF corpus manifest vaulted in cronologia/archive (ADR-0005; cof/index.json, dateProvenance 'header-long-form' — read from the transcription's own header, never inferred). The text is a community transcription that has not been checked against the audio, so everything drawn from it is paraphrase and never quotation. Audio of record: the COFemAudio collection.",
+      "type": "testimony"
+    },
+    {
+      "id": "guardian-harding-teitelbaum",
+      "title": "Luke Harding, 'War for Eternity by Benjamin R Teitelbaum — starstruck by Steve Bannon' (The Guardian, 5 June 2020)",
+      "url": "https://www.theguardian.com/books/2020/jun/05/war-for-eternity-benjamin-r-teitelbaum-starstruck-steve-bannon-dugin-putin-trump",
+      "publisher": "The Guardian (skeptical review — labeled); read in full for this entry via the Guardian content API",
+      "type": "analysis"
     }
   ]
 }
