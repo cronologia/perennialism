@@ -248,15 +248,27 @@
       ]
     },
     {
+      "year": 1939,
+      "date": "1939-07-01/1939-07-09",
+      "dateVerified": true,
+      "place": "Betteshanger, Kent, England",
+      "title": "The Betteshanger Summer School — where the organic coinage came from",
+      "text": "Lord Northbourne hosts the Betteshanger Summer School and Conference on Bio-Dynamic Farming at his farm in Kent, 1–9 July 1939: a nine-day course for British farmers given by Ehrenfried Pfeiffer, who travelled from Switzerland, supported by the biodynamic practitioners Otto Eckstein and Hans Heinze, with Dr Scott Williamson of the Peckham Experiment as the only British lecturer. Northbourne had gone to Switzerland in January 1939 to arrange the visit, having already worked with Pfeiffer on the Farleigh Experiment in 1938; attendance was capped at forty and by invitation only. War broke out less than eight weeks later, and 'Look to the Land' followed in May 1940. This entry exists to keep the next one honest. John Paull's reconstruction — the source for all of the above — argues that Betteshanger is the missing link between biodynamics and organic farming, that a direct line runs from Rudolf Steiner via Pfeiffer to Northbourne, and that 'Look to the Land' took the Steinerian view of the farm as an organism as its central tenet and made it the nominative motif of 'organic' farming, in an account offered to the Anglophone world secularized and at a distance from its Anthroposophical roots. So the coinage this chronology calls the school's most unexpected export has a documented immediate provenance that is not Traditionalist at all: it is Steiner's anthroposophy, a current the Traditionalist authors treated as precisely the kind of modern pseudo-initiatic movement they wrote against. Northbourne's later Traditionalism and his translations of Guénon and Burckhardt are real and are recorded elsewhere here; what this entry denies is the shortcut that reads 'organic farming' as an application of Traditionalist metaphysics. The characterizations are Paull's, dated and attributed.",
+      "sources": [
+        "paull-betteshanger"
+      ]
+    },
+    {
       "year": 1940,
       "date": "1940-05",
       "dateVerified": true,
       "place": "England",
       "title": "'Look to the Land' coins 'organic farming'",
-      "text": "Lord Northbourne — later a Traditionalist author and translator of Guénon — introduces the term 'organic farming', framing agriculture as a clash of worldviews; the school's most unexpected export.",
+      "text": "Lord Northbourne — later a Traditionalist author and translator of Guénon — introduces the term 'organic farming', framing agriculture as a clash of worldviews; long described here as the school's most unexpected export. The description needs one qualification, added after reading John Paull's account of the Betteshanger Summer School Northbourne had hosted eleven months earlier: on that reconstruction the book's central image of the farm as an organism is Steinerian and reaches Northbourne through Ehrenfried Pfeiffer's biodynamics, not through Guénon. Northbourne's Traditionalist authorship and his translations come later; the coinage is not an application of them.",
       "sources": [
         "paull-northbourne",
-        "sedgwick-blog-northbourne"
+        "sedgwick-blog-northbourne",
+        "paull-betteshanger"
       ]
     },
     {
@@ -1790,6 +1802,13 @@
       "url": "https://www.theguardian.com/books/2020/jun/05/war-for-eternity-benjamin-r-teitelbaum-starstruck-steve-bannon-dugin-putin-trump",
       "publisher": "The Guardian (skeptical review — labeled); read in full for this entry via the Guardian content API",
       "type": "analysis"
+    },
+    {
+      "id": "paull-betteshanger",
+      "title": "John Paull, 'The Betteshanger Summer School: Missing link between biodynamic agriculture and organic farming' (Journal of Organic Systems 6:2, 2011, pp. 13–26; ISSN 1177-4258)",
+      "url": "https://orgprints.org/19511/",
+      "publisher": "Journal of Organic Systems — open access, peer-reviewed; author then at the Institute of Social and Cultural Anthropology, University of Oxford. Full text read for this entry via the Organic Eprints repository copy.",
+      "type": "academic"
     }
   ]
 }

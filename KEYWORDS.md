@@ -468,7 +468,7 @@ Glossary ids used in this dataset (`[[term-id]]` markers), with the visible text
 - `[[philosophia-perennis]]` · **Philosophia perennis** · used 1× · variants: perennial philosophy; perennialism · as written: `Perennial philosophy` · https://cronologia.github.io/glossary/philosophia-perennis/
 - `[[traditionalist-school]]` · **Traditionalist School** · used 1× · variants: Guénonian Traditionalism; cf. Catholic traditionalism, Evolian 'Traditionalism' · as written: `Traditionalist School` · https://cronologia.github.io/glossary/traditionalist-school/
 
-## Places (33)
+## Places (34)
 
 Place strings exactly as the dataset writes them, most-used first. Search a component (`Écône`) as well as the full string.
 
@@ -482,6 +482,7 @@ Place strings exactly as the dataset writes them, most-used first. Search a comp
 - `Oxford, England` — 2× (events.place)
 - `Rome, Italy` — 2× (events.place)
 - `Amsterdam / Cambridge` — 1× (events.place)
+- `Betteshanger, Kent, England` — 1× (events.place)
 - `Bloomington, Indiana, USA` — 1× (organizations.place)
 - `Boston, USA` — 1× (events.place)
 - `Ceylon / UK / USA` — 1× (figures.country)
@@ -512,7 +513,7 @@ The window this dataset spans. A source outside it is not necessarily irrelevant
 
 | scope | records | years | note |
 |---|---|---|---|
-| events | 50 | 1540–2023 | 0 with dateVerified:false |
+| events | 51 | 1540–2023 | 0 with dateVerified:false |
 | figures.dates | 14 | 1877–2016 | years parsed from the field text |
 | organizations.founded | 6 | 1936–1990 | years parsed from the field text |
 | dataset (all of the above) | - | 1540–2023 | meta.lastUpdated 2026-07-30 |
