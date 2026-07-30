@@ -473,7 +473,7 @@ Glossary ids used in this dataset (`[[term-id]]` markers), with the visible text
 Place strings exactly as the dataset writes them, most-used first. Search a component (`Écône`) as well as the full string.
 
 - `Paris, France` — 13× (events.place,organizations.place)
-- `Brazil` — 11× (events.place)
+- `Brazil` — 12× (events.place)
 - `London, England` — 5× (events.place,organizations.place)
 - `England` — 4× (events.place,figures.country)
 - `Cairo, Egypt` — 2× (events.place)
@@ -512,7 +512,7 @@ The window this dataset spans. A source outside it is not necessarily irrelevant
 
 | scope | records | years | note |
 |---|---|---|---|
-| events | 48 | 1540–2023 | 0 with dateVerified:false |
+| events | 49 | 1540–2023 | 0 with dateVerified:false |
 | figures.dates | 14 | 1877–2016 | years parsed from the field text |
 | organizations.founded | 6 | 1936–1990 | years parsed from the field text |
 | dataset (all of the above) | - | 1540–2023 | meta.lastUpdated 2026-07-30 |
