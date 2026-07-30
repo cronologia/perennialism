@@ -476,8 +476,8 @@ Place strings exactly as the dataset writes them, most-used first. Search a comp
 - `Brazil` — 12× (events.place)
 - `London, England` — 5× (events.place,organizations.place)
 - `England` — 4× (events.place,figures.country)
+- `Italy` — 3× (events.place,figures.country)
 - `Cairo, Egypt` — 2× (events.place)
-- `Italy` — 2× (events.place,figures.country)
 - `New York, USA` — 2× (events.place)
 - `Oxford, England` — 2× (events.place)
 - `Rome, Italy` — 2× (events.place)
@@ -512,7 +512,7 @@ The window this dataset spans. A source outside it is not necessarily irrelevant
 
 | scope | records | years | note |
 |---|---|---|---|
-| events | 49 | 1540–2023 | 0 with dateVerified:false |
+| events | 50 | 1540–2023 | 0 with dateVerified:false |
 | figures.dates | 14 | 1877–2016 | years parsed from the field text |
 | organizations.founded | 6 | 1936–1990 | years parsed from the field text |
 | dataset (all of the above) | - | 1540–2023 | meta.lastUpdated 2026-07-30 |

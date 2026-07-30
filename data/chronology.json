@@ -225,6 +225,18 @@
       ]
     },
     {
+      "year": 1938,
+      "date": "1938/1941",
+      "dateVerified": true,
+      "place": "Italy",
+      "title": "Evola's racial doctrine, and what it did and did not amount to",
+      "text": "Between the 1938 racial laws and 1941 the political line of Traditionalism acquires an explicitly racial doctrine, and this chronology records it because the gap between 'Revolt Against the Modern World' (1934) and the 1951 trial would otherwise read as a silence. Per the encyclopedia record, writings by Evola in the late 1930s contributed arguments for Fascist Italy's repression of its Jews, and he encouraged and applauded Mussolini's antisemitic racial laws of 1938; in 'Sintesi di dottrina della razza' (Synthesis of the Doctrine of Race, 1941) he set out his ideas on race and eugenics and introduced the notion of a 'spiritual racism' ranking a race of the spirit above one of the body, a book the same record says was endorsed by Mussolini. Evola also said he had worked for the Sicherheitsdienst, the SS intelligence service — an account given by him, recorded here as his own statement rather than as an independently documented appointment. Two distinctions the sources will not let this entry blur. First, contributing arguments for the persecution, and applauding laws once made, is not the same as drafting them: no source consulted here places Evola among the authors of the 1938 measures, and the stronger claim in circulation that he helped form the racial laws is not carried. Second, none of this is Guénon's line: the doctrinal split recorded at 1929 and 1934 is what separates them, and Guénon's own reception has no equivalent chapter. The characterizations are the cited sources', dated and attributed.",
+      "sources": [
+        "wikipedia-evola",
+        "cambridge-evola"
+      ]
+    },
+    {
       "year": 1939,
       "date": "1939",
       "dateVerified": true,
@@ -1375,9 +1387,9 @@
     },
     {
       "id": "cambridge-evola",
-      "title": "Julius Evola: Tradition, Reaction, and the Radical Right (European Journal of Sociology)",
+      "title": "Franco Ferraresi, 'Julius Evola: tradition, reaction, and the Radical Right' (European Journal of Sociology / Archives Européennes de Sociologie 28:1, May 1987, pp. 107–151; DOI 10.1017/S0003975600005415)",
       "url": "https://www.cambridge.org/core/journals/european-journal-of-sociology-archives-europeennes-de-sociologie/article/abs/julius-evola-tradition-reaction-and-the-radical-right/40B8C534101D56E3F62B006D82074B5C",
-      "publisher": "Cambridge University Press",
+      "publisher": "Cambridge University Press — peer-reviewed. Cited at bibliographic-record level: the full text is paywalled and was not consulted for this dataset.",
       "type": "academic"
     },
     {
