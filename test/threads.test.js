@@ -38,6 +38,13 @@ function runValidator(mutate) {
   const places = path.join(ROOT, 'data', 'places.json');
   if (fs.existsSync(places)) fs.copyFileSync(places, path.join(dir, 'data', 'places.json'));
   const d = JSON.parse(JSON.stringify(base));
+  // Start from a threads-FREE base. This repo's real dataset is the fixture
+  // base (it ships no chronology.example.json), and it now declares its own
+  // taxonomy and tags its events — those real lane ids would be "unknown"
+  // under this test's fixture taxonomy. Strip both so each case tests exactly
+  // what it sets up, rather than passing only until the repo adopted lanes.
+  delete d.meta.threads;
+  for (const ev of d.events || []) delete ev.threads;
   mutate(d);
   fs.writeFileSync(path.join(dir, 'data', 'chronology.json'), JSON.stringify(d));
   try {

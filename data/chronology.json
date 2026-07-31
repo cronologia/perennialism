@@ -7,6 +7,47 @@
     "siteUrl": "https://cronologia.github.io/perennialism/",
     "lastUpdated": "2026-07-30",
     "dataQualityNote": "This is a work-in-progress dataset about a contested intellectual lineage whose political receptions are actively disputed. Every fact is cited; dates the sources dispute are flagged with a ? mark; and every characterization — above all about the Evola line, the alt-right reception, contested affiliations (Eliade) and living figures — is attributed to the scholar or actor making it, never asserted in the site's own voice. Corrections against published sources are welcome.",
+    "threads": {
+      "note": "These lanes are an editorial reading of this chronology, not a neutral index. Charting a school of IDEAS carries a risk the institutional chronologies do not: to periodize a body of thought is largely to periodize its RECEPTION, and how this school should be received is the contested question itself. So three things are stated rather than implied. There is no lane splitting 'the school' from 'its critics' — that division would manufacture a symmetry the sources do not support. The lane holding the political line is labelled as disputed, because whether Evola belongs INSIDE this school or among its appropriations is precisely what the sources argue about, and a lane cannot be allowed to settle it by filing. And the reception lanes hold READINGS, which the dataset's own titles already mark as such ('Read as concealment…', \"the 'islamization' reading\"). Events belong to several lanes where they belong to several storylines. What was considered and left out, and why, is recorded on issue #46.",
+      "lanes": [
+        {
+          "id": "school",
+          "label": "The school's own authors and works",
+          "basis": "The books, journals and authorial events this chronology records as the school's own output — Guénon, Coomaraswamy, Schuon, Burckhardt, Pallis, Lings, Nasr, Études Traditionnelles and Temenos — together with the biographical moments that bear on that output (Cairo 1930, the deaths of 1947 and 1951). Membership here follows what the dataset already presents as the school's corpus; it is not a judgement about who is a 'real' Traditionalist.",
+          "sources": [
+            "sedgwick-2004"
+          ]
+        },
+        {
+          "id": "political-line",
+          "label": "The political line (its place in the school is disputed)",
+          "basis": "Evola's works and trial, Dugin, and the Bannon episode. The lane exists because this dataset records a DOCUMENTED FAULT LINE, not because we have decided the question: Guénon's 1929 assertion of the sacerdotal over the royal and Evola's 1934 inversion of it are in the record as an explicit disagreement, and 1929 therefore carries this lane as well as the school's. Whether Evola is inside the school or among its appropriations is argued in the sources; the label says the placement is disputed so the lane cannot be read as settling it.",
+          "sources": [
+            "sedgwick-2004",
+            "cambridge-evola"
+          ]
+        },
+        {
+          "id": "reception",
+          "label": "Reception and study, as readings",
+          "basis": "How others read, studied, taught and honoured the school: academic treatments (Sedgwick 2004 and 2023, Hanegraaff 2012), a Catholic review carrying Guénon in 1925, teaching reach (Smith 1958), a Gifford lectureship, and elite reception (the Sacred Web address and 'Harmony'). These are readings, not verdicts, and the dataset's own event titles already mark them as readings — the lane keeps that framing rather than flattening them into findings.",
+          "sources": [
+            "sedgwick-2004",
+            "hanegraaff-2012"
+          ]
+        },
+        {
+          "id": "brazil",
+          "label": "The Brazilian reception",
+          "basis": "The Carvalho material — the 2001 Montfort exchange, the Curso Online de Filosofia readings of 2009–2014, the 2016 programmatic statement, and the 2022 Brazilian translations. This is reception too, and it is separated from the reception lane only because it is by far this repo's largest and most finely dated strand, not because it is a different kind of act. Each entry is a reading attributed to its author, several of which the dataset records him advancing and elsewhere qualifying."
+        },
+        {
+          "id": "adjacent",
+          "label": "Adjacent coinages and parallels",
+          "basis": "Terms and currents that share this school's vocabulary or people without being its work: Steuco's 1540 coinage of philosophia perennis, four centuries earlier and for a different thesis; Huxley's 1945 bestseller under the same phrase; and the organic-farming coinage that came out of the 1939 Betteshanger school. Grouping them says they are adjacent, and the lane exists so that adjacency is visible rather than being mistaken for lineage."
+        }
+      ]
+    },
     "vizChips": [
       {
         "href": "#lineage",
@@ -81,6 +122,9 @@
       "sources": [
         "lexicon-steuco",
         "wikipedia-perennial-philosophy"
+      ],
+      "threads": [
+        "adjacent"
       ]
     },
     {
@@ -92,6 +136,9 @@
       "text": "'Introduction générale à l'étude des doctrines hindoues' frames 'Tradition' against modernity; 'Le Théosophisme' separates the school-to-be from occultism and Theosophy.",
       "sources": [
         "wikipedia-guenon"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -104,6 +151,9 @@
       "sources": [
         "wikipedia-guenon",
         "bertagni-regnabit"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -115,6 +165,9 @@
       "text": "Guénon's program for a Western elite reoriented by Eastern metaphysics — and his break with the Catholic intellectuals among whom he had first written.",
       "sources": [
         "wikipedia-guenon"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -128,6 +181,9 @@
         "cesnur-zoccatelli",
         "frwiki-guenon-homme",
         "wikipedia-guenon"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -141,6 +197,10 @@
         "cesnur-zoccatelli",
         "cesnur-guenon",
         "bertagni-regnabit"
+      ],
+      "threads": [
+        "school",
+        "reception"
       ]
     },
     {
@@ -152,6 +212,9 @@
       "text": "The school's most-read statement of civilizational critique — the template for all its later 'crisis' literature.",
       "sources": [
         "wikipedia-guenon"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -163,6 +226,10 @@
       "text": "Guénon asserts the priority of the sacerdotal over the royal — the doctrinal fault line that would divide him from Evola.",
       "sources": [
         "wikipedia-guenon"
+      ],
+      "threads": [
+        "school",
+        "political-line"
       ]
     },
     {
@@ -174,6 +241,9 @@
       "text": "He writes thereafter as a Muslim while addressing a mainly French readership, until his death in 1951.",
       "sources": [
         "wikipedia-guenon"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -187,6 +257,9 @@
         "wikipedia-coomaraswamy",
         "lipsey-papers",
         "sutrajournal-coomaraswamy-true-art"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -199,6 +272,9 @@
       "sources": [
         "wikipedia-evola",
         "gornahoor-letters"
+      ],
+      "threads": [
+        "political-line"
       ]
     },
     {
@@ -210,6 +286,9 @@
       "sources": [
         "wikipedia-schuon",
         "fschuon-bibliography"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -222,6 +301,9 @@
       "sources": [
         "frwiki-etudes",
         "iapsop-etudes"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -234,6 +316,9 @@
       "sources": [
         "wikipedia-evola",
         "cambridge-evola"
+      ],
+      "threads": [
+        "political-line"
       ]
     },
     {
@@ -245,6 +330,9 @@
       "text": "Marco Pallis's best-selling mountaineering-and-Buddhism book carries a Traditionalist reading of Tibet to a wide audience.",
       "sources": [
         "wikipedia-pallis"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -256,6 +344,9 @@
       "text": "Lord Northbourne hosts the Betteshanger Summer School and Conference on Bio-Dynamic Farming at his farm in Kent, 1–9 July 1939: a nine-day course for British farmers given by Ehrenfried Pfeiffer, who travelled from Switzerland, supported by the biodynamic practitioners Otto Eckstein and Hans Heinze, with Dr Scott Williamson of the Peckham Experiment as the only British lecturer. Northbourne had gone to Switzerland in January 1939 to arrange the visit, having already worked with Pfeiffer on the Farleigh Experiment in 1938; attendance was capped at forty and by invitation only. War broke out less than eight weeks later, and 'Look to the Land' followed in May 1940. This entry exists to keep the next one honest. John Paull's reconstruction — the source for all of the above — argues that Betteshanger is the missing link between biodynamics and organic farming, that a direct line runs from Rudolf Steiner via Pfeiffer to Northbourne, and that 'Look to the Land' took the Steinerian view of the farm as an organism as its central tenet and made it the nominative motif of 'organic' farming, in an account offered to the Anglophone world secularized and at a distance from its Anthroposophical roots. So the coinage this chronology calls the school's most unexpected export has a documented immediate provenance that is not Traditionalist at all: it is Steiner's anthroposophy, a current the Traditionalist authors treated as precisely the kind of modern pseudo-initiatic movement they wrote against. Northbourne's later Traditionalism and his translations of Guénon and Burckhardt are real and are recorded elsewhere here; what this entry denies is the shortcut that reads 'organic farming' as an application of Traditionalist metaphysics. The characterizations are Paull's, dated and attributed.",
       "sources": [
         "paull-betteshanger"
+      ],
+      "threads": [
+        "adjacent"
       ]
     },
     {
@@ -269,6 +360,9 @@
         "paull-northbourne",
         "sedgwick-blog-northbourne",
         "paull-betteshanger"
+      ],
+      "threads": [
+        "adjacent"
       ]
     },
     {
@@ -280,6 +374,9 @@
       "text": "Guénon's summa on modernity as the reign of quantity is published in the Liberation moment.",
       "sources": [
         "wikipedia-guenon"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -292,6 +389,9 @@
       "sources": [
         "wikipedia-huxley-pp",
         "wikipedia-perennial-philosophy"
+      ],
+      "threads": [
+        "adjacent"
       ]
     },
     {
@@ -302,6 +402,9 @@
       "title": "Death of Ananda Coomaraswamy",
       "sources": [
         "wikipedia-coomaraswamy"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -313,6 +416,9 @@
       "text": "Schuon's classic statement of the transcendent unity of religions (French 'De l'unité transcendante des religions', 1948; English translation by Peter Townsend, Faber and Faber, 1953 — not 1957); T. S. Eliot: 'I have met with no more impressive work in the comparative study of Oriental and Occidental religion.'",
       "sources": [
         "wikipedia-schuon"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -323,6 +429,9 @@
       "title": "Death of René Guénon",
       "sources": [
         "wikipedia-guenon"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -334,6 +443,9 @@
       "text": "Arrested as alleged ideologue of the neofascist FAR, Evola declares himself 'superfascista' while denying party fascism, and is acquitted — the trial that fixes his postwar political persona.",
       "sources": [
         "wikipedia-evola"
+      ],
+      "threads": [
+        "political-line"
       ]
     },
     {
@@ -345,6 +457,9 @@
       "text": "Titus Burckhardt's canonical Traditionalist theory of sacred art across five traditions (English translation by Lord Northbourne).",
       "sources": [
         "wikipedia-burckhardt"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -357,6 +472,10 @@
       "sources": [
         "wikipedia-smith",
         "academia-smith"
+      ],
+      "threads": [
+        "school",
+        "reception"
       ]
     },
     {
@@ -369,6 +488,9 @@
       "sources": [
         "fschuon-bibliography",
         "wikipedia-schuon"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -381,6 +503,9 @@
       "sources": [
         "wikipedia-evola",
         "cambridge-evola"
+      ],
+      "threads": [
+        "political-line"
       ]
     },
     {
@@ -393,6 +518,9 @@
       "sources": [
         "fschuon-bibliography",
         "wikipedia-schuon"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -405,6 +533,9 @@
       "sources": [
         "wikipedia-temenos",
         "temenos-history"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -417,6 +548,10 @@
       "sources": [
         "gifford-nasr",
         "gifford-archives-nasr"
+      ],
+      "threads": [
+        "school",
+        "reception"
       ]
     },
     {
@@ -428,6 +563,10 @@
       "text": "Martin Lings's prize-winning biography becomes the school's biggest crossover into mainstream Islamic readership.",
       "sources": [
         "wikipedia-lings-muhammad"
+      ],
+      "threads": [
+        "school",
+        "reception"
       ]
     },
     {
@@ -439,6 +578,9 @@
       "text": "The school's flagship journal closes with the October–December 1992 issue, after a 1936–1992 run.",
       "sources": [
         "frwiki-etudes"
+      ],
+      "threads": [
+        "school"
       ]
     },
     {
@@ -451,6 +593,10 @@
       "sources": [
         "openlibrary-revolt-en-1995",
         "arktos-evola-collection"
+      ],
+      "threads": [
+        "political-line",
+        "reception"
       ]
     },
     {
@@ -463,6 +609,9 @@
       "sources": [
         "montfort-carta-guenon-olavo",
         "montfort-gnose-guenon-olavo"
+      ],
+      "threads": [
+        "brazil"
       ]
     },
     {
@@ -474,6 +623,9 @@
       "text": "Mark Sedgwick publishes the first full history of the movement — the academic backbone of this site.",
       "sources": [
         "sedgwick-2004"
+      ],
+      "threads": [
+        "reception"
       ]
     },
     {
@@ -488,6 +640,9 @@
         "sedgwick-blog-hrh-2006",
         "tac-dreher-charles",
         "spectator-hobson-charles"
+      ],
+      "threads": [
+        "reception"
       ]
     },
     {
@@ -499,6 +654,9 @@
       "text": "Aleksandr Dugin's post-liberal ideology (English translation 2012) draws explicitly on Traditionalism, making him the key conduit of its vocabulary into Russian geopolitics — an Evolian-line reception, attributed as such.",
       "sources": [
         "wikipedia-dugin-4pt"
+      ],
+      "threads": [
+        "political-line"
       ]
     },
     {
@@ -511,6 +669,9 @@
       "sources": [
         "olavo-cof-005",
         "olavo-cof-131"
+      ],
+      "threads": [
+        "brazil"
       ]
     },
     {
@@ -523,6 +684,9 @@
       "sources": [
         "olavo-cof-015",
         "olavo-cof-041"
+      ],
+      "threads": [
+        "brazil"
       ]
     },
     {
@@ -537,6 +701,9 @@
         "olavo-cof-038",
         "olavo-cof-101",
         "olavo-cof-151"
+      ],
+      "threads": [
+        "brazil"
       ]
     },
     {
@@ -549,6 +716,9 @@
       "sources": [
         "wikipedia-harmony",
         "commonweal-charles"
+      ],
+      "threads": [
+        "reception"
       ]
     },
     {
@@ -564,6 +734,9 @@
         "olavo-cof-163",
         "olavo-cof-203",
         "olavo-cof-211"
+      ],
+      "threads": [
+        "brazil"
       ]
     },
     {
@@ -576,6 +749,9 @@
       "sources": [
         "olavo-cof-088",
         "olavo-cof-092"
+      ],
+      "threads": [
+        "brazil"
       ]
     },
     {
@@ -589,6 +765,10 @@
         "olavo-cof-099",
         "olavo-cof-105",
         "olavo-cof-106"
+      ],
+      "threads": [
+        "brazil",
+        "political-line"
       ]
     },
     {
@@ -600,6 +780,9 @@
       "text": "Wouter Hanegraaff's study treats Traditionalism critically as 'religionism' within the academic history of Western esotericism.",
       "sources": [
         "hanegraaff-2012"
+      ],
+      "threads": [
+        "reception"
       ]
     },
     {
@@ -611,6 +794,9 @@
       "text": "In aula 206 of the Curso Online de Filosofia (1 June 2013) Olavo de Carvalho rejects the claim, which he attributes to his own Wikipedia entry, that he introduced the works of René Guénon and Julius Evola to Brazil. On his account, translations of both authors and an active Guenonian circle had existed in Brazil for some forty years before him, and he counts himself the last to arrive on that scene. In the same answer he calls Evola a genius but mentally unbalanced and advises his students against reading him without long prior formation. The denial is a first-person correction to a widely repeated statement about the ideas' arrival in Brazil; his counter-claims — the decades of prior translations, the pre-existing Guenonian circle — are his own account, corroborated nowhere in this dataset's sources, and are recorded as attributed testimony, not as a finding about the Brazilian reception. The lecture is a community transcription not checked against audio; everything above is paraphrase and nothing is quoted.",
       "sources": [
         "olavo-cof-206"
+      ],
+      "threads": [
+        "brazil"
       ]
     },
     {
@@ -623,6 +809,10 @@
       "sources": [
         "olavo-cof-225",
         "accart-renversement"
+      ],
+      "threads": [
+        "brazil",
+        "reception"
       ]
     },
     {
@@ -634,6 +824,9 @@
       "text": "In aula 246 (19 April 2014) Carvalho expounds, and in part rejects, Guénon's theory of initiation as applied to Christianity. He states Guénon's thesis that Christianity began as an initiatic organization which, for want of valid religious institutions around it, externalized itself into a popular religion — and rejects it on the ground that Christ declared he had taught nothing in secret. He allows that the sacraments are, in Guénon's vocabulary, the Christian initiation, invoking John Paul II's description of baptism as the beginning of Christian initiation, while insisting that the initiation/esoterism grid fits the Islamic world — where the tariqas stand as distinct initiatic organizations beside a common popular religion — and not Christianity, where the rites are the same for everyone and only the depth of participation differs. Later in the lecture he restates Guénon's doctrine that an initiation received is virtual until effectuated and may remain virtual for a lifetime. All of this is reception of Guénon's doctrine of initiation; Carvalho's own initiatic history is order-side material and lives in the sibling cronologia/tariqa project. The lecture is a community transcription not checked against audio; everything above is paraphrase and nothing is quoted.",
       "sources": [
         "olavo-cof-246"
+      ],
+      "threads": [
+        "brazil"
       ]
     },
     {
@@ -646,6 +839,9 @@
       "sources": [
         "olavo-garras-esfinge",
         "wikipedia-guenon"
+      ],
+      "threads": [
+        "brazil"
       ]
     },
     {
@@ -659,6 +855,9 @@
         "oup-bannon",
         "sedgwick-blog-bannon-evola",
         "sedgwick-unherd-2023"
+      ],
+      "threads": [
+        "political-line"
       ]
     },
     {
@@ -673,6 +872,10 @@
         "colorado-teitelbaum",
         "teitelbaum-pillpod-2021",
         "guardian-harding-teitelbaum"
+      ],
+      "threads": [
+        "political-line",
+        "reception"
       ]
     },
     {
@@ -685,6 +888,9 @@
       "sources": [
         "souza-traditionalism-brazil",
         "icls-box-guenon-launch"
+      ],
+      "threads": [
+        "brazil"
       ]
     },
     {
@@ -697,6 +903,9 @@
       "sources": [
         "sedgwick-2023",
         "sedgwick-unherd-2023"
+      ],
+      "threads": [
+        "reception"
       ]
     }
   ],
