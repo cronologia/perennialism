@@ -442,6 +442,18 @@
       ]
     },
     {
+      "year": 1995,
+      "date": "1995/2026",
+      "dateVerified": true,
+      "place": "United States",
+      "title": "The Anglophone republication of Evola",
+      "text": "The route by which Evola reached an English-speaking readership is a publishing history, and it is worth recording because the political reception this chronology tracks from 2017 onward runs through it. Inner Traditions International issued 'Revolt Against the Modern World' in English in 1995, per the edition record. The larger programme is now Arktos's: consulted on 30 July 2026, its own author listing carries twenty-four Evola titles, more than any other author on its list — ahead of Alexander Dugin at twenty-two and Guillaume Faye at twenty-one. That the same catalogue is the main Anglophone vehicle for both Evola and Dugin is a fact about the publisher's list, recorded here as such and not as a claim that the two bodies of work belong together. Arktos is a publisher of the European New Right and identitarian milieu, so on this question it is a participant in the reception rather than an observer of it, and its catalogue is cited only for its own composition. One limitation, stated rather than papered over: the storefront does not publish per-title release dates, so this republication wave is recorded by its endpoints and its present scale, and not as the series of dated releases the epic asked for. Closing that would need publisher records the public catalogue does not expose.",
+      "sources": [
+        "openlibrary-revolt-en-1995",
+        "arktos-evola-collection"
+      ]
+    },
+    {
       "year": 2001,
       "date": "2001-01-28/2001-02-03",
       "dateVerified": true,
@@ -1855,6 +1867,20 @@
       "url": "http://www.theamericanconservative.com/articles/philosopher-prince",
       "publisher": "The American Conservative (paleoconservative magazine) — commentary, labeled as such",
       "type": "analysis"
+    },
+    {
+      "id": "openlibrary-revolt-en-1995",
+      "title": "Julius Evola, 'Revolt Against the Modern World' — English edition record (Inner Traditions International, 1995)",
+      "url": "https://openlibrary.org/search.json?q=%22Revolt+Against+the+Modern+World%22+Evola",
+      "publisher": "Open Library edition-level record. Cited for the edition's publisher and year only; Open Library's work-level 'first publish year' field answers a different question and is not used here.",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "arktos-evola-collection",
+      "title": "Arktos — Julius Evola collection and author listing (consulted 30 July 2026)",
+      "url": "https://arktos.com/collections/julius-evola",
+      "publisher": "Arktos Media — a publisher of the European New Right and identitarian milieu, i.e. a participant in the reception this entry describes, not a neutral observer of it. Cited only for its own catalogue composition.",
+      "type": "primary"
     }
   ]
 }

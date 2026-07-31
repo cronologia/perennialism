@@ -481,6 +481,7 @@ Place strings exactly as the dataset writes them, most-used first. Search a comp
 - `New York, USA` — 2× (events.place)
 - `Oxford, England` — 2× (events.place)
 - `Rome, Italy` — 2× (events.place)
+- `United States` — 2× (events.place)
 - `Amsterdam / Cambridge` — 1× (events.place)
 - `Betteshanger, Kent, England` — 1× (events.place)
 - `Bloomington, Indiana, USA` — 1× (organizations.place)
@@ -504,7 +505,6 @@ Place strings exactly as the dataset writes them, most-used first. Search a comp
 - `Switzerland / USA` — 1× (figures.country)
 - `UK-Denmark / Netherlands` — 1× (figures.country)
 - `USA` — 1× (figures.country)
-- `United States` — 1× (events.place)
 - `Washington / New York, USA` — 1× (events.place)
 - `Washington, DC, USA (to verify)` — 1× (organizations.place)
 
@@ -514,7 +514,7 @@ The window this dataset spans. A source outside it is not necessarily irrelevant
 
 | scope | records | years | note |
 |---|---|---|---|
-| events | 52 | 1540–2023 | 0 with dateVerified:false |
+| events | 53 | 1540–2023 | 0 with dateVerified:false |
 | figures.dates | 14 | 1877–2016 | years parsed from the field text |
 | organizations.founded | 6 | 1936–1990 | years parsed from the field text |
 | dataset (all of the above) | - | 1540–2023 | meta.lastUpdated 2026-07-30 |
