@@ -465,6 +465,20 @@
       ]
     },
     {
+      "year": 2006,
+      "date": "2006-09-23/2006-09-24",
+      "dateVerified": true,
+      "place": "Edmonton, Alberta, Canada",
+      "title": "The Prince of Wales addresses the Sacred Web conference",
+      "text": "The Sacred Web conference on 'Tradition in the Modern World' meets at the Myer Horowitz Theatre, University of Alberta, Edmonton, on 23–24 September 2006, and opens with an introduction from the Prince of Wales — the future King Charles III — who says in it that he cannot be present, so the address is given in absentia and also exists as a video. It is the fullest public statement of his reading in this field, and unusually for this subject it is first-person rather than commentary. In it he speaks of the need for those who can speak of the eternal wisdom that is called the perennial philosophy; says he is always delighted to receive the latest issue of Sacred Web; states that through the work of the Temenos Academy, of which he is Patron, he has been fortunate to enjoy the writings of Seyyed Hossein Nasr and the late Martin Lings; notes that Temenos remains closely associated with many who write for Sacred Web, for Sophia and for related journals; and refers to the critique of the false premises of modernity set out in 'The Reign of Quantity'. Mark Sedgwick, writing on 1 October 2006, took the speech to show the Prince better read in Traditionalism than he had thought, and recorded that it nonetheless did not otherwise clarify his own personal position — which is the standard this chronology keeps. What the address establishes is reading, patronage and public praise, all self-disclosed; it establishes no membership, initiation or affiliation, and none is claimed here. The later commentary reads it the same way: Rod Dreher in The American Conservative (12 March 2012) calls him a devotee of the perennial philosophy on the strength of his public statements, and Theo Hobson in The Spectator (17 September 2022) places his outlook close to the perennial philosophy partly inspired by René Guénon — and neither asserts that he belongs to anything.",
+      "sources": [
+        "sacredweb-hrh-2006",
+        "sedgwick-blog-hrh-2006",
+        "tac-dreher-charles",
+        "spectator-hobson-charles"
+      ]
+    },
+    {
       "year": 2009,
       "date": "2009",
       "dateVerified": true,
@@ -923,11 +937,15 @@
       },
       {
         "title": "The royal reception is attributed commentary",
-        "text": "King Charles III's Temenos patronage (documented since 1990) and 'Harmony' (2010) are read by commentators as showing Traditionalist and Nasrian influence; the book cites no Traditionalist sources and no membership or self-identification exists. Sympathies are reported as the commentators' claims — never as affiliation.",
+        "text": "King Charles III's Temenos patronage (documented since 1990, and self-disclosed in his 2006 Sacred Web address) and 'Harmony' (2010) are read by commentators — Sedgwick, Commonweal, The American Conservative, The Spectator — as showing Traditionalist and Nasrian influence; the book cites no Traditionalist sources, and no membership or self-identification exists. What is self-disclosed is reading, patronage and praise; Sedgwick, reporting the 2006 address, wrote expressly that it did not clarify the Prince's own personal position. Sympathies are reported as the commentators' claims — never as affiliation.",
         "sources": [
           "commonweal-charles",
           "wikipedia-harmony",
-          "temenos-history"
+          "temenos-history",
+          "sacredweb-hrh-2006",
+          "sedgwick-blog-hrh-2006",
+          "tac-dreher-charles",
+          "spectator-hobson-charles"
         ]
       },
       {
@@ -1809,6 +1827,34 @@
       "url": "https://orgprints.org/19511/",
       "publisher": "Journal of Organic Systems — open access, peer-reviewed; author then at the Institute of Social and Cultural Anthropology, University of Oxford. Full text read for this entry via the Organic Eprints repository copy.",
       "type": "academic"
+    },
+    {
+      "id": "sacredweb-hrh-2006",
+      "title": "'An Introduction from His Royal Highness The Prince of Wales', Sacred Web Conference 'Tradition in the Modern World', Myer Horowitz Theatre, University of Alberta, Edmonton, 23–24 September 2006",
+      "url": "https://www.themathesontrust.org/papers/comparativereligion/introduction%20from%20HRH%20Sacred%20Web.pdf",
+      "publisher": "Primary text of the address, reproduced by permission of Sacred Web Publishing and hosted by the Matheson Trust — a Traditionalist-sympathetic body, so the host is not neutral even though the text is primary. Read directly for this entry; the PDF extraction was partial, so only positively-read wording is used and no claim is made about what the address does not contain.",
+      "type": "primary"
+    },
+    {
+      "id": "sedgwick-blog-hrh-2006",
+      "title": "Mark Sedgwick, 'Traditionalists by appointment to HRH The Prince of Wales' (Traditionalists blog, 1 October 2006)",
+      "url": "https://traditionalistblog.blogspot.com/2006/10/traditionalists-by-appointment-to-hrh.html",
+      "publisher": "Mark Sedgwick — the field's leading scholar, writing on his own blog",
+      "type": "academic"
+    },
+    {
+      "id": "spectator-hobson-charles",
+      "title": "Theo Hobson, 'The esoteric creed of King Charles' (The Spectator, 17 September 2022)",
+      "url": "https://spectator.com/article/the-esoteric-creed-of-king-charles/",
+      "publisher": "The Spectator (British conservative weekly) — commentary, labeled as such",
+      "type": "analysis"
+    },
+    {
+      "id": "tac-dreher-charles",
+      "title": "Rod Dreher, 'Philosopher Prince: The Revolutionary Anti-Modernism of Britain's Heir Apparent' (The American Conservative, 12 March 2012)",
+      "url": "http://www.theamericanconservative.com/articles/philosopher-prince",
+      "publisher": "The American Conservative (paleoconservative magazine) — commentary, labeled as such",
+      "type": "analysis"
     }
   ]
 }
