@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-07-30",
+  "updatedAt": "2026-08-03",
   "snapshots": {
     "http://iapsop.com/archive/materials/etudes_traditionnelles/": {
       "archiveUrl": "https://web.archive.org/web/20260618220513/https://iapsop.com/archive/materials/etudes_traditionnelles/",
@@ -11,6 +11,12 @@
       "archiveUrl": "https://web.archive.org/web/20170519023225/http://www.gianfrancobertagni.it:80/materiali/reneguenon/regnabit.pdf",
       "timestamp": "20170519023225",
       "checkedAt": "2026-07-24"
+    },
+    "http://www.theamericanconservative.com/articles/philosopher-prince": {
+      "refId": "tac-dreher-charles",
+      "archiveUrl": "https://web.archive.org/web/20210412202249/https://www.theamericanconservative.com/articles/philosopher-prince/",
+      "timestamp": "20210412202249",
+      "checkedAt": "2026-08-03"
     },
     "https://blog.oup.com/2017/05/julius-evola-white-house-steve-bannon/": {
       "refId": "oup-bannon",
@@ -138,6 +144,12 @@
       "timestamp": "20260710000626",
       "checkedAt": "2026-07-25"
     },
+    "https://fr.fschuon.info/?page_id=861": {
+      "refId": "fschuon-bibliography",
+      "archiveUrl": "https://web.archive.org/web/20260803100426/https://fr.fschuon.info/?page_id=861",
+      "timestamp": "20260803100426",
+      "checkedAt": "2026-08-03"
+    },
     "https://fr.wikipedia.org/wiki/%C3%89tudes_traditionnelles": {
       "refId": "frwiki-etudes",
       "archiveUrl": "https://web.archive.org/web/20260311114050/https://fr.wikipedia.org/wiki/%C3%89tudes_traditionnelles",
@@ -186,11 +198,29 @@
       "timestamp": "20260224103523",
       "checkedAt": "2026-07-25"
     },
+    "https://orgprints.org/19511/": {
+      "refId": "paull-betteshanger",
+      "archiveUrl": "https://web.archive.org/web/20191117052317/http://orgprints.org/19511/",
+      "timestamp": "20191117052317",
+      "checkedAt": "2026-08-03"
+    },
     "https://periodicos.ufpb.br/index.php/religare/about": {
       "refId": "ufpb-religare-about",
       "archiveUrl": "https://web.archive.org/web/20260309122857/https://periodicos.ufpb.br/index.php/religare/about",
       "timestamp": "20260309122857",
       "checkedAt": "2026-07-27"
+    },
+    "https://spectator.com/article/the-esoteric-creed-of-king-charles/": {
+      "refId": "spectator-hobson-charles",
+      "archiveUrl": "https://web.archive.org/web/20260630100251/https://spectator.com/article/the-esoteric-creed-of-king-charles/",
+      "timestamp": "20260630100251",
+      "checkedAt": "2026-08-03"
+    },
+    "https://traditionalistblog.blogspot.com/2006/10/traditionalists-by-appointment-to-hrh.html": {
+      "refId": "sedgwick-blog-hrh-2006",
+      "archiveUrl": "https://web.archive.org/web/20251025053947/https://traditionalistblog.blogspot.com/2006/10/traditionalists-by-appointment-to-hrh.html",
+      "timestamp": "20251025053947",
+      "checkedAt": "2026-08-03"
     },
     "https://traditionalistblog.blogspot.com/2014/07/lord-northbourne-organic-agriculture.html": {
       "archiveUrl": "https://web.archive.org/web/20250810103634/https://traditionalistblog.blogspot.com/2014/07/lord-northbourne-organic-agriculture.html",
@@ -213,6 +243,12 @@
       "archiveUrl": "https://web.archive.org/web/20260720013504/https://traditionalistblog.blogspot.com/2023/10/traditionalism-in-brazil-today.html",
       "timestamp": "20260720013504",
       "checkedAt": "2026-07-25"
+    },
+    "https://unherd.com/newsroom/mark-sedgwick-an-introduction-to-traditionalism/": {
+      "refId": "sedgwick-unherd-2023",
+      "archiveUrl": "https://web.archive.org/web/20260727101215/https://unherd.com/newsroom/mark-sedgwick-an-introduction-to-traditionalism/",
+      "timestamp": "20260727101215",
+      "checkedAt": "2026-08-03"
     },
     "https://us.amazon.com/Selected-Papers-Coomaraswamy-Metaphysics-Bollingen/dp/0691277524": {
       "refId": "lipsey-papers",
@@ -237,6 +273,12 @@
       "archiveUrl": "https://web.archive.org/web/20260313002310/https://www.cambridge.org/core/journals/european-journal-of-sociology-archives-europeennes-de-sociologie/article/abs/julius-evola-tradition-reaction-and-the-radical-right/40B8C534101D56E3F62B006D82074B5C",
       "timestamp": "20260313002310",
       "checkedAt": "2026-07-24"
+    },
+    "https://www.causeiq.com/organizations/fons-vitae-of-kentucky,611381228/": {
+      "refId": "causeiq-fonsvitae",
+      "archiveUrl": "https://web.archive.org/web/20260803100504/https://www.causeiq.com/organizations/fons-vitae-of-kentucky,611381228/",
+      "timestamp": "20260803100504",
+      "checkedAt": "2026-08-03"
     },
     "https://www.cesnur.org/paraclet/guenon.html": {
       "archiveUrl": "https://web.archive.org/web/20260108134938/https://www.cesnur.org/paraclet/guenon.html",
@@ -316,6 +358,12 @@
       "timestamp": "20260725100844",
       "checkedAt": "2026-07-27"
     },
+    "https://www.themathesontrust.org/papers/comparativereligion/introduction%20from%20HRH%20Sacred%20Web.pdf": {
+      "refId": "sacredweb-hrh-2006",
+      "archiveUrl": "https://web.archive.org/web/20260724150755/https://www.themathesontrust.org/papers/comparativereligion/introduction%20from%20HRH%20Sacred%20Web.pdf",
+      "timestamp": "20260724150755",
+      "checkedAt": "2026-08-03"
+    },
     "https://www.youtube.com/live/U2JrgpNNvY8": {
       "refId": "pazebem-1294-miele",
       "archiveUrl": "https://web.archive.org/web/20260727101356/https://www.youtube.com/live/U2JrgpNNvY8",
@@ -327,6 +375,12 @@
       "archiveUrl": "https://web.archive.org/web/20241218114659/https://www.youtube.com/watch?v=r2ROPEN9wJI",
       "timestamp": "20241218114659",
       "checkedAt": "2026-07-25"
+    },
+    "https://www.youtube.com/watch?v=y26YI9A81D4": {
+      "refId": "teitelbaum-pillpod-2021",
+      "archiveUrl": "https://web.archive.org/web/20260803100538/https://www.youtube.com/watch?v=y26YI9A81D4",
+      "timestamp": "20260803100538",
+      "checkedAt": "2026-08-03"
     }
   }
 }
