@@ -407,3 +407,7 @@ figure.swimlanes figcaption { font-size: .78rem; color: var(--muted); margin-top
   .sw-bases { display: block; }
   .sw-bases summary { display: none; }
 }
+
+/* A source-criticism note too long for parentheses: its own line under the
+   citation, so the reference list stays scannable. */
+.ref-note { display: block; margin-top: .2rem; font-size: .84rem; opacity: .82; font-style: italic; }
