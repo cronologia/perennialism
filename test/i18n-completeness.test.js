@@ -169,7 +169,10 @@ for (const lang of LANGS) {
 // A parenthetical that NAMES rather than characterises is bibliography and
 // stays: an imprint and year, the presenters, the parent publisher. List those
 // reference ids here so the check below stays a real signal.
-const PUBLISHER_BRACKET_OK = new Set([]);
+const PUBLISHER_BRACKET_OK = new Set([
+  'matheson-sophia',  // '(London, established 1974)' — the trust's seat and founding year,
+                      // bibliographic identification and not a judgement about the source
+]);
 // <<< ADOPT
 
 test('references: publisherNote carries the prose, publisher the citation', () => {
