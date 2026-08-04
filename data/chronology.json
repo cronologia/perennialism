@@ -1647,7 +1647,8 @@
       "id": "gifford-nasr",
       "title": "Knowledge and the Sacred — Gifford Lectures record",
       "url": "https://www.giffordlectures.org/lectures/knowledge-and-sacred-0",
-      "publisher": "Gifford Lectures (official)",
+      "publisher": "Gifford Lectures",
+      "publisherNote": "official",
       "type": "primary"
     },
     {
@@ -1661,14 +1662,16 @@
       "id": "temenos-history",
       "title": "Temenos Academy — history and royal patronage",
       "url": "https://www.temenosacademy.org/history",
-      "publisher": "Temenos Academy (official)",
+      "publisher": "Temenos Academy",
+      "publisherNote": "official",
       "type": "official-site"
     },
     {
       "id": "fonsvitae-about",
       "title": "Fons Vitae — about",
       "url": "https://fonsvitae.com/about-us/",
-      "publisher": "Fons Vitae (official)",
+      "publisher": "Fons Vitae",
+      "publisherNote": "official",
       "type": "official-site"
     },
     {
@@ -1738,14 +1741,16 @@
       "id": "fschuon-bibliography",
       "title": "Frithjof Schuon — bibliographie (first-edition years, official site)",
       "url": "https://fr.fschuon.info/?page_id=861",
-      "publisher": "fschuon.info (official Schuon site)",
+      "publisher": "fschuon.info",
+      "publisherNote": "the official Schuon site",
       "type": "official-site"
     },
     {
       "id": "causeiq-fonsvitae",
       "title": "Fons Vitae of Kentucky — nonprofit profile (year formed 2000)",
       "url": "https://www.causeiq.com/organizations/fons-vitae-of-kentucky,611381228/",
-      "publisher": "Cause IQ (IRS nonprofit records)",
+      "publisher": "Cause IQ",
+      "publisherNote": "IRS nonprofit records",
       "type": "primary"
     },
     {
@@ -1773,7 +1778,8 @@
       "id": "gornahoor-letters",
       "title": "Guénon–Evola correspondence (eleven letters, 1930–1951)",
       "url": "https://gornahoor.net/?p=4489",
-      "publisher": "Gornahoor (Evolian-sympathetic site — labeled)",
+      "publisher": "Gornahoor",
+      "publisherNote": "Evolian-sympathetic site — labeled as such",
       "type": "analysis"
     },
     {
@@ -1787,7 +1793,8 @@
       "id": "foreignaffairs-teitelbaum",
       "title": "War for Eternity — review",
       "url": "https://www.foreignaffairs.com/reviews/capsule-review/2020-08-11/war-eternity-inside-bannons-far-right-circle-global-power-brokers",
-      "publisher": "Foreign Affairs (skeptical review — labeled)",
+      "publisher": "Foreign Affairs",
+      "publisherNote": "skeptical review — labeled as such",
       "type": "analysis"
     },
     {
