@@ -197,3 +197,12 @@ This repo's own boundaries and cross-links:
   written as someone's attributed, dated claim, with the dissent recorded
   alongside. The site's own voice never asserts influence, affiliation or
   descent.
+
+## Searching the vaulted transcripts
+
+The `corpus-search` skill indexes every collection in `cronologia/archive` —
+including the general `transcripts/` set this project mines — and searches them
+as one corpus. Use it before reporting that anything is absent: a sweep over one
+collection reported as a corpus-wide zero is a false negative, and has been
+published as a finding once. Search the CLAIM rather than the NAME (the ASR
+destroys names), and quote the scope with any zero you report.
