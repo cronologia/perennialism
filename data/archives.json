@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-08-17",
+  "updatedAt": "2026-08-24",
   "snapshots": {
     "http://iapsop.com/archive/materials/etudes_traditionnelles/": {
       "archiveUrl": "https://web.archive.org/web/20260618220513/https://iapsop.com/archive/materials/etudes_traditionnelles/",
@@ -352,6 +352,12 @@
       "archiveUrl": "https://web.archive.org/web/20251118081545/https://www.temenosacademy.org/history",
       "timestamp": "20251118081545"
     },
+    "https://www.theguardian.com/books/2020/jun/05/war-for-eternity-benjamin-r-teitelbaum-starstruck-steve-bannon-dugin-putin-trump": {
+      "refId": "guardian-harding-teitelbaum",
+      "archiveUrl": "https://web.archive.org/web/20260824071955/https://www.theguardian.com/books/2020/jun/05/war-for-eternity-benjamin-r-teitelbaum-starstruck-steve-bannon-dugin-putin-trump",
+      "timestamp": "20260824071955",
+      "checkedAt": "2026-08-24"
+    },
     "https://www.themathesontrust.org/links/journals": {
       "refId": "matheson-sophia",
       "archiveUrl": "https://web.archive.org/web/20260725100844/https://www.themathesontrust.org/links/journals",
@@ -381,6 +387,12 @@
       "archiveUrl": "https://web.archive.org/web/20260803100538/https://www.youtube.com/watch?v=y26YI9A81D4",
       "timestamp": "20260803100538",
       "checkedAt": "2026-08-03"
+    },
+    "https://youtu.be/OKgjGiTVbPo": {
+      "refId": "worldwisdom-schuon-footage",
+      "archiveUrl": "https://web.archive.org/web/20260824071908/https://www.youtube.com/watch?v=OKgjGiTVbPo&feature=youtu.be",
+      "timestamp": "20260824071908",
+      "checkedAt": "2026-08-24"
     }
   }
 }
