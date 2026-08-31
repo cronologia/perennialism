@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-08-24",
+  "updatedAt": "2026-08-31",
   "snapshots": {
     "http://iapsop.com/archive/materials/etudes_traditionnelles/": {
       "archiveUrl": "https://web.archive.org/web/20260618220513/https://iapsop.com/archive/materials/etudes_traditionnelles/",
@@ -17,6 +17,12 @@
       "archiveUrl": "https://web.archive.org/web/20210412202249/https://www.theamericanconservative.com/articles/philosopher-prince/",
       "timestamp": "20210412202249",
       "checkedAt": "2026-08-03"
+    },
+    "https://arktos.com/collections/julius-evola": {
+      "refId": "arktos-evola-collection",
+      "archiveUrl": "https://web.archive.org/web/20260831134505/https://arktos.com/product/julius-evola-an-adventurous-life/",
+      "timestamp": "20260831134505",
+      "checkedAt": "2026-08-31"
     },
     "https://blog.oup.com/2017/05/julius-evola-white-house-steve-bannon/": {
       "refId": "oup-bannon",
