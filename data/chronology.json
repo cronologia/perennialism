@@ -4,6 +4,7 @@
     "subtitle": "Chronology of the Traditionalist School as an intellectual movement (1921–present)",
     "description": "An open, source-referenced chronology of perennialism — the Traditionalist School of René Guénon, Ananda Coomaraswamy and Frithjof Schuon — as a movement of ideas: the books, the journals, the political adaptations and the reception, from the 1920s to the school's unexpected afterlife in 21st-century politics. The Maryamiyya order's initiatic history is the sibling project cronologia/tariqa.",
     "language": "en",
+    "layout": "river",
     "siteUrl": "https://cronologia.github.io/perennialism/",
     "lastUpdated": "2026-07-30",
     "dataQualityNote": "This is a work-in-progress dataset about a contested intellectual lineage whose political receptions are actively disputed. Every fact is cited; dates the sources dispute are flagged with a ? mark; and every characterization — above all about the Evola line, the alt-right reception, contested affiliations (Eliade) and living figures — is attributed to the scholar or actor making it, never asserted in the site's own voice. Corrections against published sources are welcome.",
@@ -1585,7 +1586,7 @@
       "title": "Études Traditionnelles — digitized archive",
       "url": "http://iapsop.com/archive/materials/etudes_traditionnelles/",
       "publisher": "IAPSOP",
-      "type": "primary"
+      "type": "archive"
     },
     {
       "id": "sedgwick-2004",
@@ -1650,14 +1651,14 @@
       "url": "https://www.giffordlectures.org/lectures/knowledge-and-sacred-0",
       "publisher": "Gifford Lectures",
       "publisherNote": "official",
-      "type": "primary"
+      "type": "official"
     },
     {
       "id": "gifford-archives-nasr",
       "title": "Seyyed Hossein Nasr — Gifford archives (first Muslim and non-Westerner)",
       "url": "https://giffordarchives.org/lecturers/seyyed-hossein-nasr",
       "publisher": "Gifford Lectures archives",
-      "type": "primary"
+      "type": "archive"
     },
     {
       "id": "temenos-history",
@@ -1756,7 +1757,7 @@
       "url": "https://www.causeiq.com/organizations/fons-vitae-of-kentucky,611381228/",
       "publisher": "Cause IQ",
       "publisherNote": "IRS nonprofit records",
-      "type": "primary"
+      "type": "database"
     },
     {
       "id": "cesnur-guenon",
@@ -1830,7 +1831,7 @@
       "url": "https://www.montfort.org.br/bra/cartas/gnose/20040728192545/",
       "publisher": "Associação Cultural Montfort",
       "publisherNote": "traditionalist-Catholic apostolate, critical of Guénonism; the page carries Olavo de Carvalho's own letters",
-      "type": "primary"
+      "type": "testimony"
     },
     {
       "id": "montfort-gnose-guenon-olavo",
@@ -1846,7 +1847,7 @@
       "url": "https://www.sutrajournal.com/coomaraswamy-true-art",
       "publisher": "Sutra Journal",
       "publisherNote": "perennialist-sympathetic online journal; reprint of a 20th-century primary text. The 'three founders of Perennialism' phrasing is the editorial introduction's, not Coomaraswamy's",
-      "type": "primary"
+      "type": "web"
     },
     {
       "id": "souza-traditionalism-brazil",
@@ -1886,7 +1887,7 @@
       "url": "https://youtu.be/OKgjGiTVbPo",
       "publisher": "World Wisdom",
       "publisherNote": "Schuon's own English-language publisher, on its official channel — primary audiovisual footage of estate-adjacent, sympathetic provenance: primary, not therefore neutral. FILMING DATE UNDETERMINED (to verify). The publisher's own video page returns a bot challenge and holds no Wayback snapshot, and the watch page redirects to a bot filter, so neither the shoot nor the upload date could be established; World Wisdom's sell-sheet for its 2012 DVD 'Frithjof Schuon: Messenger of the Perennial Philosophy' advertises thirty minutes of interviews with Schuon made during his final years, which is a plausible but unverified source for this clip and is deliberately not used to date it. Cited only for his own formulations, never for biography, chronology or the order. The transcript is auto-captions of heavily accented English across 341 words — the lowest-confidence transcription among this dataset's sources, with two technical terms lost in it — so the content is paraphrased and never quoted.",
-      "type": "primary footage"
+      "type": "video"
     },
     {
       "id": "pazebem-1294-miele",
@@ -2101,7 +2102,7 @@
       "url": "https://www.themathesontrust.org/papers/comparativereligion/introduction%20from%20HRH%20Sacred%20Web.pdf",
       "publisher": "Sacred Web Publishing, hosted by the Matheson Trust",
       "publisherNote": "primary text of the address, reproduced by permission — the host is a Traditionalist-sympathetic body, so it is not neutral even though the text is primary. Read directly for this entry; the PDF extraction was partial, so only positively-read wording is used and no claim is made about what the address does not contain.",
-      "type": "primary"
+      "type": "testimony"
     },
     {
       "id": "sedgwick-blog-hrh-2006",
@@ -2138,7 +2139,7 @@
       "url": "https://arktos.com/collections/julius-evola",
       "publisher": "Arktos Media",
       "publisherNote": "a publisher of the European New Right and identitarian milieu, i.e. a participant in the reception this entry describes, not a neutral observer of it. Cited only for its own catalogue composition.",
-      "type": "primary"
+      "type": "index"
     }
   ]
 }
