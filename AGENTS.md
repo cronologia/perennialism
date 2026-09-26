@@ -29,6 +29,7 @@ data/glossary-terms.json      GENERATED — pinned copy of the cronologia/glossa
 data/i18n/{pt,es}.json        GENERATED — machine-translation caches keyed by the English
                               source string (scripts/translate.js); English is authoritative
 src/styles.css                Stylesheet (copied into the build)
+src/river.js             Time-river filters, find box and reading window (core#108); copied into the build only when meta.layout is "river"
 build.js                      Compiler: data/chronology.json -> docs/{en,pt,es}/ + root
                               redirect stub, sitemap.xml, robots.txt
 scripts/validate-data.js      Schema check (runs in CI before the build)
