@@ -366,31 +366,6 @@ const UI = {
   },
 };
 
-// perennialism-LOCAL: this dataset's reference types and labels beyond the template's
-// closed vocabulary, kept so the published labels do not regress to raw ids.
-// `primary` is not carried: core#74 rules it out (a primacy claim is not a
-// kind of document); those references were retyped by kind. The site's labels
-// win where both define a type, exactly as the site rendered them before.
-const SITE_REF_TYPES = {
-  "en": {
-    "official-site": "official site",
-    "commentary": "commentary",
-    "academic interview": "academic interview"
-  },
-  "es": {
-    "academic": "académica",
-    "official-site": "sitio oficial",
-    "commentary": "comentario",
-    "academic interview": "entrevista académica"
-  },
-  "pt": {
-    "academic": "acadêmica",
-    "official-site": "site oficial",
-    "commentary": "comentário",
-    "academic interview": "entrevista acadêmica"
-  }
-};
-for (const l of Object.keys(SITE_REF_TYPES)) UI[l].refTypes = { ...UI[l].refTypes, ...SITE_REF_TYPES[l] };
 
 /** Load a locale's committed translation cache ({ english: translated }). */
 function loadDict(lang) {

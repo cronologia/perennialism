@@ -1666,7 +1666,7 @@
       "url": "https://www.temenosacademy.org/history",
       "publisher": "Temenos Academy",
       "publisherNote": "official",
-      "type": "official-site"
+      "type": "official"
     },
     {
       "id": "fonsvitae-about",
@@ -1674,7 +1674,7 @@
       "url": "https://fonsvitae.com/about-us/",
       "publisher": "Fons Vitae",
       "publisherNote": "official",
-      "type": "official-site"
+      "type": "official"
     },
     {
       "id": "nasr-official-bio",
@@ -1682,7 +1682,7 @@
       "url": "https://www.seyyedhosseinnasr.com/about/biography",
       "publisher": "seyyedhosseinnasr.com",
       "publisherNote": "the subject's own official site; self-description, labeled as such",
-      "type": "official-site"
+      "type": "official"
     },
     {
       "id": "matheson-sophia",
@@ -1690,7 +1690,7 @@
       "url": "https://www.themathesontrust.org/links/journals",
       "publisher": "The Matheson Trust for the Study of Comparative Religion (London, established 1974)",
       "publisherNote": "a foundation for 'the underlying harmony of the great religious and philosophical traditions'; sympathetic to the perennialist reading, labeled as such",
-      "type": "official-site"
+      "type": "index"
     },
     {
       "id": "paull-northbourne",
@@ -1749,7 +1749,7 @@
       "url": "https://fr.fschuon.info/?page_id=861",
       "publisher": "fschuon.info",
       "publisherNote": "the official Schuon site",
-      "type": "official-site"
+      "type": "index"
     },
     {
       "id": "causeiq-fonsvitae",
@@ -1823,7 +1823,7 @@
       "url": "https://olavodecarvalho.org/as-garras-da-esfinge-rene-guenon-e-a-islamizacao-do-ocidente/",
       "publisher": "olavodecarvalho.org",
       "publisherNote": "the author's site — Brazilian post-Traditionalist critic; polemical, attributed. Checked 25 July 2026: the live URL returns HTTP 200 but now serves unrelated commercial content, so the archived capture of 24 February 2026 is the text of record",
-      "type": "commentary"
+      "type": "analysis"
     },
     {
       "id": "montfort-carta-guenon-olavo",
@@ -1839,7 +1839,7 @@
       "url": "https://www.montfort.org.br/bra/cadernos/religiao/guenon/",
       "publisher": "Associação Cultural Montfort",
       "publisherNote": "traditionalist-Catholic critique of both Guénon and Carvalho; partisan, labeled as such",
-      "type": "commentary"
+      "type": "analysis"
     },
     {
       "id": "sutrajournal-coomaraswamy-true-art",
@@ -1871,7 +1871,7 @@
       "url": "https://unherd.com/newsroom/mark-sedgwick-an-introduction-to-traditionalism/",
       "publisher": "UnHerd",
       "publisherNote": "a British opinion outlet; recorded before an audience at the UnHerd Club in Westminster and published 28 July 2023 — this subject's anchor scholar in his own voice, inside a partisan-media frame. The page's headline, 'Traditionalism: the philosophy behind Putin's war', is UnHerd's editorial framing and overshoots what its guest says in the same piece; the interviewer is bylined only 'UnHerd Staff' and never named, so the questions are attributed to the outlet and not to a person. Cited for Sedgwick's own characterizations, never for bibliography or dates. The preserved transcript is YouTube auto-captions of the video (https://youtu.be/Fzj2Odt6HRo) and has not been checked against the audio, so his positions are paraphrased wherever this dataset uses them and never quoted.",
-      "type": "academic interview"
+      "type": "video"
     },
     {
       "id": "teitelbaum-pillpod-2021",
@@ -1879,7 +1879,7 @@
       "url": "https://www.youtube.com/watch?v=y26YI9A81D4",
       "publisher": "Pill Pod / PlasticPills",
       "publisherNote": "a philosophy and critical-theory podcast whose hosts describe themselves on air as left-wing academics — perspective labeled accordingly. The author of 'War for Eternity' on his own claims and on the book's reception; cited for his positions, never for the underlying Bannon or Dugin facts. The recording date is anchored inside the interview (the hosts place the storming of the US Capitol of 6 January 2021 two days earlier, and Bannon's pardon window before the 20 January inauguration); the publication date is NOT confirmed (to verify) — the podcast's own episode page redirects to a login and directory mirrors returned 403, which is provenance rather than absence. Auto-captioned; his statements are paraphrased wherever this dataset uses them and never quoted.",
-      "type": "academic interview"
+      "type": "video"
     },
     {
       "id": "worldwisdom-schuon-footage",
@@ -1895,7 +1895,7 @@
       "url": "https://www.youtube.com/live/U2JrgpNNvY8",
       "publisher": "Paz e Bem",
       "publisherNote": "a Brazilian progressive-Catholic and left commentary programme — critical perspective, labeled as such. The host states on air that the episode was listed as live but recorded beforehand, so 10 June 2022 is its publication date rather than its recording date. Cited for the existence and shape of a counter-narrative and for Prof. Miele's attributed readings — never for the history of Traditionalism, which the programme does not treat: René Guénon is not named in it at any point, in any spelling (measured across the vaulted transcript). Its auto-captions mangle every proper name in the genealogy it draws, so those names are reconstructions from context and none of them is quoted.",
-      "type": "commentary"
+      "type": "video"
     },
     {
       "id": "ufpb-religare-about",
@@ -1903,7 +1903,7 @@
       "url": "https://periodicos.ufpb.br/index.php/religare/about",
       "publisher": "Universidade Federal da Paraíba journals portal (official)",
       "publisherNote": "cited only to establish that Prof. Neide Miele is a UFPB academic in Ciências das Religiões and the founder of that programme's journal Religare, which the page states. The Paz e Bem programme never names her institution on air, so the identification rests on name and field and not on self-declaration.",
-      "type": "official-site"
+      "type": "official"
     },
     {
       "id": "olavo-cof-015",
