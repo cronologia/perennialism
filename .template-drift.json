@@ -3,7 +3,13 @@
   "customized": {
     "renderPage": {
       "reason": "page order: the storylines table opens the page beside the spine",
-      "base": "45fda29b9eea"
+      "base": "ad7f7a46fe89"
+    }
+  },
+  "tests": {
+    "link-health.test.js": {
+      "reason": "perennialism's check-links.js names the site's own repository in its User-Agent, not the organisation",
+      "base": "37f289b13674"
     }
   }
 }
