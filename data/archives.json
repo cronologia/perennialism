@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-09-27",
+  "updatedAt": "2026-09-28",
   "snapshots": {
     "http://iapsop.com/archive/materials/etudes_traditionnelles/": {
       "archiveUrl": "https://web.archive.org/web/20260618220513/https://iapsop.com/archive/materials/etudes_traditionnelles/",
@@ -203,6 +203,12 @@
       "archiveUrl": "https://web.archive.org/web/20260224103523/https://olavodecarvalho.org/as-garras-da-esfinge-rene-guenon-e-a-islamizacao-do-ocidente/",
       "timestamp": "20260224103523",
       "checkedAt": "2026-07-25"
+    },
+    "https://openlibrary.org/search.json?q=%22Revolt+Against+the+Modern+World%22+Evola": {
+      "refId": "openlibrary-revolt-en-1995",
+      "archiveUrl": "https://web.archive.org/web/20260928134855/https://openlibrary.org/search.json?q=%22Revolt+Against+the+Modern+World%22+Evola",
+      "timestamp": "20260928134855",
+      "checkedAt": "2026-09-28"
     },
     "https://orgprints.org/19511/": {
       "refId": "paull-betteshanger",
