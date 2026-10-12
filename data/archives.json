@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-10-05",
+  "updatedAt": "2026-10-12",
   "snapshots": {
     "http://iapsop.com/archive/materials/etudes_traditionnelles/": {
       "archiveUrl": "https://web.archive.org/web/20260618220513/https://iapsop.com/archive/materials/etudes_traditionnelles/",
@@ -273,6 +273,12 @@
       "archiveUrl": "https://web.archive.org/web/20260727100851/https://www.academia.edu/34205962/Huston_Smith_Pilgrim_of_the_Perennial_Philosophy",
       "timestamp": "20260727100851",
       "checkedAt": "2026-07-27"
+    },
+    "https://www.academia.edu/70308024/Mircea_Eliade_and_Ren%C3%A9_Gu%C3%A9non": {
+      "refId": "academia-eliade",
+      "archiveUrl": "https://web.archive.org/web/20261012151729/https://www.academia.edu/70308024/Mircea_Eliade_and_Ren%C3%A9_Gu%C3%A9non",
+      "timestamp": "20261012151729",
+      "checkedAt": "2026-10-12"
     },
     "https://www.cambridge.org/core/books/esotericism-and-the-academy/4532A70CA2235EED1DD9FD7F5BCAC100": {
       "refId": "hanegraaff-2012",
